@@ -8,6 +8,7 @@ ul {
 
 li a {
     display: block;
+	float: left;
     color: white;
     text-align: center;
     padding: 16px;
@@ -18,7 +19,86 @@ li a:hover {
     background-color: #111111;
 } 
 
+hr {
+	float: left;
+}
+
+p {
+	float: left;
+	text-align: center;
+	width: 50%;
+	height: auto;
+	font-size: 3vw;
+	font-family: impact;
+}
+
+.floatRight {
+	float: right;
+	clear: right;
+}
+
+.floatLeft {
+	float: left;
+	clear: left;
+}
+
+div {
+	float: left;
+	width: 50%;
+	height: 26vw;
+	text-align: center;
+	clear: block;
+}
+
+h1 {
+	float: left;
+}
+
+address {
+	float: left;
+	clear: both;
+}
+
+.downloadLink {
+	padding: 1vw 1vw;
+	text-decoration: none;
+	font-family: impact;
+	font-size: 3vw;
+}
+
+a:link.boom, a:visited.blah {
+    background-color: red;
+	color: black;
+	border: black;
+}
+
+a:hover.bong, a:active.blan {
+    background-color: black;
+	color: red;
+	border: red;
+}
+
+br {
+	float: left;
+}
+
 img {
-    max-width: 24%;
+	width: 50%;
+	height: auto;
+	float: left;
+	clear: both;
+}
+
+.imgLeft {
+	float: left;
+    max-width: 25%;
     height: auto;
+	clear: left;
+}
+
+.imgRight {
+	float: right;
+    max-width: 25%;
+    height: auto;
+	clear: right;
 }
