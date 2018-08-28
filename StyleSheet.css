@@ -139,6 +139,30 @@ img {
 	z-index: -1;
 }
 
-.barChart {
+.allChart {
+	width: 33%;
+    	height: auto;
 	float: left;
+}
+
+.pieChart {
+	width: 49%;
+    	height: auto;
+	float: left;
+}
+
+.barChart {
+	width: 100%;
+    	height: auto;
+	float: left;
+}
+
+#desktopShow {display: block;}
+#mobileShow {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#desktopShow {display: none;}
+#mobileShow {display: block;}
+
 }
