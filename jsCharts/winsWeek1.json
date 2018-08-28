@@ -2,7 +2,7 @@
   "chart": {
     "caption": "# of Achievements for winners",
     "subCaption": "Distribution of victor's scores",
-    "theme": "ocean"
+    "theme": "ocean",
   },
   "data": [
     {
