@@ -1,22 +1,22 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: #333333;
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: auto;
+    	background-color: #333333;
 }
 
 li a {
 	float: left;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+    	color: white;
+    	text-align: center;
+    	padding: 16px;
+    	text-decoration: none;
 }
 
 
 li a:hover {
-    background-color: #111111;
+    	background-color: #111111;
 } 
 
 hr {
@@ -59,18 +59,18 @@ p.description {
 }
 
 .absoluteTop {
-    position: absolute;
-    top: -4vw;
+    	position: absolute;
+    	top: -4vw;
 	left: 0;
 }
 
 .absoluteBottom {
-    position: absolute;
-    bottom: 0;
+    	position: absolute;
+    	bottom: 0;
 	left: 0;
 }
 
-div {
+.imgDiv {
 	float: left;
 	position: relative;
 	width: 50%;
@@ -103,13 +103,13 @@ address {
 }
 
 a:link.boom, a:visited.blah {
-    background-color: red;
+    	background-color: red;
 	color: black;
 	border: black;
 }
 
 a:hover.bong, a:active.blan {
-    background-color: black;
+    	background-color: black;
 	color: red;
 	border: red;
 }
@@ -125,16 +125,20 @@ img {
 
 .imgLeft {
 	float: left;
-    max-width: 25%;
-    height: auto;
+    	max-width: 25%;
+    	height: auto;
 	clear: left;
 	z-index: -1;
 }
 
 .imgRight {
 	float: right;
-    max-width: 25%;
-    height: auto;
+    	max-width: 25%;
+    	height: auto;
 	clear: right;
 	z-index: -1;
+}
+
+.barChart {
+	float: left;
 }

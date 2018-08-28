@@ -5,77 +5,286 @@
 	<title>2k of awsome</title>
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+	<script type="text/javascript" src="jsCharts/fusioncharts.js"></script>
+	<script type="text/javascript" src="jsCharts/themes/fusioncharts.theme.ocean.js"></script>
+	<script type="text/javascript">
+		
+		FusionCharts.ready(function() {
+            var revenueChart = new FusionCharts({
+                "type": "pie2d",
+                "renderAt": "winsWeek1",
+				"height": "100%",
+				"width": "33%",
+                "dataFormat": "json",
+                "dataSource": {
+                    // Chart Configuration
+                    "chart": {
+                        "caption": "# of Achievements for winners",
+                        "subCaption": "Distribution of victor's scores",
+                        "theme": "ocean",
+                    },
+                    // Chart Data
+                    "data": [{
+                        "label": "0",
+                        "value": "0"
+                    }, {
+                        "label": "1",
+                        "value": "81"
+                    }, {
+                        "label": "2",
+                        "value": "61"
+                    }, {
+                        "label": "3",
+                        "value": "70"
+                    }, {
+                        "label": "4",
+                        "value": "76"
+                    }, {
+                        "label": "5",
+                        "value": "55"
+                    }, {
+                        "label": "6",
+                        "value": "63"
+                    }, {
+                        "label": "7",
+                        "value": "37"
+                    }, {
+                        "label": "8",
+                        "value": "43"
+                    }, {
+                        "label": "9",
+                        "value": "33"
+                    }, {
+                        "label": "10",
+                        "value": "32"
+                    }, {
+                        "label": "11",
+                        "value": "18"
+                    }, {
+                        "label": "12",
+                        "value": "20"
+                    }, {
+                        "label": "13",
+                        "value": "14"
+                    }, {
+                        "label": "14",
+                        "value": "11"
+                    }, {
+                        "label": "15",
+                        "value": "9"
+                    }, {
+                        "label": "16",
+                        "value": "6"
+                    }, {
+                        "label": "17",
+                        "value": "3"
+                    }, {
+                        "label": "18",
+                        "value": "6"
+                    }, {
+                        "label": "19",
+                        "value": "3"
+                    }, {
+                        "label": "20",
+                        "value": "3"
+                    }]
+                }
+            });
+            revenueChart.render();
+        })
+		
+		FusionCharts.ready(function() {
+            var revenueChart = new FusionCharts({
+                "type": "column2d",
+                "renderAt": "percentWeek1",
+				"height": "100%",
+				"width": "33%",
+                "dataFormat": "json",
+                "dataSource": {
+                    // Chart Configuration
+                    "chart": {
+                        "caption": "Win % at diffferent scores",
+                        "subCaption": "Probabilty of winning at achievement #s",
+                        "xAxisName": "Achievement number",
+                        "yAxisName": "Distribution",
+                        "theme": "ocean",
+                    },
+                    // Chart Data
+                    "data": [{
+                        "label": "0",
+                        "value": "0"
+                    }, {
+                        "label": "1",
+                        "value": "53.29"
+                    }, {
+                        "label": "2",
+                        "value": "59.22"
+                    }, {
+                        "label": "3",
+                        "value": "58.33"
+                    }, {
+                        "label": "4",
+                        "value": "73.08"
+                    }, {
+                        "label": "5",
+                        "value": "74.32"
+                    }, {
+                        "label": "6",
+                        "value": "78.75"
+                    }, {
+                        "label": "7",
+                        "value": "80.43"
+                    }, {
+                        "label": "8",
+                        "value": "81.13"
+                    }, {
+                        "label": "9",
+                        "value": "80.49"
+                    }, {
+                        "label": "10",
+                        "value": "80.00"
+                    }, {
+                        "label": "11",
+                        "value": "85.71"
+                    }, {
+                        "label": "12",
+                        "value": "83.33"
+                    }, {
+                        "label": "13",
+                        "value": "87.50"
+                    }, {
+                        "label": "14",
+                        "value": "78.57"
+                    }, {
+                        "label": "15",
+                        "value": "90.00"
+                    }, {
+                        "label": "16",
+                        "value": "85.71"
+                    }, {
+                        "label": "17",
+                        "value": "100.00"
+                    }, {
+                        "label": "18",
+                        "value": "100.00"
+                    }, {
+                        "label": "19",
+                        "value": "100.00"
+                    }, {
+                        "label": "20",
+                        "value": "100.00"
+                    }]
+                }
+            });
+            revenueChart.render();
+        })
+		
+		FusionCharts.ready(function() {
+            var revenueChart = new FusionCharts({
+                "type": "pie2d",
+                "renderAt": "losesWeek1",
+				"height": "100%",
+				"width": "33%",
+                "dataFormat": "json",
+                "dataSource": {
+                    // Chart Configuration
+                    "chart": {
+                        "caption": "# of Achievements for losers",
+                        "subCaption": "Distribution of failure's scores",
+                        "theme": "ocean",
+                    },
+                    // Chart Data
+                    "data": [{
+                        "label": "0",
+                        "value": "624"
+                    }, {
+                        "label": "1",
+                        "value": "71"
+                    }, {
+                        "label": "2",
+                        "value": "42"
+                    }, {
+                        "label": "3",
+                        "value": "50"
+                    }, {
+                        "label": "4",
+                        "value": "28"
+                    }, {
+                        "label": "5",
+                        "value": "19"
+                    }, {
+                        "label": "6",
+                        "value": "17"
+                    }, {
+                        "label": "7",
+                        "value": "9"
+                    }, {
+                        "label": "8",
+                        "value": "10"
+                    }, {
+                        "label": "9",
+                        "value": "8"
+                    }, {
+                        "label": "10",
+                        "value": "8"
+                    }, {
+                        "label": "11",
+                        "value": "3"
+                    }, {
+                        "label": "12",
+                        "value": "4"
+                    }, {
+                        "label": "13",
+                        "value": "2"
+                    }, {
+                        "label": "14",
+                        "value": "3"
+                    }, {
+                        "label": "15",
+                        "value": "1"
+                    }, {
+                        "label": "16",
+                        "value": "1"
+                    }, {
+                        "label": "17",
+                        "value": "0"
+                    }, {
+                        "label": "18",
+                        "value": "0"
+                    }, {
+                        "label": "19",
+                        "value": "0"
+                    }, {
+                        "label": "20",
+                        "value": "0"
+                    }]
+                }
+            });
+            revenueChart.render();
+        })
+    </script>
 </head>
 
 <body>
-<ul>
-	<li><a href="https://2kofawsome.github.io">Home</a></li>
-	<li><a href="#Game">Game</a></li>
-	<li><a href="#Download">How to download</a></li>
-	<li><a href="#Social">Social media</a></li>
-</ul>
-<hr id="Game"/>
-<img class="imgLeft" src="TicTacToe.png" alt="TicTacToe">
-<img class="imgRight" src="MineSweeper.png" alt="MineSweeper">
-<p class="description">Blah blah blah...<br/>This game is good...<br/>Blah blah blah...<br/>Click download.</p>
-<img class="imgLeft" src="Sudoku.png" alt="Sudoku">
-<img class="imgRight" src="2048.png" alt="2048">
-<div class="divLink"> 
-<a class="downloadLink blah blan boom bong" href="https://github.com/2kofawsome/2ksGames/archive/master.zip">Download the Zip!</a>
-<br/>
-<br/>
-<br/>
-<a class="downloadLink blah blan boom bong" href="https://github.com/2kofawsome/2ksGames">Go to the repository!</a>
+<!--<ul>
+	<li><a href="https://2kofawsome.github.io">Home Page</a></li>
+	<li><a href="#Week1">Week 1</a></li>
+	<li><a href="#Week2">Week 2</a></li>
+	<li><a href="#Week3">Week 3</a></li>
+	<li><a href="#Week4">Week 3</a></li>
+</ul>-->
+
+
+
+<div id="Download">
+	<hr/>
+	<h1>How to Download</h1>
+	<div class="barChart" id="winsWeek1"></div>
+	<div class="barChart" id="percentWeek1"></div>
+	<div class="barChart" id="losesWeek1"></div>
 </div>
+	
 
-
-<hr id="Download"/>
-
-<h1>How to Download</h1>
-
-<div>
-<img class="floatLeft" src="https://github.com/2kofawsome/2kofawsome.github.io/blob/master/Downloading.png?raw=true"
-    alt="Click download on this page to begin">
-<h2 class="absoluteTop">Step 1:</h2>
-<p class="absoluteBottom">Click the download button to begin.</p>
-</div>
-
-<div>
-<img class="floatLeft" src="https://github.com/2kofawsome/2kofawsome.github.io/blob/master/Extract.png?raw=true"
-    alt="Extract all from the zip folder">
-<h2 class="absoluteTop">Step 2:</h2>
-<p class="absoluteBottom">Extract all the files from the zip folder.</p>
-</div>
-
-<div> 
-<img class="floatLeft" src="https://github.com/2kofawsome/2kofawsome.github.io/blob/master/Extract2.png?raw=true"
-    alt="Put it wherever you want">
-<h2 class="absoluteTop">Step 3:</h2>
-<p class="absoluteBottom">Chose where to save the game to.</p>
-</div>
-
-<div>
-<img class="floatLeft" src="https://github.com/2kofawsome/2kofawsome.github.io/blob/master/OpenGame.png?raw=true"
-    alt="Click on Games2k.exe to play">
-<h2 class="absoluteTop">Step 4:</h2>
-<p class="absoluteBottom">Click and run the Games2k.exe file.</p>
-</div>
-
-<div>	 
-<img class="floatLeft" src="https://github.com/2kofawsome/2kofawsome.github.io/blob/master/MoreInfo.png?raw=true"
-    alt="Click more info to open up more options">
-<h2 class="absoluteTop">Step 5:</h2>
-<p class="absoluteBottom">If you recieve a warning, click info to open more options.</p>
-</div>
-
-<div>
-<img class="floatLeft" src="https://github.com/2kofawsome/2kofawsome.github.io/blob/master/RunAnyways.png?raw=true"
-    alt="Click run anyways, if you do not trust that it is not a virus, open up the source code at Games2k.py and look around">
-<h2 class="absoluteTop">Step 6:</h2>
-<p class="absoluteBottom">Then, click run anyways to play.</p>
-</div>
-
-<hr id="Social"/>
 
 <address>
 	Sam Gunter.<br> 
