@@ -1,12 +1,3 @@
----
-2ksGames
----
- 
-hello
-=====
- 
-**You are here!**
- 
 <!DOCTYPE html>
 <html lang="en-US">
 
