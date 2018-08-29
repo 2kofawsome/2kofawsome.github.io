@@ -34,7 +34,15 @@ h2 {
 	width: 100%;
 	height: auto;
 	font-size: 5vw;
-	font-family: impact;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h3 {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 
 p {
@@ -100,7 +108,7 @@ address {
 .downloadLink {
 	padding: 1vw 1vw;
 	text-decoration: none;
-	font-family: impact;
+	font-family:  Impact, Charcoal, sans-serif;
 	font-size: 3vw;
 }
 
@@ -159,10 +167,45 @@ img {
 	float: left;
 }
 
-.blahblah {
+.fill {
 		width: 100%;
 		height: auto;
 		float:left;
+}
+
+.deskTable {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding: 10px;
+}
+
+.deskTable tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.deskTable tr:nth-child(odd) {
+   background-color: #
+}
+
+.deskTable th {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    text-align: center;
+	padding: .1%;
+}
+
+.titleTable {
+	width:10%;
+	height:3vw;
+}
+
+.valueTable {
+	width:4%;
 }
 
 #desktopShow {display: block;}
