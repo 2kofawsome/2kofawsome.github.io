@@ -7,6 +7,14 @@ ul {
     background-color: #333333;
 }
 
+img {
+	position: fixed;
+	bottom: 0;
+	height: auto;
+	width: 100%;
+	z-index: 10;
+}
+
 li a {
 	font-family: "Arial Black", Gadget, sans-serif;
 	float: left;
@@ -17,12 +25,12 @@ li a {
 }
 
 li a.desk {
-	padding:1vw;
+	padding:1.25vw;
 }
 
 li a.mob {
-	padding:.5%;
-	width:11.5%;
+	padding:.8%;
+	width:15%;
 }
 
 li a:hover {
@@ -59,15 +67,15 @@ h1.mob {
 }
 
 li.mobileTop {
-	font-size: 2vw;
+	font-size: 2.3vw;
 }
 
 li.mobileBottom {
-	font-size: 1.9vw;
+	font-size: 2.1vw;
 }
 
 li.desk {
-	font-size: .93vw;
+	font-size: 1.3vw;
 }
 
 address {
@@ -166,7 +174,7 @@ br {
     color: white;
 	text-align: center;
 	padding: .1%;
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
 .mobTable td {
