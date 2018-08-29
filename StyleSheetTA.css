@@ -49,8 +49,12 @@ h1.mob {
 	font-size: 7vw;
 }
 
-li.mobile {
-	font-size: 2.1vw;
+li.mobileTop {
+	font-size: 2.3vw;
+}
+
+li.mobileBottom {
+	font-size: 2vw;
 }
 
 li.desk {
@@ -92,7 +96,7 @@ br {
 
 .barChart {
 	width: 100%;
-    	height: auto;
+    height: auto;
 	float: left;
 }
 
@@ -126,6 +130,7 @@ br {
 th, td {
     text-align: center;
 	padding: .1%;
+	font-size: 1.15vw;
 }
 
 .titleTable {
