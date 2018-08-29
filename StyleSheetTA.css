@@ -1,23 +1,32 @@
 ul {
-    	list-style-type: none;
-    	margin: 0;
-    	padding: 0;
-    	overflow: auto;
-    	background-color: #333333;
+    list-style-type: none;
+   	margin: 0;
+    padding: 0;
+	width: 100%;
+   	overflow: auto;
+    background-color: #333333;
 }
 
 li a {
-		font-family: "Arial Black", Gadget, sans-serif;
-		float: left;
-    	color: white;
-    	text-align: center;
-    	padding: 1vw;
-    	text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+	float: left;
+   	color: white;
+   	text-align: center;
+   	padding: 1vw;
+    text-decoration: none;
 }
 
+li a.desk {
+	padding:1vw;
+}
+
+li a.mob {
+	padding:.5%;
+	width:11.5%;
+}
 
 li a:hover {
-    	background-color: #111111;
+    background-color: #111111;
 } 
 
 hr {
@@ -50,15 +59,15 @@ h1.mob {
 }
 
 li.mobileTop {
-	font-size: 2.3vw;
-}
-
-li.mobileBottom {
 	font-size: 2vw;
 }
 
+li.mobileBottom {
+	font-size: 1.9vw;
+}
+
 li.desk {
-	font-size: .935vw;
+	font-size: .93vw;
 }
 
 address {
@@ -67,13 +76,13 @@ address {
 }
 
 a:link.boom, a:visited.blah {
-    	background-color: red;
+    background-color: red;
 	color: black;
 	border: black;
 }
 
 a:hover.bong, a:active.blan {
-    	background-color: black;
+    background-color: black;
 	color: red;
 	border: red;
 }
@@ -84,13 +93,13 @@ br {
 
 .allChart {
 	width: 33%;
-    	height: auto;
+    height: auto;
 	float: left;
 }
 
 .pieChart {
 	width: 49%;
-    	height: auto;
+    height: auto;
 	float: left;
 }
 
@@ -101,9 +110,9 @@ br {
 }
 
 .fill {
-		width: 100%;
-		height: auto;
-		float:left;
+	width: 100%;
+	height: auto;
+	float:left;
 }
 
 .deskTable {
@@ -125,12 +134,45 @@ br {
 .deskTable th {
     background-color: black;
     color: white;
-}
-
-th, td {
-    text-align: center;
+	text-align: center;
 	padding: .1%;
 	font-size: 1.15vw;
+}
+
+.deskTable td {
+	text-align: center;
+	padding: .1%;
+	font-size: 1.15vw;
+}
+
+.mobTable {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding: 10px;
+}
+
+.mobTable tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.mobTable tr:nth-child(odd) {
+   background-color: #
+}
+
+.mobTable th {
+    background-color: black;
+    color: white;
+	text-align: center;
+	padding: .1%;
+	font-size: 2vw;
+}
+
+.mobTable td {
+	text-align: center;
+	padding: .1%;
+	font-size: 3vw;
 }
 
 .titleTable {
