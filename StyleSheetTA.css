@@ -50,6 +50,14 @@ h3 {
 	font-family: "Arial Black", Gadget, sans-serif;
 }
 
+h5 {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
 h1.desk {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;
