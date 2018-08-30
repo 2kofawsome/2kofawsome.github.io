@@ -1,0 +1,212 @@
+ul {
+    list-style-type: none;
+   	margin: 0;
+    padding: 0;
+	width: 100%;
+   	overflow: auto;
+    background-color: #333333;
+}
+
+img {
+	position: fixed;
+	bottom: 0;
+	right:0;
+	height: auto;
+	width: 100%;
+	z-index: 10;
+}
+
+li a {
+	font-family: "Arial Black", Gadget, sans-serif;
+	float: left;
+   	color: white;
+   	text-align: center;
+   	padding: 1vw;
+    text-decoration: none;
+}
+
+li a.desk {
+	padding:1.25vw;
+}
+
+li a.mob {
+	padding:.8%;
+	width:15%;
+}
+
+li a:hover {
+    background-color: #111111;
+} 
+
+hr {
+	float: left;
+	border-width: 1px;
+}
+
+h3 {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h5 {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h1.desk {
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 4vw;
+}
+
+h1.mob {
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 7vw;
+}
+
+li.mobileTop {
+	font-size: 2.3vw;
+}
+
+li.mobileBottom {
+	font-size: 2.1vw;
+}
+
+li.desk {
+	font-size: 1.3vw;
+}
+
+address {
+	float: left;
+	clear: both;
+}
+
+a:link.boom, a:visited.blah {
+    background-color: red;
+	color: black;
+	border: black;
+}
+
+a:hover.bong, a:active.blan {
+    background-color: black;
+	color: red;
+	border: red;
+}
+
+br {
+	float: left;
+}
+
+.allChart {
+	width: 33%;
+    height: auto;
+	float: left;
+}
+
+.pieChart {
+	width: 49%;
+    height: auto;
+	float: left;
+}
+
+.barChart {
+	width: 100%;
+    height: auto;
+	float: left;
+}
+
+.fill {
+	width: 100%;
+	height: auto;
+	float:left;
+}
+
+.deskTable {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding: 10px;
+}
+
+.deskTable tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.deskTable tr:nth-child(odd) {
+   background-color: #
+}
+
+.deskTable th {
+    background-color: black;
+    color: white;
+	text-align: center;
+	padding: .1%;
+	font-size: 1.15vw;
+}
+
+.deskTable td {
+	text-align: center;
+	padding: .1%;
+	font-size: 1.15vw;
+}
+
+.mobTable {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	padding: 10px;
+}
+
+.mobTable tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.mobTable tr:nth-child(odd) {
+   background-color: #
+}
+
+.mobTable th {
+    background-color: black;
+    color: white;
+	text-align: center;
+	padding: .1%;
+	font-size: 3vw;
+}
+
+.mobTable td {
+	text-align: center;
+	padding: .1%;
+	font-size: 3vw;
+}
+
+.titleTable {
+	width:10%;
+	height:3vw;
+}
+
+.valueTable {
+	width:4%;
+}
+
+#desktopShow {display: block;}
+#mobileShow {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#desktopShow {display: none;}
+#mobileShow {display: block;}
+
+}
