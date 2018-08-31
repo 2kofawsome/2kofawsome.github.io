@@ -371,6 +371,7 @@ FusionCharts.ready(function() { //Week12
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -480,6 +481,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -592,6 +594,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -701,6 +704,7 @@ FusionCharts.ready(function() { //Week11
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -810,6 +814,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -923,6 +928,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
 				"showPlotBorder": "1",
+				"animation": "0",
 			},
 			// Chart Data
 			"data": [{
@@ -1031,6 +1037,7 @@ FusionCharts.ready(function() { //Week10
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1140,6 +1147,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1253,6 +1261,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
 				"showPlotBorder": "1",
+				"animation": "0",
 			},
 			// Chart Data
 			"data": [{
@@ -1361,6 +1370,7 @@ FusionCharts.ready(function() { //Week9
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1470,6 +1480,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1582,6 +1593,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -1691,6 +1703,7 @@ FusionCharts.ready(function() { //Week8
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1800,6 +1813,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1912,6 +1926,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -2021,6 +2036,7 @@ FusionCharts.ready(function() { //Week7
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -2130,6 +2146,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -2242,6 +2259,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -2351,6 +2369,7 @@ FusionCharts.ready(function() { //Week6
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -2460,6 +2479,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -2572,6 +2592,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -2681,6 +2702,7 @@ FusionCharts.ready(function() { //Week5
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -2790,6 +2812,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -2902,6 +2925,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -3011,6 +3035,7 @@ FusionCharts.ready(function() { //Week4
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -3120,6 +3145,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -3232,6 +3258,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -3341,6 +3368,7 @@ FusionCharts.ready(function() { //Week3
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -3450,6 +3478,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -3562,6 +3591,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -3671,6 +3701,7 @@ FusionCharts.ready(function() { //Week2
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -3780,6 +3811,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -3892,6 +3924,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -4001,6 +4034,7 @@ FusionCharts.ready(function() { //Week1
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -4110,6 +4144,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"animation": "0",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -4222,6 +4257,7 @@ FusionCharts.ready(function() {
 				"showValues": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -4687,6 +4723,7 @@ FusionCharts.ready(function() { //Week12
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -4794,6 +4831,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -4907,6 +4945,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -5014,6 +5053,7 @@ FusionCharts.ready(function() { //Week11
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -5121,6 +5161,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -5234,6 +5275,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -5341,6 +5383,7 @@ FusionCharts.ready(function() { //Week10
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -5448,6 +5491,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -5561,6 +5605,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -5668,6 +5713,7 @@ FusionCharts.ready(function() { //Week9
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -5775,6 +5821,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -5888,6 +5935,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -5995,6 +6043,7 @@ FusionCharts.ready(function() { //Week8
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -6102,6 +6151,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -6211,6 +6261,7 @@ FusionCharts.ready(function() {
 				"yAxisName": "Win %",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
@@ -6322,6 +6373,7 @@ FusionCharts.ready(function() { //Week7
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -6429,6 +6481,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -6542,6 +6595,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -6649,6 +6703,7 @@ FusionCharts.ready(function() { //Week6
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -6756,6 +6811,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -6869,6 +6925,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -6976,6 +7033,7 @@ FusionCharts.ready(function() { //Week5
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -7083,6 +7141,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -7196,6 +7255,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -7303,6 +7363,7 @@ FusionCharts.ready(function() { //Week4
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -7410,6 +7471,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -7523,6 +7585,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -7630,6 +7693,7 @@ FusionCharts.ready(function() { //Week3
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -7737,6 +7801,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -7850,6 +7915,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -7957,6 +8023,7 @@ FusionCharts.ready(function() { //Week2
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -8064,6 +8131,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -8177,6 +8245,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
+				"animation": "0",
 				"showPlotBorder": "1",
 			},
 			// Chart Data
@@ -8284,6 +8353,7 @@ FusionCharts.ready(function() { //Week1
 				"subCaption": "Distribution of victor's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value",
 			},
 			// Chart Data
@@ -8391,6 +8461,7 @@ FusionCharts.ready(function() {
 				"subCaption": "Distribution of failure's scores",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"plottooltext": "$value"
 			},
 			// Chart Data
@@ -8500,6 +8571,7 @@ FusionCharts.ready(function() {
 				"yAxisName": "Win %",
 				"theme": "ocean",
 				"showValues": "0",
+				"animation": "0",
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
 				"yAxisNameFontSize": "13",
