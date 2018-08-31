@@ -1603,7 +1603,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "100",
 				"plottooltext": "$value",
 				"animation": "0",
-				"showPlotBorder": "1",
+				"showPlotBorder": "1"
 			},
 			// Chart Data
 			"data": [{
