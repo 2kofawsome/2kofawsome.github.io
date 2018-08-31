@@ -373,6 +373,7 @@ FusionCharts.ready(function() { //Week12
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
+				"captionFontSize": "14",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -483,6 +484,7 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
+				"captionFontSize": "14",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -706,6 +708,7 @@ FusionCharts.ready(function() { //Week11
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
+				"captionFontSize": "15",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -816,6 +819,7 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
+				"captionFontSize": "15",
 				"showLabels": "0"
 			},
 			// Chart Data
@@ -1038,6 +1042,7 @@ FusionCharts.ready(function() { //Week10
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"captionFontSize": "13",
 				"animation": "0",
 				"showLabels": "0"
 			},
@@ -1148,6 +1153,7 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"captionFontSize": "13",
 				"animation": "0",
 				"showLabels": "0"
 			},
@@ -1371,6 +1377,7 @@ FusionCharts.ready(function() { //Week9
 				"plottooltext": "$value",
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
+				"captionFontSize": "12",
 				"animation": "0",
 				"showLabels": "0"
 			},
@@ -1482,6 +1489,7 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
+				"captionFontSize": "12",
 				"showLabels": "0"
 			},
 			// Chart Data
