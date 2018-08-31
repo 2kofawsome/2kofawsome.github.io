@@ -3,7 +3,7 @@ h3,h5,img,ul{width:100%}h3,h5,li a{float:left;text-align:center;font-family:"Ari
 #desktopShow {display: block;}
 #mobileShow {display: none;}
 
-@media screen and (max-width: 768px) and (orientation:portrait) {
+@media screen and (max-width: 768px) {
 
 #desktopShow {display: none;}
 #mobileShow {display: block;}
