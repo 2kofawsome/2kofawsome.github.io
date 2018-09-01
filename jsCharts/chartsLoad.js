@@ -4049,79 +4049,79 @@ FusionCharts.ready(function() { //Week1
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "52",
+				"value": "46",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "42",
+				"value": "46",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "41",
+				"value": "38",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "64",
+				"value": "48",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "40",
+				"value": "46",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "42",
+				"value": "39",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "48",
+				"value": "51",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "35",
+				"value": "34",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "53",
+				"value": "58",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "41",
+				"value": "37",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "30",
+				"value": "35",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "34",
+				"value": "35",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "32",
+				"value": "34",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "25",
+				"value": "27",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "16",
+				"value": "29",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "12",
+				"value": "11",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "14",
+				"value": "12",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "13",
+				"value": "17",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "23",
+				"value": "26",
 				"color": "#ffffff"
 			}]
 		}
@@ -4151,15 +4151,15 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "449",
+				"value": "419",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "64",
+				"value": "63",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "44",
+				"value": "45",
 				"color": "#004600"
 			}, {
 				"label": "3",
@@ -4167,11 +4167,11 @@ FusionCharts.ready(function() {
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "36",
+				"value": "33",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "31",
+				"value": "30",
 				"color": "#008c00"
 			}, {
 				"label": "6",
@@ -4179,39 +4179,39 @@ FusionCharts.ready(function() {
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "22",
+				"value": "21",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "19",
+				"value": "20",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "18",
+				"value": "20",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "15",
+				"value": "19",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "9",
+				"value": "13",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "13",
+				"value": "14",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "9",
+				"value": "12",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "5",
+				"value": "7",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "7",
+				"value": "12",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
@@ -4231,7 +4231,7 @@ FusionCharts.ready(function() {
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "2",
+				"value": "3",
 				"color": "#ffffff"
 			}]
 		}
@@ -4268,83 +4268,83 @@ FusionCharts.ready(function() {
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "44.83",
+				"value": "45.22",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "54.17",
+				"value": "50.55",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "44.21",
+				"value": "46.46",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "53.25",
+				"value": "53.52",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "67.37",
+				"value": "61.54",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "63.49",
+				"value": "66.67",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "65.63",
+				"value": "65.00",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "71.64",
+				"value": "71.83",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "66.04",
+				"value": "62.96",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "77.94",
+				"value": "75.32",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "82.00",
+				"value": "74.00",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "69.77",
+				"value": "71.43",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "79.07",
+				"value": "74.47",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "86.49",
+				"value": "82.93",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "78.13",
+				"value": "69.23",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "80.00",
+				"value": "87.88",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "70.588",
+				"value": "68.750",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "77.78",
+				"value": "75.00",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "81.25",
+				"value": "85.00",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "92.00",
+				"value": "89.66",
 				"color": "#ffffff"
 			}]
 		}
@@ -8369,79 +8369,79 @@ FusionCharts.ready(function() { //Week1
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "52",
+				"value": "46",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "42",
+				"value": "46",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "41",
+				"value": "38",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "64",
+				"value": "48",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "40",
+				"value": "46",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "42",
+				"value": "39",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "48",
+				"value": "51",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "35",
+				"value": "34",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "53",
+				"value": "58",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "41",
+				"value": "37",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "30",
+				"value": "35",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "34",
+				"value": "35",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "32",
+				"value": "34",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "25",
+				"value": "27",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "16",
+				"value": "29",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "12",
+				"value": "11",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "14",
+				"value": "12",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "13",
+				"value": "17",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "23",
+				"value": "26",
 				"color": "#ffffff"
 			}]
 		}
@@ -8469,15 +8469,15 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "449",
+				"value": "419",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "64",
+				"value": "63",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "44",
+				"value": "45",
 				"color": "#004600"
 			}, {
 				"label": "3",
@@ -8485,11 +8485,11 @@ FusionCharts.ready(function() {
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "36",
+				"value": "33",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "31",
+				"value": "30",
 				"color": "#008c00"
 			}, {
 				"label": "6",
@@ -8497,39 +8497,39 @@ FusionCharts.ready(function() {
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "22",
+				"value": "21",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "19",
+				"value": "20",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "18",
+				"value": "20",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "15",
+				"value": "19",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "9",
+				"value": "13",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "13",
+				"value": "14",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "9",
+				"value": "12",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "5",
+				"value": "7",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "7",
+				"value": "12",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
@@ -8549,7 +8549,7 @@ FusionCharts.ready(function() {
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "2",
+				"value": "3",
 				"color": "#ffffff"
 			}]
 		}
@@ -8587,83 +8587,83 @@ FusionCharts.ready(function() {
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "44.83",
+				"value": "45.22",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "54.17",
+				"value": "50.55",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "44.21",
+				"value": "46.46",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "53.25",
+				"value": "53.52",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "67.37",
+				"value": "61.54",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "63.49",
+				"value": "66.67",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "65.63",
+				"value": "65.00",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "71.64",
+				"value": "71.83",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "66.04",
+				"value": "62.96",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "77.94",
+				"value": "75.32",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "82.00",
+				"value": "74.00",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "69.77",
+				"value": "71.43",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "79.07",
+				"value": "74.47",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "86.49",
+				"value": "82.93",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "78.13",
+				"value": "69.23",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "80.00",
+				"value": "87.88",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "70.588",
+				"value": "68.750",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "77.78",
+				"value": "75.00",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "81.25",
+				"value": "85.00",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "92.00",
+				"value": "89.66",
 				"color": "#ffffff"
 			}]
 		}
