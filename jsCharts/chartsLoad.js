@@ -4332,7 +4332,7 @@ FusionCharts.ready(function() {
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "68.750",
+				"value": "68.75",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
@@ -8651,7 +8651,7 @@ FusionCharts.ready(function() {
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "68.750",
+				"value": "68.75",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
