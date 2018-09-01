@@ -1,4 +1,4 @@
-
+/*
 FusionCharts.ready(function() { //Mobile
 	var revenueChart = new FusionCharts({
 		"type": "msline",
@@ -4018,7 +4018,7 @@ FusionCharts.ready(function() {
 	});
 	revenueChart.render();
 })
-
+*/
 FusionCharts.ready(function() { //Week1
 	var revenueChart = new FusionCharts({
 		"type": "pie2d",
@@ -4354,7 +4354,7 @@ FusionCharts.ready(function() {
 
 
 
-
+/*
 FusionCharts.ready(function() { //Desktop
 	var revenueChart = new FusionCharts({
 		"type": "msline",
@@ -8340,7 +8340,7 @@ FusionCharts.ready(function() {
 	});
 	revenueChart.render();
 })
-
+*/
 FusionCharts.ready(function() { //Week1
 	var revenueChart = new FusionCharts({
 		"type": "pie2d",
