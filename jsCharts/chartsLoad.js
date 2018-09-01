@@ -366,7 +366,7 @@ FusionCharts.ready(function() { //Week12
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -476,7 +476,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -699,7 +699,7 @@ FusionCharts.ready(function() { //Week11
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -809,7 +809,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1032,7 +1032,7 @@ FusionCharts.ready(function() { //Week10
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1142,7 +1142,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1365,7 +1365,7 @@ FusionCharts.ready(function() { //Week9
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1475,7 +1475,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1698,7 +1698,7 @@ FusionCharts.ready(function() { //Week8
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1808,7 +1808,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2031,7 +2031,7 @@ FusionCharts.ready(function() { //Week7
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2141,7 +2141,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2364,7 +2364,7 @@ FusionCharts.ready(function() { //Week6
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2474,7 +2474,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2697,7 +2697,7 @@ FusionCharts.ready(function() { //Week5
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2807,7 +2807,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3030,7 +3030,7 @@ FusionCharts.ready(function() { //Week4
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3140,7 +3140,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3363,7 +3363,7 @@ FusionCharts.ready(function() { //Week3
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3473,7 +3473,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3696,7 +3696,7 @@ FusionCharts.ready(function() { //Week2
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3806,7 +3806,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -4029,7 +4029,7 @@ FusionCharts.ready(function() { //Week1
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Winners' Achievements",
+				"caption": "Distribution of Winners' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -4041,87 +4041,87 @@ FusionCharts.ready(function() { //Week1
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "52",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "52",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "42",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "41",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "64",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "40",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "42",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "48",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "35",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "53",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "41",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "30",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "34",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "32",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "25",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "16",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "12",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "14",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "13",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "23",
 				"color": "#ffffff"
 			}]
 		}
@@ -4139,7 +4139,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of the Losers' Achievements",
+				"caption": "Distribution of Losers' Achievements",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -4151,87 +4151,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "449",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "64",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "44",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "53",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "36",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "31",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "23",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "22",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "19",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "18",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "15",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "9",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "13",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "9",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "5",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "7",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "4",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "5",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "4",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "3",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "2",
 				"color": "#ffffff"
 			}]
 		}
@@ -4264,87 +4264,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0.00",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "44.83",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "54.17",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "44.21",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "53.25",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "67.37",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "63.49",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "65.63",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "71.64",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "66.04",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "77.94",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "82.00",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "69.77",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "79.07",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "86.49",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "78.13",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "80.00",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "70.588",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "77.78",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "81.25",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "92.00",
 				"color": "#ffffff"
 			}]
 		}
@@ -8361,87 +8361,87 @@ FusionCharts.ready(function() { //Week1
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "52",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "52",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "42",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "41",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "64",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "40",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "42",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "48",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "35",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "53",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "41",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "30",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "34",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "32",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "25",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "16",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "12",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "14",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "13",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "23",
 				"color": "#ffffff"
 			}]
 		}
@@ -8469,87 +8469,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "449",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "64",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "44",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "53",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "36",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "31",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "23",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "22",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "19",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "18",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "15",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "9",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "13",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "9",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "5",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "7",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "4",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "5",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "4",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "3",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "2",
 				"color": "#ffffff"
 			}]
 		}
@@ -8583,87 +8583,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0.00",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "44.83",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "54.17",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "44.21",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "53.25",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "67.37",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "63.49",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "65.63",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "71.64",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "66.04",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "77.94",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "82.00",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "69.77",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "79.07",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "86.49",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "78.13",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "80.00",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "70.588",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "77.78",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "81.25",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "92.00",
 				"color": "#ffffff"
 			}]
 		}
