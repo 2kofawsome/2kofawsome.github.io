@@ -366,7 +366,7 @@ FusionCharts.ready(function() { //Week12
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -476,7 +476,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -699,7 +699,7 @@ FusionCharts.ready(function() { //Week11
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -809,7 +809,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1032,7 +1032,7 @@ FusionCharts.ready(function() { //Week10
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1142,7 +1142,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1365,7 +1365,7 @@ FusionCharts.ready(function() { //Week9
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1475,7 +1475,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1698,7 +1698,7 @@ FusionCharts.ready(function() { //Week8
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -1808,7 +1808,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2031,7 +2031,7 @@ FusionCharts.ready(function() { //Week7
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2141,7 +2141,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2364,7 +2364,7 @@ FusionCharts.ready(function() { //Week6
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2474,7 +2474,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2697,7 +2697,7 @@ FusionCharts.ready(function() { //Week5
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -2807,7 +2807,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3030,7 +3030,7 @@ FusionCharts.ready(function() { //Week4
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3140,7 +3140,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3363,7 +3363,7 @@ FusionCharts.ready(function() { //Week3
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3473,7 +3473,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3696,7 +3696,7 @@ FusionCharts.ready(function() { //Week2
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -3806,7 +3806,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -4029,7 +4029,7 @@ FusionCharts.ready(function() { //Week1
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Winners' Achievements",
+				"caption": "Winners' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
@@ -4139,7 +4139,7 @@ FusionCharts.ready(function() {
 		"dataSource": {
 			// Chart Configuration
 			"chart": {
-				"caption": "Distribution of Losers' Achievements",
+				"caption": "Losers' Achievement Distribution",
 				"theme": "ocean",
 				"showValues": "0",
 				"plottooltext": "$value",
