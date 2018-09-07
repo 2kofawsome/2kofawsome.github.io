@@ -1,0 +1,44 @@
+body {
+	background-color: #080808;
+	color: #ffffff;
+}
+
+ul {
+    background-color: #444444;
+}
+
+li a {
+	background-color: #555555;
+	color: #ffffff;
+}
+
+li a:hover {
+    background-color: #aaaaaa;
+} 
+
+button {
+	color: #ffffff;
+	background-color: #555555;
+}
+
+button:hover {
+    background-color: #aaaaaa;
+} 
+
+tr:nth-child(even) {
+    background-color: #555555;
+}
+
+tr:nth-child(odd) {
+   background-color: #a7a7a7;
+}
+
+.deskTable th {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.mobTable th {
+    background-color: #ffffff;
+    color: #000000;
+}

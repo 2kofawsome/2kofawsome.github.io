@@ -1,6 +1,27 @@
+function switchThemes() {
+	if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAwhite.css") {
+		document.getElementById("pageStyle").setAttribute("href", "jsCharts/TAblack.css");	
+	}
+	else {
+		document.getElementById("pageStyle").setAttribute("href", "jsCharts/TAwhite.css");
+	}	
+}
+document.getElementById("themeType").addEventListener("click", switchThemes);
+
+
+function mobSwitchThemes() {
+	if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAwhite.css") {
+		document.getElementById("pageStyle").setAttribute("href", "jsCharts/TAblack.css");	
+	}
+	else {
+		document.getElementById("pageStyle").setAttribute("href", "jsCharts/TAwhite.css");
+	}	
+}
+document.getElementById("mobThemeType").addEventListener("click", mobSwitchThemes);
+
 /*
 FusionCharts.ready(function() { //Mobile
-	var revenueChart = new FusionCharts({
+	var mobOverall = new FusionCharts({
 		"type": "msline",
 		"renderAt": "mobSummaryChart",
 		"height": "100%",
@@ -353,11 +374,23 @@ FusionCharts.ready(function() { //Mobile
 			],
 		}
 	});
-	revenueChart.render();
+	mobOverall.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobOverall.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobOverall.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 }) 
 
 FusionCharts.ready(function() { //Week12
-	var revenueChart = new FusionCharts({
+	var mobWin12 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek12",
 		"height": "100%",
@@ -373,7 +406,9 @@ FusionCharts.ready(function() { //Week12
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -463,11 +498,23 @@ FusionCharts.ready(function() { //Week12
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin12.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss12 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek12",
 		"height": "100%",
@@ -483,7 +530,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -573,11 +622,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss12.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent12 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek12",
 		"height": "100%",
@@ -597,6 +658,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -686,11 +749,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent12.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent12.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent12.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week11
-	var revenueChart = new FusionCharts({
+	var mobWin11 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek11",
 		"height": "100%",
@@ -706,7 +781,9 @@ FusionCharts.ready(function() { //Week11
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -796,11 +873,23 @@ FusionCharts.ready(function() { //Week11
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin11.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss11 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek11",
 		"height": "100%",
@@ -816,7 +905,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -906,11 +997,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss11.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent11 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek11",
 		"height": "100%",
@@ -930,6 +1033,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"showPlotBorder": "1",
 				"animation": "0",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -1019,11 +1124,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent11.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent11.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent11.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week10
-	var revenueChart = new FusionCharts({
+	var mobWin10 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek10",
 		"height": "100%",
@@ -1039,7 +1156,9 @@ FusionCharts.ready(function() { //Week10
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -1129,11 +1248,23 @@ FusionCharts.ready(function() { //Week10
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin10.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss10 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek10",
 		"height": "100%",
@@ -1149,7 +1280,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -1239,11 +1372,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss10.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent10 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek10",
 		"height": "100%",
@@ -1263,6 +1408,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"showPlotBorder": "1",
 				"animation": "0",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -1352,11 +1499,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent10.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent10.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent10.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week9
-	var revenueChart = new FusionCharts({
+	var mobWin9 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek9",
 		"height": "100%",
@@ -1372,7 +1531,9 @@ FusionCharts.ready(function() { //Week9
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -1462,11 +1623,23 @@ FusionCharts.ready(function() { //Week9
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin9.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss9 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek9",
 		"height": "100%",
@@ -1482,7 +1655,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -1572,11 +1747,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss9.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent9 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek9",
 		"height": "100%",
@@ -1596,6 +1783,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -1685,11 +1874,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent9.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent9.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent9.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week8
-	var revenueChart = new FusionCharts({
+	var mobWin8 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek8",
 		"height": "100%",
@@ -1705,7 +1906,9 @@ FusionCharts.ready(function() { //Week8
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -1795,11 +1998,23 @@ FusionCharts.ready(function() { //Week8
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin8.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss8 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek8",
 		"height": "100%",
@@ -1815,7 +2030,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -1905,11 +2122,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss8.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent8 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek8",
 		"height": "100%",
@@ -1929,6 +2158,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -2018,11 +2249,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent8.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent8.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent8.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week7
-	var revenueChart = new FusionCharts({
+	var mobWin7 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek7",
 		"height": "100%",
@@ -2038,7 +2281,9 @@ FusionCharts.ready(function() { //Week7
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -2128,11 +2373,23 @@ FusionCharts.ready(function() { //Week7
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin7.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss7 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek7",
 		"height": "100%",
@@ -2148,7 +2405,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -2238,11 +2497,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss7.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent7 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek7",
 		"height": "100%",
@@ -2262,6 +2533,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -2351,11 +2624,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent7.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent7.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent7.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week6
-	var revenueChart = new FusionCharts({
+	var mobWin6 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek6",
 		"height": "100%",
@@ -2371,7 +2656,9 @@ FusionCharts.ready(function() { //Week6
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -2461,11 +2748,23 @@ FusionCharts.ready(function() { //Week6
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss6 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek6",
 		"height": "100%",
@@ -2481,7 +2780,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -2571,11 +2872,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent6 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek6",
 		"height": "100%",
@@ -2595,6 +2908,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -2684,11 +2999,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent6.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent6.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
-		
+
 FusionCharts.ready(function() { //Week5
-	var revenueChart = new FusionCharts({
+	var mobWin5 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek5",
 		"height": "100%",
@@ -2704,7 +3031,9 @@ FusionCharts.ready(function() { //Week5
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -2794,123 +3123,25 @@ FusionCharts.ready(function() { //Week5
 			}]
 		}
 	});
-	revenueChart.render();
-})
+	mobWin5.render();
+	
+	function switchChart() {
 
-FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek5",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin5.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 		}
-	});
-	revenueChart.render();
+		else {
+			mobWin5.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent6 = new FusionCharts({
 		"type": "column2d",
-		"renderAt": "mobPercentWeek5",
+		"renderAt": "mobPercentWeek6",
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
@@ -2928,6 +3159,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -3017,11 +3250,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent6.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent6.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week4
-	var revenueChart = new FusionCharts({
+	var mobWin4 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek4",
 		"height": "100%",
@@ -3037,7 +3282,9 @@ FusionCharts.ready(function() { //Week4
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -3127,11 +3374,23 @@ FusionCharts.ready(function() { //Week4
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin4.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss4 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek4",
 		"height": "100%",
@@ -3147,7 +3406,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -3237,11 +3498,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss4.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent4 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek4",
 		"height": "100%",
@@ -3261,6 +3534,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -3350,11 +3625,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent4.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent4.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent4.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week3
-	var revenueChart = new FusionCharts({
+	var mobWin3 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek3",
 		"height": "100%",
@@ -3370,7 +3657,9 @@ FusionCharts.ready(function() { //Week3
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -3460,11 +3749,23 @@ FusionCharts.ready(function() { //Week3
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin3.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss3 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek3",
 		"height": "100%",
@@ -3480,7 +3781,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -3570,11 +3873,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss3.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent3 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek3",
 		"height": "100%",
@@ -3594,6 +3909,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -3683,11 +4000,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent3.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent3.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent3.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week2
-	var revenueChart = new FusionCharts({
+	var mobWin2 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek2",
 		"height": "100%",
@@ -3703,7 +4032,9 @@ FusionCharts.ready(function() { //Week2
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -3793,11 +4124,23 @@ FusionCharts.ready(function() { //Week2
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss2 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek2",
 		"height": "100%",
@@ -3813,7 +4156,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -3903,11 +4248,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent2 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek2",
 		"height": "100%",
@@ -3927,6 +4284,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -4016,11 +4375,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent2.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent2.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 */
 FusionCharts.ready(function() { //Week1
-	var revenueChart = new FusionCharts({
+	var mobWin1 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobWinsWeek1",
 		"height": "100%",
@@ -4036,7 +4407,9 @@ FusionCharts.ready(function() { //Week1
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -4126,11 +4499,24 @@ FusionCharts.ready(function() { //Week1
 			}]
 		}
 	});
-	revenueChart.render();
+	mobWin1.render();
+	
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobWin1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobWin1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobLoss1 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "mobLosesWeek1",
 		"height": "100%",
@@ -4146,7 +4532,9 @@ FusionCharts.ready(function() {
 				"enableSmartLabels": "0",
 				"labelDistance": "-25",
 				"animation": "0",
-				"showLabels": "0"
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -4236,11 +4624,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobLoss1.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobLoss1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobLoss1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var mobPercent1 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "mobPercentWeek1",
 		"height": "100%",
@@ -4260,6 +4660,8 @@ FusionCharts.ready(function() {
 				"plottooltext": "$value",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -4349,14 +4751,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	mobPercent1.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			mobPercent1.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			mobPercent1.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("mobThemeType").addEventListener("click", switchChart);
 })
-
-
-
 /*
 FusionCharts.ready(function() { //Desktop
-	var revenueChart = new FusionCharts({
+	var deskOverall = new FusionCharts({
 		"type": "msline",
 		"renderAt": "deskSummaryChart",
 		"height": "100%",
@@ -4376,7 +4787,8 @@ FusionCharts.ready(function() { //Desktop
 				"showValues": "0",
 				"plottooltext": "$seriesname",
 				"drawAnchors": "0",
-				"canvasBgColor": "#eeeeee"
+				"canvasBgColor": "#eeeeee",
+				"bgColor": "#fcfcfc",
 			},
 			"categories": [
 				{
@@ -4708,11 +5120,23 @@ FusionCharts.ready(function() { //Desktop
 			],
 		}
 	});
-	revenueChart.render();
+	deskOverall.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskOverall.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskOverall.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 }) 
 
 FusionCharts.ready(function() { //Week12
-	var revenueChart = new FusionCharts({
+	var deskWin12 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek12",
 		"height": "100%",
@@ -4727,6 +5151,8 @@ FusionCharts.ready(function() { //Week12
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -4816,11 +5242,23 @@ FusionCharts.ready(function() { //Week12
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin12.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss12 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek12",
 		"height": "100%",
@@ -4834,7 +5272,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -4924,11 +5364,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss12.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent12 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek12",
 		"height": "100%",
@@ -4949,6 +5401,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -5038,11 +5492,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent12.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent12.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent12.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 		
 FusionCharts.ready(function() { //Week11
-	var revenueChart = new FusionCharts({
+	var deskWin11 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek11",
 		"height": "100%",
@@ -5057,6 +5523,8 @@ FusionCharts.ready(function() { //Week11
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -5146,11 +5614,23 @@ FusionCharts.ready(function() { //Week11
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin11.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss11 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek11",
 		"height": "100%",
@@ -5164,7 +5644,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -5254,11 +5736,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss11.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent11 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek11",
 		"height": "100%",
@@ -5279,6 +5773,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -5368,11 +5864,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent11.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent11.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent11.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week10
-	var revenueChart = new FusionCharts({
+	var deskWin10 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek10",
 		"height": "100%",
@@ -5387,6 +5895,8 @@ FusionCharts.ready(function() { //Week10
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -5476,11 +5986,23 @@ FusionCharts.ready(function() { //Week10
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin10.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss10 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek10",
 		"height": "100%",
@@ -5494,7 +6016,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -5584,11 +6108,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss10.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent10 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek10",
 		"height": "100%",
@@ -5609,6 +6145,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -5698,11 +6236,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent10.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent10.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent10.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week9
-	var revenueChart = new FusionCharts({
+	var deskWin9 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek9",
 		"height": "100%",
@@ -5717,6 +6267,8 @@ FusionCharts.ready(function() { //Week9
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -5806,11 +6358,23 @@ FusionCharts.ready(function() { //Week9
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin9.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss9 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek9",
 		"height": "100%",
@@ -5824,7 +6388,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -5914,11 +6480,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss9.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent9 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek9",
 		"height": "100%",
@@ -5939,6 +6517,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -6028,11 +6608,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent9.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent9.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent9.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week8
-	var revenueChart = new FusionCharts({
+	var deskWin8 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek8",
 		"height": "100%",
@@ -6047,6 +6639,8 @@ FusionCharts.ready(function() { //Week8
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -6136,11 +6730,23 @@ FusionCharts.ready(function() { //Week8
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin8.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss8 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek8",
 		"height": "100%",
@@ -6154,7 +6760,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -6244,11 +6852,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss8.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent8 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek8",
 		"height": "100%",
@@ -6269,6 +6889,8 @@ FusionCharts.ready(function() {
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -6358,11 +6980,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent8.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent8.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent8.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week7
-	var revenueChart = new FusionCharts({
+	var deskWin7 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek7",
 		"height": "100%",
@@ -6377,6 +7011,8 @@ FusionCharts.ready(function() { //Week7
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -6466,11 +7102,23 @@ FusionCharts.ready(function() { //Week7
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin7.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss7 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek7",
 		"height": "100%",
@@ -6484,7 +7132,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -6574,11 +7224,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss7.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent7 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek7",
 		"height": "100%",
@@ -6599,6 +7261,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -6688,11 +7352,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent7.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent7.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent7.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week6
-	var revenueChart = new FusionCharts({
+	var deskWin6 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek6",
 		"height": "100%",
@@ -6707,6 +7383,8 @@ FusionCharts.ready(function() { //Week6
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -6796,11 +7474,23 @@ FusionCharts.ready(function() { //Week6
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss6 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek6",
 		"height": "100%",
@@ -6814,7 +7504,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -6904,11 +7596,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent6 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek6",
 		"height": "100%",
@@ -6929,6 +7633,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -7018,11 +7724,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent6.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent6.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent6.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week5
-	var revenueChart = new FusionCharts({
+	var deskWin5 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek5",
 		"height": "100%",
@@ -7037,6 +7755,8 @@ FusionCharts.ready(function() { //Week5
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -7126,11 +7846,23 @@ FusionCharts.ready(function() { //Week5
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin5.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin5.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin5.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss5 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek5",
 		"height": "100%",
@@ -7144,7 +7876,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -7234,11 +7968,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss5.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss5.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss5.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent5 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek5",
 		"height": "100%",
@@ -7259,6 +8005,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -7348,11 +8096,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent5.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent5.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent5.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week4
-	var revenueChart = new FusionCharts({
+	var deskWin4 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek4",
 		"height": "100%",
@@ -7367,6 +8127,8 @@ FusionCharts.ready(function() { //Week4
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -7456,11 +8218,23 @@ FusionCharts.ready(function() { //Week4
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin4.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss4 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek4",
 		"height": "100%",
@@ -7474,7 +8248,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -7564,11 +8340,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss4.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent4 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek4",
 		"height": "100%",
@@ -7589,6 +8377,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -7678,11 +8468,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent4.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent4.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent4.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week3
-	var revenueChart = new FusionCharts({
+	var deskWin3 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek3",
 		"height": "100%",
@@ -7697,6 +8499,8 @@ FusionCharts.ready(function() { //Week3
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -7786,11 +8590,23 @@ FusionCharts.ready(function() { //Week3
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin3.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss3 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek3",
 		"height": "100%",
@@ -7804,7 +8620,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -7894,11 +8712,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent3 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek3",
 		"height": "100%",
@@ -7919,6 +8749,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -8008,11 +8840,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPecent3.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent3.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent3.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() { //Week2
-	var revenueChart = new FusionCharts({
+	var deskWin2 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek2",
 		"height": "100%",
@@ -8027,6 +8871,8 @@ FusionCharts.ready(function() { //Week2
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -8116,11 +8962,23 @@ FusionCharts.ready(function() { //Week2
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss2 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek2",
 		"height": "100%",
@@ -8134,7 +8992,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -8224,11 +9084,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent2 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek2",
 		"height": "100%",
@@ -8249,6 +9121,8 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "13",
 				"animation": "0",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -8338,11 +9212,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent2.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent2.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent2.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 */
 FusionCharts.ready(function() { //Week1
-	var revenueChart = new FusionCharts({
+	var deskWin1 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskWinsWeek1",
 		"height": "100%",
@@ -8357,6 +9243,8 @@ FusionCharts.ready(function() { //Week1
 				"showValues": "0",
 				"animation": "0",
 				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -8446,11 +9334,23 @@ FusionCharts.ready(function() { //Week1
 			}]
 		}
 	});
-	revenueChart.render();
+	deskWin1.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskWin1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskWin1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskLoss1 = new FusionCharts({
 		"type": "pie2d",
 		"renderAt": "deskLosesWeek1",
 		"height": "100%",
@@ -8464,7 +9364,9 @@ FusionCharts.ready(function() {
 				"theme": "ocean",
 				"showValues": "0",
 				"animation": "0",
-				"plottooltext": "$value"
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
 			},
 			// Chart Data
 			"data": [{
@@ -8554,11 +9456,23 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskLoss1.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskLoss1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+		}
+		else {
+			deskLoss1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
 
 FusionCharts.ready(function() {
-	var revenueChart = new FusionCharts({
+	var deskPercent1 = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercentWeek1",
 		"height": "100%",
@@ -8579,6 +9493,8 @@ FusionCharts.ready(function() {
 				"yAxisNameFontSize": "13",
 				"xAxisNameFontSize": "13",
 				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
 			},
 			// Chart Data
 			"data": [{
@@ -8668,5 +9584,17 @@ FusionCharts.ready(function() {
 			}]
 		}
 	});
-	revenueChart.render();
+	deskPercent1.render();
+	
+	function switchChart() {
+
+		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
+			deskPercent1.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+		}
+		else {
+			deskPercent1.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+		}	
+    }
+	
+    document.getElementById("themeType").addEventListener("click", switchChart);
 })
