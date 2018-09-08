@@ -2726,7 +2726,7 @@ FusionCharts.ready(function() {
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "37",
+				"value": "38",
 				"color": "#008c00"
 			}, {
 				"label": "6",
@@ -2762,7 +2762,7 @@ FusionCharts.ready(function() {
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "28",
+				"value": "29",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
@@ -3930,7 +3930,7 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "567",
+				"value": "570",
 				"color": "#000000"
 			}, {
 				"label": "1",
@@ -3938,7 +3938,7 @@ FusionCharts.ready(function() {
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "39",
+				"value": "40",
 				"color": "#004600"
 			}, {
 				"label": "3",
@@ -6419,13 +6419,13 @@ FusionCharts.ready(function() {
 		document.getElementById("mobParagraph").innerHTML = "Last week the cutoff was at 16 points, after this week it has been increased to 31 points. Surprisingly the amount needed to move on is actually going down, could this be because many people got the required 10 points for the badge?";
 		var table = document.getElementById('mobTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="567"
+		table.rows[1].cells[2].innerHTML="570"
 		table.rows[1].cells[3].innerHTML="0.00%"
 		table.rows[2].cells[1].innerHTML="69"
 		table.rows[2].cells[2].innerHTML="58"
 		table.rows[2].cells[3].innerHTML="54.3%"
 		table.rows[3].cells[1].innerHTML="51"
-		table.rows[3].cells[2].innerHTML="39"
+		table.rows[3].cells[2].innerHTML="40"
 		table.rows[3].cells[3].innerHTML="56.7%"
 		table.rows[4].cells[1].innerHTML="40"
 		table.rows[4].cells[2].innerHTML="27"
@@ -6433,7 +6433,7 @@ FusionCharts.ready(function() {
 		table.rows[5].cells[1].innerHTML="46"
 		table.rows[5].cells[2].innerHTML="24"
 		table.rows[5].cells[3].innerHTML="65.7%"
-		table.rows[6].cells[1].innerHTML="37"
+		table.rows[6].cells[1].innerHTML="38"
 		table.rows[6].cells[2].innerHTML="16"
 		table.rows[6].cells[3].innerHTML="69.8%"
 		table.rows[7].cells[1].innerHTML="36"
@@ -6460,7 +6460,7 @@ FusionCharts.ready(function() {
 		table.rows[14].cells[1].innerHTML="25"
 		table.rows[14].cells[2].innerHTML="7"
 		table.rows[14].cells[3].innerHTML="76.7%"
-		table.rows[15].cells[1].innerHTML="28"
+		table.rows[15].cells[1].innerHTML="29"
 		table.rows[15].cells[2].innerHTML="10"
 		table.rows[15].cells[3].innerHTML="73.7%"
 		table.rows[16].cells[1].innerHTML="30"
@@ -10902,7 +10902,7 @@ FusionCharts.ready(function() {
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "37",
+				"value": "38",
 				"color": "#008c00"
 			}, {
 				"label": "6",
@@ -10938,7 +10938,7 @@ FusionCharts.ready(function() {
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "28",
+				"value": "29",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
@@ -12082,7 +12082,7 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "567",
+				"value": "570",
 				"color": "#000000"
 			}, {
 				"label": "1",
@@ -12090,7 +12090,7 @@ FusionCharts.ready(function() {
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "39",
+				"value": "40",
 				"color": "#004600"
 			}, {
 				"label": "3",
@@ -14562,7 +14562,7 @@ FusionCharts.ready(function() {
 		table.rows[1].cells[3].innerHTML="51"
 		table.rows[1].cells[4].innerHTML="40"
 		table.rows[1].cells[5].innerHTML="46"
-		table.rows[1].cells[6].innerHTML="37"
+		table.rows[1].cells[6].innerHTML="38"
 		table.rows[1].cells[7].innerHTML="36"
 		table.rows[1].cells[8].innerHTML="33"
 		table.rows[1].cells[9].innerHTML="32"
@@ -14570,7 +14570,7 @@ FusionCharts.ready(function() {
 		table.rows[1].cells[11].innerHTML="47"
 		table.rows[1].cells[12].innerHTML="42"
 		table.rows[1].cells[13].innerHTML="35"
-		table.rows[1].cells[14].innerHTML="25"
+		table.rows[1].cells[14].innerHTML="26"
 		table.rows[1].cells[15].innerHTML="28"
 		table.rows[1].cells[16].innerHTML="30"
 		table.rows[1].cells[17].innerHTML="18"
@@ -14578,9 +14578,9 @@ FusionCharts.ready(function() {
 		table.rows[1].cells[19].innerHTML="13"
 		table.rows[1].cells[20].innerHTML="13"
 		table.rows[1].cells[21].innerHTML="28"
-		table.rows[2].cells[1].innerHTML="567"
+		table.rows[2].cells[1].innerHTML="570"
 		table.rows[2].cells[2].innerHTML="58"
-		table.rows[2].cells[3].innerHTML="39"
+		table.rows[2].cells[3].innerHTML="40"
 		table.rows[2].cells[4].innerHTML="27"
 		table.rows[2].cells[5].innerHTML="24"
 		table.rows[2].cells[6].innerHTML="16"
