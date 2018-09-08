@@ -15,6 +15,7 @@ for n in range(21):
 #19679
 #
 #
+achievementDistributionNP = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
 achievementDistribution = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
 achievementP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
 achievementNP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
@@ -39,46 +40,66 @@ for n in range(772):
 
             if achievementRatio < 2500: #add score not ratio sum
                 achievementNP[0].append(int(winScore))
+                achievementDistributionNP[0]+=1
             elif achievementRatio < 3000:
                 achievementNP[1].append(int(winScore))
+                achievementDistributionNP[1]+=1
             elif achievementRatio < 3500:
                 achievementNP[2].append(int(winScore))
+                achievementDistributionNP[2]+=1
             elif achievementRatio < 4000:
                 achievementNP[3].append(int(winScore))
+                achievementDistributionNP[3]+=1
             elif achievementRatio < 4500:
                 achievementNP[4].append(int(winScore))
+                achievementDistributionNP[4]+=1
             elif achievementRatio < 5000:
                 achievementNP[5].append(int(winScore))
+                achievementDistributionNP[5]+=1
             elif achievementRatio < 5500:
                 achievementNP[6].append(int(winScore))
+                achievementDistributionNP[6]+=1
             elif achievementRatio < 6000:
                 achievementNP[7].append(int(winScore))
+                achievementDistributionNP[7]+=1
             elif achievementRatio < 6500:
                 achievementNP[8].append(int(winScore))
+                achievementDistributionNP[8]+=1
             elif achievementRatio >= 6500:
                 achievementNP[9].append(int(winScore))
+                achievementDistributionNP[9]+=1
 
             if int(loseScore) > 0:
                 if achievementRatio < 2500: #add score not ratio sum
                     achievementNP[0].append(int(loseScore))
+                    achievementDistributionNP[0]+=1
                 elif achievementRatio < 3000:
                     achievementNP[1].append(int(loseScore))
+                    achievementDistributionNP[1]+=1
                 elif achievementRatio < 3500:
                     achievementNP[2].append(int(loseScore))
+                    achievementDistributionNP[2]+=1
                 elif achievementRatio < 4000:
                     achievementNP[3].append(int(loseScore))
+                    achievementDistributionNP[3]+=1
                 elif achievementRatio < 4500:
                     achievementNP[4].append(int(loseScore))
+                    achievementDistributionNP[4]+=1
                 elif achievementRatio < 5000:
                     achievementNP[5].append(int(loseScore))
+                    achievementDistributionNP[5]+=1
                 elif achievementRatio < 5500:
                     achievementNP[6].append(int(loseScore))
+                    achievementDistributionNP[6]+=1
                 elif achievementRatio < 6000:
                     achievementNP[7].append(int(loseScore))
+                    achievementDistributionNP[7]+=1
                 elif achievementRatio < 6500:
                     achievementNP[8].append(int(loseScore))
+                    achievementDistributionNP[8]+=1
                 elif achievementRatio >= 6500:
                     achievementNP[9].append(int(loseScore))
+                    achievementDistributionNP[9]+=1
             
         except IndexError:
                 winScore = "0"
@@ -159,10 +180,20 @@ for m in range(len(achievementNP)):
     except:
         noPud[m] = 0
 
+print("With Puddings")
 print(withPud)
+print("")
+print("No Puddings")
 print(noPud)
+print("")
+print("Achievement Distribution WP")
 print(achievementDistribution)
-print("___________")
+print("")
+print("Achievement Distribution NP")
+print(achievementDistributionNP)
+print("")
+print("Results Win")
 print(resultsWin)
 print("")
+print("Results Loss")
 print(resultsLose)

@@ -391,6 +391,2203 @@ FusionCharts.ready(function() { //Mobile
 */
 
 FusionCharts.ready(function() { 
+		var datasPud = {"week1":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "7.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  },
+  "week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"bubbleScale": ".6",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12",
+		  "color": "#53a0d8"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38",
+		  "color": "#53a0d8"
+        }
+      ]
+    }]
+  }
+}
+
+	var mobPud = new FusionCharts({
+		"type": "bubble",
+		"renderAt": "mobPud",
+		"height": "100%",
+		"width": "100%",
+		"dataFormat": "json",
+		"dataSource": datasPud.week1
+	});
+	mobPud.render();
+	
+	
 	var datasWin = {"week1":{
 			// Chart Configuration
 			"chart": {
@@ -4105,11 +6302,13 @@ FusionCharts.ready(function() {
 			mobLoss.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 			mobWin.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 			mobPercent.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			mobPud.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 		}
 		else {
 			mobLoss.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
 			mobWin.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
 			mobPercent.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			mobPud.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
 		}	
     }
 	
@@ -4119,6 +6318,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week1);
 		mobWin.setJSONData(datasWin.week1);
 		mobPercent.setJSONData(datasPercent.week1);
+		mobPud.setJSONData(datasPud.week1);
 		document.getElementById("mobTitle").innerHTML = "Week 1";
 		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not) with a cutoff of 16. Anyone who scores under 11 will have no chance of moving on, and anyone who scores over 16 will be guarenteed to move on. Numbers inbetween have varying chance to move on (depending on % that won numbers), aka #s inbetween need to win the matches!";
 		var table = document.getElementById('mobTable')
@@ -4214,6 +6414,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week2);
 		mobWin.setJSONData(datasWin.week2);
 		mobPercent.setJSONData(datasPercent.week2);
+		mobPud.setJSONData(datasPud.week2);
 		document.getElementById("mobTitle").innerHTML = "Week 2";
 		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
 		var table = document.getElementById('mobTable')
@@ -4309,6 +6510,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week3);
 		mobWin.setJSONData(datasWin.week3);
 		mobPercent.setJSONData(datasPercent.week3);
+		mobPud.setJSONData(datasPud.week3);
 		document.getElementById("mobTitle").innerHTML = "Week 3";
 		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
 		var table = document.getElementById('mobTable')
@@ -4404,6 +6606,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week4);
 		mobWin.setJSONData(datasWin.week4);
 		mobPercent.setJSONData(datasPercent.week4);
+		mobPud.setJSONData(datasPud.week4);
 		document.getElementById("mobTitle").innerHTML = "Week 4";
 		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
 		var table = document.getElementById('mobTable')
@@ -4499,6 +6702,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week5);
 		mobWin.setJSONData(datasWin.week5);
 		mobPercent.setJSONData(datasPercent.week5);
+		mobPud.setJSONData(datasPud.week5);
 		document.getElementById("mobTitle").innerHTML = "Week 5";
 		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 256 who made it here, and the 128 moving on!";
 		var table = document.getElementById('mobTable')
@@ -4594,6 +6798,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week6);
 		mobWin.setJSONData(datasWin.week6);
 		mobPercent.setJSONData(datasPercent.week6);
+		mobPud.setJSONData(datasPud.week6);
 		document.getElementById("mobTitle").innerHTML = "Week 6";
 		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 128 who made it here, and the 64 moving on!";
 		var table = document.getElementById('mobTable')
@@ -4689,6 +6894,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week7);
 		mobWin.setJSONData(datasWin.week7);
 		mobPercent.setJSONData(datasPercent.week7);
+		mobPud.setJSONData(datasPud.week7);
 		document.getElementById("mobTitle").innerHTML = "Week 7";
 		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 64 who made it here, and the 32 moving on!";
 		var table = document.getElementById('mobTable')
@@ -4784,6 +6990,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week8);
 		mobWin.setJSONData(datasWin.week8);
 		mobPercent.setJSONData(datasPercent.week8);
+		mobPud.setJSONData(datasPud.week8);
 		document.getElementById("mobTitle").innerHTML = "Week 8";
 		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 32 who made it here, and the 16 moving on!";
 		var table = document.getElementById('mobTable')
@@ -4879,6 +7086,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week9);
 		mobWin.setJSONData(datasWin.week9);
 		mobPercent.setJSONData(datasPercent.week9);
+		mobPud.setJSONData(datasPud.week9);
 		document.getElementById("mobTitle").innerHTML = "Week 9";
 		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 16 who made it here, and the 8 moving on to quarter finals!";
 		var table = document.getElementById('mobTable')
@@ -4974,6 +7182,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week10);
 		mobWin.setJSONData(datasWin.week10);
 		mobPercent.setJSONData(datasPercent.week10);
+		mobPud.setJSONData(datasPud.week10);
 		document.getElementById("mobTitle").innerHTML = "Week 10";
 		document.getElementById("mobParagraph").innerHTML = "Sadly _, _, _ and _ were eliminated, but the top 4 are going to semi finals!";
 		var table = document.getElementById('mobTable')
@@ -5069,6 +7278,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week11);
 		mobWin.setJSONData(datasWin.week11);
 		mobPercent.setJSONData(datasPercent.week11);
+		mobPud.setJSONData(datasPud.week11);
 		document.getElementById("mobTitle").innerHTML = "Week 11";
 		document.getElementById("mobParagraph").innerHTML = "Sadly _ and _ were eliminated, but the top 2 are going to finals!";
 		var table = document.getElementById('mobTable')
@@ -5164,6 +7374,7 @@ FusionCharts.ready(function() {
 		mobLoss.setJSONData(datasLoss.week12);
 		mobWin.setJSONData(datasWin.week12);
 		mobPercent.setJSONData(datasPercent.week12);
+		mobPud.setJSONData(datasPud.week12);
 		document.getElementById("mobTitle").innerHTML = "Week 12";
 		document.getElementById("mobParagraph").innerHTML = "Sadly _ was eliminated, but congratulations to the victor, _!";
 		var table = document.getElementById('mobTable')
@@ -5629,6 +7840,2934 @@ FusionCharts.ready(function() { //Desktop
 */
 
 FusionCharts.ready(function() { 
+	var datasWithPud = {"week1":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }]
+  },
+  "week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "With Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]}
+}
+
+	var deskWithPud = new FusionCharts({
+		"type": "bubble",
+		"renderAt": "deskWithPud",
+		"height": "100%",
+		"width": "100%",
+		"dataFormat": "json",
+		"dataSource": datasWithPud.week1
+	});
+	deskWithPud.render();
+	
+	var datasNoPud = {"week1":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "9.90",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "8.74",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "7.91",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "8.06",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "7.74",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "6.92",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "6.13",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "7.26",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "6.67",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "5.37",
+          "z": "38"
+        }
+      ]
+    }]
+  },
+  "week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"yAxisMaxValue": "20",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]},
+  "week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Average Achievements for List Difficulties",
+				"subCaption": "Without Puddings Included",
+				"theme": "ocean",
+				"yAxisMinValue": "0",
+				"yAxisMaxValue": "20",
+				"xAxisName": "Sum of Ratios",
+				"xAxisNameFontSize": "12",
+				"animation": "0",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"bgColor":"#fcfcfc", 
+			},
+  "categories": [
+    {
+      "verticallinealpha": "20",
+      "category": [
+        {
+          "label": "25.00",
+          "x": "25.00"
+        },
+        {
+          "label": "30.00",
+          "x": "30.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "35.00",
+          "x": "35.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "40.00",
+          "x": "40.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "45.00",
+          "x": "45.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "50.00",
+          "x": "50.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "55.00",
+          "x": "55.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "60.00",
+          "x": "60.00",
+          "showverticalline": "1"
+        },
+        {
+          "label": "65.00",
+          "x": "65.00",
+          "showverticalline": "1"
+        }
+      ]
+    }
+  ],
+  "dataset": [
+    {
+      "data": [
+        {
+          "x": "22.50",
+          "y": "7.97",
+          "z": "36"
+        },
+        {
+          "x": "27.50",
+          "y": "6.28",
+          "z": "312"
+        },
+        {
+          "x": "32.50",
+          "y": "5.80",
+          "z": "352"
+        },
+        {
+          "x": "37.50",
+          "y": "5.79",
+          "z": "340"
+        },
+        {
+          "x": "42.50",
+          "y": "6.00",
+          "z": "204"
+        },
+        {
+          "x": "47.50",
+          "y": "5.05",
+          "z": "144"
+        },
+        {
+          "x": "52.50",
+          "y": "3.85",
+          "z": "62"
+        },
+        {
+          "x": "57.50",
+          "y": "5.62",
+          "z": "40"
+        },
+        {
+          "x": "62.50",
+          "y": "5.00",
+          "z": "12"
+        },
+        {
+          "x": "67.50",
+          "y": "3.82",
+          "z": "38"
+        }
+      ]
+    }
+  ]}
+}
+
+	var deskNoPud = new FusionCharts({
+		"type": "bubble",
+		"renderAt": "deskNoPud",
+		"height": "100%",
+		"width": "100%",
+		"dataFormat": "json",
+		"dataSource": datasNoPud.week1
+	});
+	deskNoPud.render();
+
 	var datasWin = {"week1":{
 			// Chart Configuration
 			"chart": {
@@ -9297,11 +14436,15 @@ FusionCharts.ready(function() {
 			deskLoss.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
 			deskWin.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
 			deskPercent.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			deskWithPud.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			deskNoPud.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 		}
 		else {
 			deskLoss.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
 			deskWin.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
 			deskPercent.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			deskWithPud.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			deskNoPud.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
 		}	
     }
 	
@@ -9311,6 +14454,8 @@ FusionCharts.ready(function() {
 		deskLoss.setJSONData(datasLoss.week1);
 		deskWin.setJSONData(datasWin.week1);
 		deskPercent.setJSONData(datasPercent.week1);
+		deskWithPud.setJSONData(datasWithPud.week1);
+		deskNoPud.setJSONData(datasNoPud.week1);
 		document.getElementById("deskTitle").innerHTML = "Week 1";
 		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not) with a cutoff of 16. Anyone who scores under 11 will have no chance of moving on, and anyone who scores over 16 will be guarenteed to move on. Numbers inbetween have varying chance to move on (depending on % that won numbers), aka #s inbetween need to win the matches!";
 		var table = document.getElementById('deskTable')
@@ -9407,6 +14552,8 @@ FusionCharts.ready(function() {
 		deskLoss.setJSONData(datasLoss.week2);
 		deskWin.setJSONData(datasWin.week2);
 		deskPercent.setJSONData(datasPercent.week2);
+		deskWithPud.setJSONData(datasWithPud.week2);
+		deskNoPud.setJSONData(datasNoPud.week2);
 		document.getElementById("deskTitle").innerHTML = "Week 2";
 		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
 		var table = document.getElementById('deskTable')
@@ -9502,6 +14649,8 @@ FusionCharts.ready(function() {
 		deskLoss.setJSONData(datasLoss.week3);
 		deskWin.setJSONData(datasWin.week3);
 		deskPercent.setJSONData(datasPercent.week3);
+		deskWithPud.setJSONData(datasWithPud.week3);
+		deskNoPud.setJSONData(datasNoPud.week3);
 		document.getElementById("deskTitle").innerHTML = "Week 3";
 		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
 		var table = document.getElementById('deskTable')
@@ -9597,6 +14746,8 @@ FusionCharts.ready(function() {
 		deskLoss.setJSONData(datasLoss.week4);
 		deskWin.setJSONData(datasWin.week4);
 		deskPercent.setJSONData(datasPercent.week4);
+		deskWithPud.setJSONData(datasWithPud.week4);
+		deskNoPud.setJSONData(datasNoPud.week4);
 		document.getElementById("deskTitle").innerHTML = "Week 4";
 		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers) ";
 		var table = document.getElementById('deskTable')
@@ -9692,6 +14843,8 @@ FusionCharts.ready(function() {
 		deskLoss.setJSONData(datasLoss.week5);
 		deskWin.setJSONData(datasWin.week5);
 		deskPercent.setJSONData(datasPercent.week5);
+		deskWithPud.setJSONData(datasWithPud.week5);
+		deskNoPud.setJSONData(datasNoPud.week5);
 		document.getElementById("deskTitle").innerHTML = "Week 5";
 		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 256 who made it here, and the 128 moving on!";
 var table = document.getElementById('deskTable')
@@ -9787,6 +14940,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week6);
 		deskWin.setJSONData(datasWin.week6);
 		deskPercent.setJSONData(datasPercent.week6);
+		deskWithPud.setJSONData(datasWithPud.week6);
+		deskNoPud.setJSONData(datasNoPud.week6);
 		document.getElementById("deskTitle").innerHTML = "Week 6";
 		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 128 who made it here, and the 64 moving on!";
 		var table = document.getElementById('deskTable')
@@ -9882,6 +15037,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week7);
 		deskWin.setJSONData(datasWin.week7);
 		deskPercent.setJSONData(datasPercent.week7);
+		deskWithPud.setJSONData(datasWithPud.week7);
+		deskNoPud.setJSONData(datasNoPud.week7);
 		document.getElementById("deskTitle").innerHTML = "Week 7";
 		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 64 who made it here, and the 32 moving on!";
 		var table = document.getElementById('deskTable')
@@ -9977,6 +15134,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week8);
 		deskWin.setJSONData(datasWin.week8);
 		deskPercent.setJSONData(datasPercent.week8);
+		deskWithPud.setJSONData(datasWithPud.week8);
+		deskNoPud.setJSONData(datasNoPud.week8);
 		document.getElementById("deskTitle").innerHTML = "Week 8";
 		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 32 who made it here, and the 16 moving on!";
 		var table = document.getElementById('deskTable')
@@ -10072,6 +15231,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week9);
 		deskWin.setJSONData(datasWin.week9);
 		deskPercent.setJSONData(datasPercent.week9);
+		deskWithPud.setJSONData(datasWithPud.week9);
+		deskNoPud.setJSONData(datasNoPud.week9);
 		document.getElementById("deskTitle").innerHTML = "Week 9";
 		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 16 who made it here, and the 8 moving on to quarter finals!";
 		var table = document.getElementById('deskTable')
@@ -10167,6 +15328,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week10);
 		deskWin.setJSONData(datasWin.week10);
 		deskPercent.setJSONData(datasPercent.week10);
+		deskWithPud.setJSONData(datasWithPud.week10);
+		deskNoPud.setJSONData(datasNoPud.week10);
 		document.getElementById("deskTitle").innerHTML = "Week 10";
 		document.getElementById("deskParagraph").innerHTML = "Sadly _, _, _ and _ were eliminated, but the top 4 are going to semi finals!";
 		var table = document.getElementById('deskTable')
@@ -10262,6 +15425,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week11);
 		deskWin.setJSONData(datasWin.week11);
 		deskPercent.setJSONData(datasPercent.week11);
+		deskWithPud.setJSONData(datasWithPud.week11);
+		deskNoPud.setJSONData(datasNoPud.week11);
 		document.getElementById("deskTitle").innerHTML = "Week 11";
 		document.getElementById("deskParagraph").innerHTML = "Sadly _ and _ were eliminated, but the top 2 are going to finals!";
 		var table = document.getElementById('deskTable')
@@ -10357,6 +15522,8 @@ var table = document.getElementById('deskTable')
 		deskLoss.setJSONData(datasLoss.week12);
 		deskWin.setJSONData(datasWin.week12);
 		deskPercent.setJSONData(datasPercent.week12);
+		deskWithPud.setJSONData(datasWithPud.week12);
+		deskNoPud.setJSONData(datasNoPud.week12);
 		document.getElementById("deskTitle").innerHTML = "Week 12";
 		document.getElementById("deskParagraph").innerHTML = "Sadly _ was eliminated, but congratulations to the victor, _!";
 		var table = document.getElementById('deskTable')
