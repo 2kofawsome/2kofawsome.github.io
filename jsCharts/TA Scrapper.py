@@ -20,8 +20,10 @@ achievementDistribution = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
 achievementP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
 achievementNP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
 for n in range(772):
+    if n % 100 == 0:
+        print("loop")
     blah = time.time()
-    pageLink = "https://www.trueachievements.com/event/UHH-4/matchup/" + str(18907+n)
+    pageLink = "https://www.trueachievements.com/event/UHH-4/matchup/" + str(19679+n)
     try:
         pageContent = BeautifulSoup(requests.get(pageLink, timeout=5).content, "html.parser")
 

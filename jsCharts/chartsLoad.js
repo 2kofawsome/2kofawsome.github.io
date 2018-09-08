@@ -391,11 +391,11 @@ FusionCharts.ready(function() { //Mobile
 */
 
 FusionCharts.ready(function() { 
-		var datasPud = {"week1":{
+	var datasPud = {"week1":{
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -467,33 +467,33 @@ FusionCharts.ready(function() {
         },
         {
           "x": "27.50",
-          "y": "7.28",
-          "z": "312"
+          "y": "6.29",
+          "z": "314"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
+          "y": "5.82",
+          "z": "356"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
+          "y": "5.73",
+          "z": "338"
         },
         {
           "x": "42.50",
-          "y": "6.00",
+          "y": "5.96",
           "z": "204"
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
+          "y": "5.12",
+          "z": "142"
         },
         {
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
+          "y": "3.73",
+          "z": "64"
         },
         {
           "x": "57.50",
@@ -512,62 +512,62 @@ FusionCharts.ready(function() {
         }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36",
+          "y": "9.90",
+          "z": "29",
 		  "color": "#53a0d8"
         },
         {
           "x": "27.50",
-          "y": "6.28",
-          "z": "312",
+          "y": "8.78",
+          "z": "225",
 		  "color": "#53a0d8"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352",
+          "y": "7.93",
+          "z": "261",
 		  "color": "#53a0d8"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340",
+          "y": "8.00",
+          "z": "242",
 		  "color": "#53a0d8"
         },
         {
           "x": "42.50",
-          "y": "6.00",
-          "z": "204",
+          "y": "7.74",
+          "z": "157",
 		  "color": "#53a0d8"
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144",
+          "y": "6.92",
+          "z": "105",
 		  "color": "#53a0d8"
         },
         {
           "x": "52.50",
-          "y": "3.85",
-          "z": "62",
+          "y": "6.13",
+          "z": "39",
 		  "color": "#53a0d8"
         },
         {
           "x": "57.50",
-          "y": "5.62",
-          "z": "40",
+          "y": "7.26",
+          "z": "31",
 		  "color": "#53a0d8"
         },
         {
           "x": "62.50",
-          "y": "5.00",
-          "z": "12",
+          "y": "6.67",
+          "z": "9",
 		  "color": "#53a0d8"
         },
         {
           "x": "67.50",
-          "y": "3.82",
-          "z": "38",
+          "y": "5.37",
+          "z": "27",
 		  "color": "#53a0d8"
         }
       ]
@@ -577,7 +577,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -644,112 +644,112 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36"
+          "y": "5.66",
+          "z": "44"
         },
         {
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
+          "y": "6.02",
+          "z": "278"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
+          "y": "5.69",
+          "z": "338"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
+          "y": "4.39",
+          "z": "318"
         },
         {
           "x": "42.50",
-          "y": "6.00",
-          "z": "204"
+          "y": "4.46",
+          "z": "248"
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
+          "y": "4.16",
+          "z": "130"
         },
         {
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
+          "y": "4.07",
+          "z": "94"
         },
         {
           "x": "57.50",
-          "y": "5.62",
-          "z": "40"
+          "y": "4.65",
+          "z": "34"
         },
         {
           "x": "62.50",
-          "y": "5.00",
-          "z": "12"
+          "y": "2.75",
+          "z": "16"
         },
         {
           "x": "67.50",
-          "y": "3.82",
+          "y": "3.89",
           "z": "38"
         }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36",
+          "y": "10.38",
+          "z": "24",
 		  "color": "#53a0d8"
         },
         {
           "x": "27.50",
-          "y": "6.28",
-          "z": "312",
+          "y": "9.20",
+          "z": "182",
 		  "color": "#53a0d8"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352",
+          "y": "8.86",
+          "z": "217",
 		  "color": "#53a0d8"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340",
+          "y": "7.09",
+          "z": "197",
 		  "color": "#53a0d8"
         },
         {
           "x": "42.50",
-          "y": "6.00",
-          "z": "204",
+          "y": "7.04",
+          "z": "157",
 		  "color": "#53a0d8"
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144",
+          "y": "7.21",
+          "z": "75",
 		  "color": "#53a0d8"
         },
         {
           "x": "52.50",
-          "y": "3.85",
-          "z": "62",
+          "y": "6.38",
+          "z": "60",
 		  "color": "#53a0d8"
         },
         {
           "x": "57.50",
-          "y": "5.62",
-          "z": "40",
+          "y": "6.32",
+          "z": "25",
 		  "color": "#53a0d8"
         },
         {
           "x": "62.50",
-          "y": "5.00",
-          "z": "12",
+          "y": "4.89",
+          "z": "9",
 		  "color": "#53a0d8"
         },
         {
           "x": "67.50",
-          "y": "3.82",
-          "z": "38",
+          "y": "5.92",
+          "z": "25",
 		  "color": "#53a0d8"
         }
       ]
@@ -759,7 +759,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -941,7 +941,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -1123,7 +1123,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -1305,7 +1305,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -1487,7 +1487,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -1669,7 +1669,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -1851,7 +1851,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -2033,7 +2033,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -2215,7 +2215,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -2397,7 +2397,7 @@ FusionCharts.ready(function() {
 			// Chart Configuration
 			"chart": {
 				"caption": "Average Achievements for List Difficulties",
-				"subCaption": "Dark: Puddings [] Light: No Puddings",
+				"subCaption": "Dark: Puddings | Light: No Puddings",
 				"theme": "ocean",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
@@ -2583,7 +2583,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasPud.week1
+		"dataSource": datasPud.week2
 	});
 	mobPud.render();
 	
@@ -2706,87 +2706,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "69",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "51",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "40",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "46",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "37",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "36",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "33",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "32",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "30",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "47",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "42",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "35",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "25",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "28",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "30",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "18",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "17",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "13",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "13",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "28",
 				"color": "#ffffff"
 			}]
 		},
@@ -3808,7 +3808,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasWin.week1
+		"dataSource": datasWin.week2
 	});
 	mobWin.render();
 	
@@ -3930,83 +3930,83 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "567",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "58",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "39",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "27",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "24",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "16",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "15",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "12",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "21",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "12",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "18",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "11",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "9",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "7",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "10",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "7",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "3",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "4",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "5",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "2",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
@@ -5032,7 +5032,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasLoss.week1
+		"dataSource": datasLoss.week2
 	});
 	mobLoss.render();
 	
@@ -5160,87 +5160,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0.00",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "54.33",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "56.67",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "59.70",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "65.71",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "69.81",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "70.59",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "73.33",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "60.38",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "71.43",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "72.31",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "79.25",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "79.55",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "76.67",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "73.68",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "81.08",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "85.71",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "80.952",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "72.22",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "86.67",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "96.55",
 				"color": "#ffffff"
 			}]
 		},
@@ -6292,7 +6292,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasPercent.week1
+		"dataSource": datasPercent.week2
 	});
 	mobPercent.render();
 	
@@ -6389,17 +6389,17 @@ FusionCharts.ready(function() {
 		var table = document.getElementById('mobRatios')
 		table.rows[1].cells[1].innerHTML="7.97"
 		table.rows[1].cells[2].innerHTML="9.90"
-		table.rows[2].cells[1].innerHTML="6.28"
-		table.rows[2].cells[2].innerHTML="8.74"
-		table.rows[3].cells[1].innerHTML="5.80"
-		table.rows[3].cells[2].innerHTML="7.91"
-		table.rows[4].cells[1].innerHTML="5.79"
-		table.rows[4].cells[2].innerHTML="8.06"
-		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[2].cells[1].innerHTML="6.29"
+		table.rows[2].cells[2].innerHTML="8.78"
+		table.rows[3].cells[1].innerHTML="5.82"
+		table.rows[3].cells[2].innerHTML="7.93"
+		table.rows[4].cells[1].innerHTML="5.73"
+		table.rows[4].cells[2].innerHTML="8.00"
+		table.rows[5].cells[1].innerHTML="5.96"
 		table.rows[5].cells[2].innerHTML="7.74"
-		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[1].innerHTML="5.12"
 		table.rows[6].cells[2].innerHTML="6.92"
-		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[1].innerHTML="3.73"
 		table.rows[7].cells[2].innerHTML="6.13"
 		table.rows[8].cells[1].innerHTML="5.62"
 		table.rows[8].cells[2].innerHTML="7.26"
@@ -6416,93 +6416,93 @@ FusionCharts.ready(function() {
 		mobPercent.setJSONData(datasPercent.week2);
 		mobPud.setJSONData(datasPud.week2);
 		document.getElementById("mobTitle").innerHTML = "Week 2";
-		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		document.getElementById("mobParagraph").innerHTML = "Last week the cutoff was at 16 points, after this week it has been increased to 31 points. Surprisingly the amount needed to move on is actually going down, could this be because many people got the required 10 points for the badge?";
 		var table = document.getElementById('mobTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[2].innerHTML="567"
 		table.rows[1].cells[3].innerHTML="0.00%"
-		table.rows[2].cells[1].innerHTML="52"
-		table.rows[2].cells[2].innerHTML="63"
-		table.rows[2].cells[3].innerHTML="45.2%"
-		table.rows[3].cells[1].innerHTML="46"
-		table.rows[3].cells[2].innerHTML="45"
-		table.rows[3].cells[3].innerHTML="50.6%"
-		table.rows[4].cells[1].innerHTML="46"
-		table.rows[4].cells[2].innerHTML="53"
-		table.rows[4].cells[3].innerHTML="46.5%"
-		table.rows[5].cells[1].innerHTML="38"
-		table.rows[5].cells[2].innerHTML="33"
-		table.rows[5].cells[3].innerHTML="53.5%"
-		table.rows[6].cells[1].innerHTML="48"
-		table.rows[6].cells[2].innerHTML="30"
-		table.rows[6].cells[3].innerHTML="61.5%"
-		table.rows[7].cells[1].innerHTML="46"
-		table.rows[7].cells[2].innerHTML="23"
-		table.rows[7].cells[3].innerHTML="66.7%"
-		table.rows[8].cells[1].innerHTML="39"
-		table.rows[8].cells[2].innerHTML="21"
-		table.rows[8].cells[3].innerHTML="65.0%"
-		table.rows[9].cells[1].innerHTML="51"
-		table.rows[9].cells[2].innerHTML="20"
-		table.rows[9].cells[3].innerHTML="71.8%"
-		table.rows[10].cells[1].innerHTML="34"
-		table.rows[10].cells[2].innerHTML="20"
-		table.rows[10].cells[3].innerHTML="63.0%"
-		table.rows[11].cells[1].innerHTML="58"
-		table.rows[11].cells[2].innerHTML="19"
-		table.rows[11].cells[3].innerHTML="75.3%"
-		table.rows[12].cells[1].innerHTML="37"
-		table.rows[12].cells[2].innerHTML="12"
-		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[2].cells[1].innerHTML="69"
+		table.rows[2].cells[2].innerHTML="58"
+		table.rows[2].cells[3].innerHTML="54.3%"
+		table.rows[3].cells[1].innerHTML="51"
+		table.rows[3].cells[2].innerHTML="39"
+		table.rows[3].cells[3].innerHTML="56.7%"
+		table.rows[4].cells[1].innerHTML="40"
+		table.rows[4].cells[2].innerHTML="27"
+		table.rows[4].cells[3].innerHTML="59.7%"
+		table.rows[5].cells[1].innerHTML="46"
+		table.rows[5].cells[2].innerHTML="24"
+		table.rows[5].cells[3].innerHTML="65.7%"
+		table.rows[6].cells[1].innerHTML="37"
+		table.rows[6].cells[2].innerHTML="16"
+		table.rows[6].cells[3].innerHTML="69.8%"
+		table.rows[7].cells[1].innerHTML="36"
+		table.rows[7].cells[2].innerHTML="15"
+		table.rows[7].cells[3].innerHTML="70.6%"
+		table.rows[8].cells[1].innerHTML="33"
+		table.rows[8].cells[2].innerHTML="12"
+		table.rows[8].cells[3].innerHTML="73.3%"
+		table.rows[9].cells[1].innerHTML="32"
+		table.rows[9].cells[2].innerHTML="21"
+		table.rows[9].cells[3].innerHTML="60.4%"
+		table.rows[10].cells[1].innerHTML="30"
+		table.rows[10].cells[2].innerHTML="12"
+		table.rows[10].cells[3].innerHTML="71.4%"
+		table.rows[11].cells[1].innerHTML="47"
+		table.rows[11].cells[2].innerHTML="18"
+		table.rows[11].cells[3].innerHTML="72.3%"
+		table.rows[12].cells[1].innerHTML="42"
+		table.rows[12].cells[2].innerHTML="11"
+		table.rows[12].cells[3].innerHTML="79.2%"
 		table.rows[13].cells[1].innerHTML="35"
-		table.rows[13].cells[2].innerHTML="14"
-		table.rows[13].cells[3].innerHTML="71.4%"
-		table.rows[14].cells[1].innerHTML="35"
-		table.rows[14].cells[2].innerHTML="12"
-		table.rows[14].cells[3].innerHTML="74.5%"
-		table.rows[15].cells[1].innerHTML="34"
-		table.rows[15].cells[2].innerHTML="7"
-		table.rows[15].cells[3].innerHTML="82.9%"
-		table.rows[16].cells[1].innerHTML="27"
-		table.rows[16].cells[2].innerHTML="12"
-		table.rows[16].cells[3].innerHTML="69.2%"
-		table.rows[17].cells[1].innerHTML="29"
-		table.rows[17].cells[2].innerHTML="4"
-		table.rows[17].cells[3].innerHTML="87.9%"
-		table.rows[18].cells[1].innerHTML="11"
-		table.rows[18].cells[2].innerHTML="5"
-		table.rows[18].cells[3].innerHTML="68.8%"
-		table.rows[19].cells[1].innerHTML="12"
-		table.rows[19].cells[2].innerHTML="4"
-		table.rows[19].cells[3].innerHTML="75.0%"
-		table.rows[20].cells[1].innerHTML="17"
-		table.rows[20].cells[2].innerHTML="3"
-		table.rows[20].cells[3].innerHTML="85.0%"
-		table.rows[21].cells[1].innerHTML="26"
-		table.rows[21].cells[2].innerHTML="3"
-		table.rows[21].cells[3].innerHTML="89.7%"
+		table.rows[13].cells[2].innerHTML="9"
+		table.rows[13].cells[3].innerHTML="79.5%"
+		table.rows[14].cells[1].innerHTML="25"
+		table.rows[14].cells[2].innerHTML="7"
+		table.rows[14].cells[3].innerHTML="76.7%"
+		table.rows[15].cells[1].innerHTML="28"
+		table.rows[15].cells[2].innerHTML="10"
+		table.rows[15].cells[3].innerHTML="73.7%"
+		table.rows[16].cells[1].innerHTML="30"
+		table.rows[16].cells[2].innerHTML="7"
+		table.rows[16].cells[3].innerHTML="81.1%"
+		table.rows[17].cells[1].innerHTML="18"
+		table.rows[17].cells[2].innerHTML="3"
+		table.rows[17].cells[3].innerHTML="85.7%"
+		table.rows[18].cells[1].innerHTML="17"
+		table.rows[18].cells[2].innerHTML="4"
+		table.rows[18].cells[3].innerHTML="81.0%"
+		table.rows[19].cells[1].innerHTML="13"
+		table.rows[19].cells[2].innerHTML="5"
+		table.rows[19].cells[3].innerHTML="72.2%"
+		table.rows[20].cells[1].innerHTML="13"
+		table.rows[20].cells[2].innerHTML="2"
+		table.rows[20].cells[3].innerHTML="86.7%"
+		table.rows[21].cells[1].innerHTML="28"
+		table.rows[21].cells[2].innerHTML="1"
+		table.rows[21].cells[3].innerHTML="96.6%"
 		
 		var table = document.getElementById('mobRatios')
-		table.rows[1].cells[1].innerHTML="7.97"
-		table.rows[1].cells[2].innerHTML="9.90"
-		table.rows[2].cells[1].innerHTML="6.28"
-		table.rows[2].cells[2].innerHTML="8.74"
-		table.rows[3].cells[1].innerHTML="5.80"
-		table.rows[3].cells[2].innerHTML="7.91"
-		table.rows[4].cells[1].innerHTML="5.79"
-		table.rows[4].cells[2].innerHTML="8.06"
-		table.rows[5].cells[1].innerHTML="6.00"
-		table.rows[5].cells[2].innerHTML="7.74"
-		table.rows[6].cells[1].innerHTML="5.05"
-		table.rows[6].cells[2].innerHTML="6.92"
-		table.rows[7].cells[1].innerHTML="3.85"
-		table.rows[7].cells[2].innerHTML="6.13"
-		table.rows[8].cells[1].innerHTML="5.62"
-		table.rows[8].cells[2].innerHTML="7.26"
-		table.rows[9].cells[1].innerHTML="5.00"
-		table.rows[9].cells[2].innerHTML="6.67"
-		table.rows[10].cells[1].innerHTML="3.82"
-		table.rows[10].cells[2].innerHTML="5.37"
+		table.rows[1].cells[1].innerHTML="5.66"
+		table.rows[1].cells[2].innerHTML="10.38"
+		table.rows[2].cells[1].innerHTML="6.02"
+		table.rows[2].cells[2].innerHTML="9.20"
+		table.rows[3].cells[1].innerHTML="5.69"
+		table.rows[3].cells[2].innerHTML="8.86"
+		table.rows[4].cells[1].innerHTML="4.39"
+		table.rows[4].cells[2].innerHTML="7.09"
+		table.rows[5].cells[1].innerHTML="4.46"
+		table.rows[5].cells[2].innerHTML="7.04"
+		table.rows[6].cells[1].innerHTML="4.16"
+		table.rows[6].cells[2].innerHTML="7.21"
+		table.rows[7].cells[1].innerHTML="4.07"
+		table.rows[7].cells[2].innerHTML="6.38"
+		table.rows[8].cells[1].innerHTML="4.65"
+		table.rows[8].cells[2].innerHTML="6.32"
+		table.rows[9].cells[1].innerHTML="2.75"
+		table.rows[9].cells[2].innerHTML="4.89"
+		table.rows[10].cells[1].innerHTML="3.89"
+		table.rows[10].cells[2].innerHTML="5.92"
 		switchChart()
     }
     document.getElementById("mobChange2").addEventListener("click", mobChange2);
@@ -7915,18 +7915,18 @@ FusionCharts.ready(function() {
         },
         {
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
+          "y": "6.29",
+          "z": "314"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
+          "y": "5.82",
+          "z": "356"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
+          "y": "5.73",
+          "z": "338"
         },
         {
           "x": "42.50",
@@ -7935,12 +7935,12 @@ FusionCharts.ready(function() {
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
+          "y": "5.12",
+          "z": "142"
         },
         {
           "x": "52.50",
-          "y": "3.85",
+          "y": "3.73",
           "z": "62"
         },
         {
@@ -8031,52 +8031,52 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36"
+          "y": "5.66",
+          "z": "44"
         },
         {
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
+          "y": "6.02",
+          "z": "278"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
+          "y": "5.69",
+          "z": "338"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
+          "y": "4.39",
+          "z": "318"
         },
         {
           "x": "42.50",
-          "y": "6.00",
-          "z": "204"
+          "y": "4.46",
+          "z": "248"
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
+          "y": "4.16",
+          "z": "130"
         },
         {
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
+          "y": "4.07",
+          "z": "94"
         },
         {
           "x": "57.50",
-          "y": "5.62",
-          "z": "40"
+          "y": "4.65",
+          "z": "34"
         },
         {
           "x": "62.50",
-          "y": "5.00",
-          "z": "12"
+          "y": "2.75",
+          "z": "16"
         },
         {
           "x": "67.50",
-          "y": "3.82",
+          "y": "3.89",
           "z": "38"
         }
       ]
@@ -9300,7 +9300,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasWithPud.week1
+		"dataSource": datasWithPud.week2
 	});
 	deskWithPud.render();
 	
@@ -9375,52 +9375,52 @@ FusionCharts.ready(function() {
         {
           "x": "22.50",
           "y": "9.90",
-          "z": "36"
+          "z": "29"
         },
         {
           "x": "27.50",
-          "y": "8.74",
-          "z": "312"
+          "y": "8.78",
+          "z": "225"
         },
         {
           "x": "32.50",
-          "y": "7.91",
-          "z": "352"
+          "y": "7.93",
+          "z": "261"
         },
         {
           "x": "37.50",
-          "y": "8.06",
-          "z": "340"
+          "y": "8.00",
+          "z": "242"
         },
         {
           "x": "42.50",
           "y": "7.74",
-          "z": "204"
+          "z": "157"
         },
         {
           "x": "47.50",
           "y": "6.92",
-          "z": "144"
+          "z": "105"
         },
         {
           "x": "52.50",
           "y": "6.13",
-          "z": "62"
+          "z": "39"
         },
         {
           "x": "57.50",
           "y": "7.26",
-          "z": "40"
+          "z": "31"
         },
         {
           "x": "62.50",
           "y": "6.67",
-          "z": "12"
+          "z": "9"
         },
         {
           "x": "67.50",
           "y": "5.37",
-          "z": "38"
+          "z": "27"
         }
       ]
     }]
@@ -9495,53 +9495,53 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36"
+          "y": "10.38",
+          "z": "24"
         },
         {
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
+          "y": "9.20",
+          "z": "182"
         },
         {
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
+          "y": "8.86",
+          "z": "217"
         },
         {
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
+          "y": "7.09",
+          "z": "197"
         },
         {
           "x": "42.50",
-          "y": "6.00",
-          "z": "204"
+          "y": "7.04",
+          "z": "157"
         },
         {
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
+          "y": "7.21",
+          "z": "75"
         },
         {
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
+          "y": "6.38",
+          "z": "60"
         },
         {
           "x": "57.50",
-          "y": "5.62",
-          "z": "40"
+          "y": "6.32",
+          "z": "25"
         },
         {
           "x": "62.50",
-          "y": "5.00",
-          "z": "12"
+          "y": "4.89",
+          "z": "9"
         },
         {
           "x": "67.50",
-          "y": "3.82",
-          "z": "38"
+          "y": "5.92",
+          "z": "25"
         }
       ]
     }
@@ -10764,7 +10764,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasNoPud.week1
+		"dataSource": datasNoPud.week2
 	});
 	deskNoPud.render();
 
@@ -10882,87 +10882,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "69",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "51",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "40",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "46",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "37",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "36",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "33",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "32",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "30",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "47",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "42",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "35",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "25",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "28",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "30",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "18",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "17",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "13",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "13",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "28",
 				"color": "#ffffff"
 			}]
 		},
@@ -11964,7 +11964,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasWin.week1
+		"dataSource": datasWin.week2
 	});
 	deskWin.render();
 	
@@ -12082,83 +12082,83 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "567",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "58",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "39",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "27",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "24",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "16",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "15",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "12",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "21",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "12",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "18",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "11",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "9",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "7",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "10",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "7",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "3",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "4",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "5",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "2",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
@@ -13164,7 +13164,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasLoss.week1
+		"dataSource": datasLoss.week2
 	});
 	deskLoss.render();
 	
@@ -13294,87 +13294,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0.00",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "54.33",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "56.67",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "59.70",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "65.71",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "69.81",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "70.59",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "73.33",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "60.38",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "71.43",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "72.31",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "79.25",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "79.55",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "76.67",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "73.68",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "81.08",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "85.71",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "80.95",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "72.22",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "86.67",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "96.55",
 				"color": "#ffffff"
 			}]
 		},"week3": {
@@ -14427,7 +14427,7 @@ FusionCharts.ready(function() {
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": datasPercent.week1
+		"dataSource": datasPercent.week2
 	});
 	deskPercent.render();
 	
@@ -14525,19 +14525,19 @@ FusionCharts.ready(function() {
 		
 		var table = document.getElementById('deskRatios')
 		table.rows[1].cells[1].innerHTML="7.97"
-		table.rows[1].cells[2].innerHTML="6.28"
-		table.rows[1].cells[3].innerHTML="5.80"
-		table.rows[1].cells[4].innerHTML="5.79"
-		table.rows[1].cells[5].innerHTML="6.00"
-		table.rows[1].cells[6].innerHTML="5.05"
-		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[2].innerHTML="6.29"
+		table.rows[1].cells[3].innerHTML="5.82"
+		table.rows[1].cells[4].innerHTML="5.73"
+		table.rows[1].cells[5].innerHTML="5.96"
+		table.rows[1].cells[6].innerHTML="5.12"
+		table.rows[1].cells[7].innerHTML="3.73"
 		table.rows[1].cells[8].innerHTML="5.62"
 		table.rows[1].cells[9].innerHTML="5.00"
 		table.rows[1].cells[10].innerHTML="3.82"
 		table.rows[2].cells[1].innerHTML="9.90"
-		table.rows[2].cells[2].innerHTML="8.74"
-		table.rows[2].cells[3].innerHTML="7.91"
-		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[2].innerHTML="8.78"
+		table.rows[2].cells[3].innerHTML="7.93"
+		table.rows[2].cells[4].innerHTML="8.00"
 		table.rows[2].cells[5].innerHTML="7.74"
 		table.rows[2].cells[6].innerHTML="6.92"
 		table.rows[2].cells[7].innerHTML="6.13"
@@ -14555,93 +14555,93 @@ FusionCharts.ready(function() {
 		deskWithPud.setJSONData(datasWithPud.week2);
 		deskNoPud.setJSONData(datasNoPud.week2);
 		document.getElementById("deskTitle").innerHTML = "Week 2";
-		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		document.getElementById("deskParagraph").innerHTML = "Last week the cutoff was at 16 points, after this week it has been increased to 31 points. Surprisingly the amount needed to move on is actually going down, could this be because many people got the required 10 points for the badge?";
 		var table = document.getElementById('deskTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="52"
-		table.rows[1].cells[3].innerHTML="46"
-		table.rows[1].cells[4].innerHTML="46"
-		table.rows[1].cells[5].innerHTML="38"
-		table.rows[1].cells[6].innerHTML="48"
-		table.rows[1].cells[7].innerHTML="46"
-		table.rows[1].cells[8].innerHTML="39"
-		table.rows[1].cells[9].innerHTML="51"
-		table.rows[1].cells[10].innerHTML="34"
-		table.rows[1].cells[11].innerHTML="58"
-		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[2].innerHTML="69"
+		table.rows[1].cells[3].innerHTML="51"
+		table.rows[1].cells[4].innerHTML="40"
+		table.rows[1].cells[5].innerHTML="46"
+		table.rows[1].cells[6].innerHTML="37"
+		table.rows[1].cells[7].innerHTML="36"
+		table.rows[1].cells[8].innerHTML="33"
+		table.rows[1].cells[9].innerHTML="32"
+		table.rows[1].cells[10].innerHTML="30"
+		table.rows[1].cells[11].innerHTML="47"
+		table.rows[1].cells[12].innerHTML="42"
 		table.rows[1].cells[13].innerHTML="35"
-		table.rows[1].cells[14].innerHTML="35"
-		table.rows[1].cells[15].innerHTML="34"
-		table.rows[1].cells[16].innerHTML="27"
-		table.rows[1].cells[17].innerHTML="29"
-		table.rows[1].cells[18].innerHTML="11"
-		table.rows[1].cells[19].innerHTML="12"
-		table.rows[1].cells[20].innerHTML="17"
-		table.rows[1].cells[21].innerHTML="26"
-		table.rows[2].cells[1].innerHTML="419"
-		table.rows[2].cells[2].innerHTML="63"
-		table.rows[2].cells[3].innerHTML="45"
-		table.rows[2].cells[4].innerHTML="53"
-		table.rows[2].cells[5].innerHTML="33"
-		table.rows[2].cells[6].innerHTML="30"
-		table.rows[2].cells[7].innerHTML="23"
-		table.rows[2].cells[8].innerHTML="21"
-		table.rows[2].cells[9].innerHTML="20"
-		table.rows[2].cells[10].innerHTML="20"
-		table.rows[2].cells[11].innerHTML="19"
-		table.rows[2].cells[12].innerHTML="13"
-		table.rows[2].cells[13].innerHTML="14"
-		table.rows[2].cells[14].innerHTML="12"
-		table.rows[2].cells[15].innerHTML="7"
-		table.rows[2].cells[16].innerHTML="12"
-		table.rows[2].cells[17].innerHTML="4"
-		table.rows[2].cells[18].innerHTML="5"
-		table.rows[2].cells[19].innerHTML="4"
-		table.rows[2].cells[20].innerHTML="3"
-		table.rows[2].cells[21].innerHTML="3"
+		table.rows[1].cells[14].innerHTML="25"
+		table.rows[1].cells[15].innerHTML="28"
+		table.rows[1].cells[16].innerHTML="30"
+		table.rows[1].cells[17].innerHTML="18"
+		table.rows[1].cells[18].innerHTML="17"
+		table.rows[1].cells[19].innerHTML="13"
+		table.rows[1].cells[20].innerHTML="13"
+		table.rows[1].cells[21].innerHTML="28"
+		table.rows[2].cells[1].innerHTML="567"
+		table.rows[2].cells[2].innerHTML="58"
+		table.rows[2].cells[3].innerHTML="39"
+		table.rows[2].cells[4].innerHTML="27"
+		table.rows[2].cells[5].innerHTML="24"
+		table.rows[2].cells[6].innerHTML="16"
+		table.rows[2].cells[7].innerHTML="15"
+		table.rows[2].cells[8].innerHTML="12"
+		table.rows[2].cells[9].innerHTML="21"
+		table.rows[2].cells[10].innerHTML="12"
+		table.rows[2].cells[11].innerHTML="18"
+		table.rows[2].cells[12].innerHTML="11"
+		table.rows[2].cells[13].innerHTML="9"
+		table.rows[2].cells[14].innerHTML="7"
+		table.rows[2].cells[15].innerHTML="10"
+		table.rows[2].cells[16].innerHTML="7"
+		table.rows[2].cells[17].innerHTML="3"
+		table.rows[2].cells[18].innerHTML="4"
+		table.rows[2].cells[19].innerHTML="5"
+		table.rows[2].cells[20].innerHTML="2"
+		table.rows[2].cells[21].innerHTML="1"
 		table.rows[3].cells[1].innerHTML="0.00%"
-		table.rows[3].cells[2].innerHTML="45.2%"
-		table.rows[3].cells[3].innerHTML="50.6%"
-		table.rows[3].cells[4].innerHTML="46.5%"
-		table.rows[3].cells[5].innerHTML="53.5%"
-		table.rows[3].cells[6].innerHTML="61.5%"
-		table.rows[3].cells[7].innerHTML="66.7%"
-		table.rows[3].cells[8].innerHTML="65.0%"
-		table.rows[3].cells[9].innerHTML="71.8%"
-		table.rows[3].cells[10].innerHTML="63.0%"
-		table.rows[3].cells[11].innerHTML="75.3%"
-		table.rows[3].cells[12].innerHTML="74.0%"
-		table.rows[3].cells[13].innerHTML="71.4%"
-		table.rows[3].cells[14].innerHTML="74.5%"
-		table.rows[3].cells[15].innerHTML="82.9%"
-		table.rows[3].cells[16].innerHTML="69.2%"
-		table.rows[3].cells[17].innerHTML="87.9%"
-		table.rows[3].cells[18].innerHTML="68.8%"
-		table.rows[3].cells[19].innerHTML="75.0%"
-		table.rows[3].cells[20].innerHTML="85.0%"
-		table.rows[3].cells[21].innerHTML="89.7%"
+		table.rows[3].cells[2].innerHTML="54.3%"
+		table.rows[3].cells[3].innerHTML="56.7%"
+		table.rows[3].cells[4].innerHTML="59.7%"
+		table.rows[3].cells[5].innerHTML="65.7%"
+		table.rows[3].cells[6].innerHTML="69.8%"
+		table.rows[3].cells[7].innerHTML="70.6%"
+		table.rows[3].cells[8].innerHTML="73.3%"
+		table.rows[3].cells[9].innerHTML="60.4%"
+		table.rows[3].cells[10].innerHTML="71.4%"
+		table.rows[3].cells[11].innerHTML="72.3%"
+		table.rows[3].cells[12].innerHTML="79.2%"
+		table.rows[3].cells[13].innerHTML="79.5%"
+		table.rows[3].cells[14].innerHTML="76.7%"
+		table.rows[3].cells[15].innerHTML="73.7%"
+		table.rows[3].cells[16].innerHTML="81.1%"
+		table.rows[3].cells[17].innerHTML="85.7%"
+		table.rows[3].cells[18].innerHTML="81.0%"
+		table.rows[3].cells[19].innerHTML="72.2%"
+		table.rows[3].cells[20].innerHTML="86.7%"
+		table.rows[3].cells[21].innerHTML="96.6%"
 		
 		var table = document.getElementById('deskRatios')
-		table.rows[1].cells[1].innerHTML="7.97"
-		table.rows[1].cells[2].innerHTML="6.28"
-		table.rows[1].cells[3].innerHTML="5.80"
-		table.rows[1].cells[4].innerHTML="5.79"
-		table.rows[1].cells[5].innerHTML="6.00"
-		table.rows[1].cells[6].innerHTML="5.05"
-		table.rows[1].cells[7].innerHTML="3.85"
-		table.rows[1].cells[8].innerHTML="5.62"
-		table.rows[1].cells[9].innerHTML="5.00"
-		table.rows[1].cells[10].innerHTML="3.82"
-		table.rows[2].cells[1].innerHTML="9.90"
-		table.rows[2].cells[2].innerHTML="8.74"
-		table.rows[2].cells[3].innerHTML="7.91"
-		table.rows[2].cells[4].innerHTML="8.06"
-		table.rows[2].cells[5].innerHTML="7.74"
-		table.rows[2].cells[6].innerHTML="6.92"
-		table.rows[2].cells[7].innerHTML="6.13"
-		table.rows[2].cells[8].innerHTML="7.26"
-		table.rows[2].cells[9].innerHTML="6.67"
-		table.rows[2].cells[10].innerHTML="5.37"
+		table.rows[1].cells[1].innerHTML="5.66"
+		table.rows[1].cells[2].innerHTML="6.02"
+		table.rows[1].cells[3].innerHTML="5.69"
+		table.rows[1].cells[4].innerHTML="4.39"
+		table.rows[1].cells[5].innerHTML="4.46"
+		table.rows[1].cells[6].innerHTML="4.15"
+		table.rows[1].cells[7].innerHTML="4.07"
+		table.rows[1].cells[8].innerHTML="4.65"
+		table.rows[1].cells[9].innerHTML="2.75"
+		table.rows[1].cells[10].innerHTML="3.89"
+		table.rows[2].cells[1].innerHTML="10.38"
+		table.rows[2].cells[2].innerHTML="9.20"
+		table.rows[2].cells[3].innerHTML="8.86"
+		table.rows[2].cells[4].innerHTML="7.09"
+		table.rows[2].cells[5].innerHTML="7.04"
+		table.rows[2].cells[6].innerHTML="7.21"
+		table.rows[2].cells[7].innerHTML="6.38"
+		table.rows[2].cells[8].innerHTML="6.32"
+		table.rows[2].cells[9].innerHTML="4.89"
+		table.rows[2].cells[10].innerHTML="5.92"
 		switchChart()
     }
     document.getElementById("deskChange2").addEventListener("click", deskChange2);
