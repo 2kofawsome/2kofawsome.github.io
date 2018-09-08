@@ -388,4016 +388,10 @@ FusionCharts.ready(function() { //Mobile
 	
     document.getElementById("mobThemeType").addEventListener("click", switchChart);
 }) 
-
-FusionCharts.ready(function() { //Week12
-	var mobWin12 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek12",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin12.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss12 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek12",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss12.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent12 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek12",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent12.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent12.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent12.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week11
-	var mobWin11 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek11",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin11.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss11 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek11",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss11.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent11 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek11",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"showPlotBorder": "1",
-				"animation": "0",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent11.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent11.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent11.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week10
-	var mobWin10 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek10",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin10.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss10 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek10",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss10.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent10 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek10",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"showPlotBorder": "1",
-				"animation": "0",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent10.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent10.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent10.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week9
-	var mobWin9 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek9",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin9.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss9 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek9",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss9.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent9 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek9",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent9.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent9.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent9.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week8
-	var mobWin8 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek8",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin8.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss8 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek8",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss8.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent8 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek8",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent8.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent8.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent8.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week7
-	var mobWin7 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek7",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin7.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss7 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek7",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss7.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent7 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek7",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent7.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent7.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent7.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week6
-	var mobWin6 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss6 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent6 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent6.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent6.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week5
-	var mobWin5 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek5",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin5.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin5.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin5.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent6 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent6.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent6.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week4
-	var mobWin4 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek4",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin4.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss4 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek4",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss4.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent4 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek4",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent4.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent4.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent4.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week3
-	var mobWin3 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek3",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin3.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss3 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek3",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss3.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent3 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek3",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent3.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent3.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent3.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week2
-	var mobWin2 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek2",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Victors' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobWin2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss2 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobLosesWeek2",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Losers' Achievement Distribution",
-				"theme": "ocean",
-				"showValues": "0",
-				"plottooltext": "$value",
-				"enableSmartLabels": "0",
-				"labelDistance": "-25",
-				"animation": "0",
-				"showLabels": "0",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobLoss2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent2 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek2",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "% that Won at Diffferent Scores",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"xAxisNameFontSize": "12",
-				"yAxisNameFontSize": "12",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	mobPercent2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent2.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobPercent2.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
 */
-FusionCharts.ready(function() { //Week1
-	var mobWin1 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "mobWinsWeek1",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
+
+FusionCharts.ready(function() { 
+	var datasWin = {"week1":{
 			// Chart Configuration
 			"chart": {
 				"caption": "Victors' Achievement Distribution",
@@ -4497,32 +491,1131 @@ FusionCharts.ready(function() { //Week1
 				"value": "26",
 				"color": "#ffffff"
 			}]
+		},
+		"week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Victors' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
 		}
-	});
-	mobWin1.render();
+	}
 	
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobWin1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobWin1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobLoss1 = new FusionCharts({
+	var mobWin = new FusionCharts({
 		"type": "pie2d",
-		"renderAt": "mobLosesWeek1",
+		"renderAt": "mobWins",
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": {
+		"dataSource": datasWin.week1
+	});
+	mobWin.render();
+	
+	var datasLoss = {"week1":{
 			// Chart Configuration
 			"chart": {
 				"caption": "Losers' Achievement Distribution",
@@ -4622,31 +1715,1131 @@ FusionCharts.ready(function() {
 				"value": "3",
 				"color": "#ffffff"
 			}]
+		}, 
+		"week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "Losers' Achievement Distribution",
+				"theme": "ocean",
+				"showValues": "0",
+				"plottooltext": "$value",
+				"enableSmartLabels": "0",
+				"labelDistance": "-25",
+				"animation": "0",
+				"showLabels": "0",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
 		}
-	});
-	mobLoss1.render();
+	}
 	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobLoss1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			mobLoss1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("mobThemeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var mobPercent1 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "mobPercentWeek1",
+	var mobLoss = new FusionCharts({
+		"type": "pie2d",
+		"renderAt": "mobLoses",
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": {
+		"dataSource": datasLoss.week1
+	});
+	mobLoss.render();
+	
+	var datasPercent = {"week1":{
 			// Chart Configuration
 			"chart": {
 				"caption": "% that Won at Diffferent Scores",
@@ -4749,22 +2942,2321 @@ FusionCharts.ready(function() {
 				"value": "89.66",
 				"color": "#ffffff"
 			}]
+		},
+		"week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "% that Won at Diffferent Scores",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"xAxisNameFontSize": "12",
+				"yAxisNameFontSize": "12",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
 		}
+	}
+	
+	var mobPercent = new FusionCharts({
+		"type": "column2d",
+		"renderAt": "mobPercent",
+		"height": "100%",
+		"width": "100%",
+		"dataFormat": "json",
+		"dataSource": datasPercent.week1
 	});
-	mobPercent1.render();
+	mobPercent.render();
 	
 	function switchChart() {
 
 		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			mobPercent1.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			mobLoss.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			mobWin.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			mobPercent.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 		}
 		else {
-			mobPercent1.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			mobLoss.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			mobWin.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			mobPercent.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
 		}	
     }
 	
     document.getElementById("mobThemeType").addEventListener("click", switchChart);
+	
+	function mobChange1() {
+		mobLoss.setJSONData(datasLoss.week1);
+		mobWin.setJSONData(datasWin.week1);
+		mobPercent.setJSONData(datasPercent.week1);
+		document.getElementById("mobTitle").innerHTML = "Week 1";
+		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not) with a cutoff of 16. Anyone who scores under 11 will have no chance of moving on, and anyone who scores over 16 will be guarenteed to move on. Numbers inbetween have varying chance to move on (depending on % that won numbers), aka #s inbetween need to win the matches!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange1").addEventListener("click", mobChange1);
+	function mobChange2() {
+		mobLoss.setJSONData(datasLoss.week2);
+		mobWin.setJSONData(datasWin.week2);
+		mobPercent.setJSONData(datasPercent.week2);
+		document.getElementById("mobTitle").innerHTML = "Week 2";
+		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange2").addEventListener("click", mobChange2);
+	function mobChange3() {
+		mobLoss.setJSONData(datasLoss.week3);
+		mobWin.setJSONData(datasWin.week3);
+		mobPercent.setJSONData(datasPercent.week3);
+		document.getElementById("mobTitle").innerHTML = "Week 3";
+		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange3").addEventListener("click", mobChange3);
+	function mobChange4() {
+		mobLoss.setJSONData(datasLoss.week4);
+		mobWin.setJSONData(datasWin.week4);
+		mobPercent.setJSONData(datasPercent.week4);
+		document.getElementById("mobTitle").innerHTML = "Week 4";
+		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange4").addEventListener("click", mobChange4);
+	function mobChange5() {
+		mobLoss.setJSONData(datasLoss.week5);
+		mobWin.setJSONData(datasWin.week5);
+		mobPercent.setJSONData(datasPercent.week5);
+		document.getElementById("mobTitle").innerHTML = "Week 5";
+		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 256 who made it here, and the 128 moving on!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange5").addEventListener("click", mobChange5);
+	function mobChange6() {
+		mobLoss.setJSONData(datasLoss.week6);
+		mobWin.setJSONData(datasWin.week6);
+		mobPercent.setJSONData(datasPercent.week6);
+		document.getElementById("mobTitle").innerHTML = "Week 6";
+		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 128 who made it here, and the 64 moving on!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange6").addEventListener("click", mobChange6);
+	function mobChange7() {
+		mobLoss.setJSONData(datasLoss.week7);
+		mobWin.setJSONData(datasWin.week7);
+		mobPercent.setJSONData(datasPercent.week7);
+		document.getElementById("mobTitle").innerHTML = "Week 7";
+		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 64 who made it here, and the 32 moving on!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange7").addEventListener("click", mobChange7);
+	function mobChange8() {
+		mobLoss.setJSONData(datasLoss.week8);
+		mobWin.setJSONData(datasWin.week8);
+		mobPercent.setJSONData(datasPercent.week8);
+		document.getElementById("mobTitle").innerHTML = "Week 8";
+		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 32 who made it here, and the 16 moving on!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange8").addEventListener("click", mobChange8);
+	function mobChange9() {
+		mobLoss.setJSONData(datasLoss.week9);
+		mobWin.setJSONData(datasWin.week9);
+		mobPercent.setJSONData(datasPercent.week9);
+		document.getElementById("mobTitle").innerHTML = "Week 9";
+		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 16 who made it here, and the 8 moving on to quarter finals!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange9").addEventListener("click", mobChange9);
+	function mobChange10() {
+		mobLoss.setJSONData(datasLoss.week10);
+		mobWin.setJSONData(datasWin.week10);
+		mobPercent.setJSONData(datasPercent.week10);
+		document.getElementById("mobTitle").innerHTML = "Week 10";
+		document.getElementById("mobParagraph").innerHTML = "Sadly _, _, _ and _ were eliminated, but the top 4 are going to semi finals!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange10").addEventListener("click", mobChange10);
+	function mobChange11() {
+		mobLoss.setJSONData(datasLoss.week11);
+		mobWin.setJSONData(datasWin.week11);
+		mobPercent.setJSONData(datasPercent.week11);
+		document.getElementById("mobTitle").innerHTML = "Week 11";
+		document.getElementById("mobParagraph").innerHTML = "Sadly _ and _ were eliminated, but the top 2 are going to finals!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange11").addEventListener("click", mobChange11);
+	function mobChange12() {
+		mobLoss.setJSONData(datasLoss.week12);
+		mobWin.setJSONData(datasWin.week12);
+		mobPercent.setJSONData(datasPercent.week12);
+		document.getElementById("mobTitle").innerHTML = "Week 12";
+		document.getElementById("mobParagraph").innerHTML = "Sadly _ was eliminated, but congratulations to the victor, _!";
+		var table = document.getElementById('mobTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="419"
+		table.rows[1].cells[3].innerHTML="0.00%"
+		table.rows[2].cells[1].innerHTML="52"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45.2%"
+		table.rows[3].cells[1].innerHTML="46"
+		table.rows[3].cells[2].innerHTML="45"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[4].cells[1].innerHTML="46"
+		table.rows[4].cells[2].innerHTML="53"
+		table.rows[4].cells[3].innerHTML="46.5%"
+		table.rows[5].cells[1].innerHTML="38"
+		table.rows[5].cells[2].innerHTML="33"
+		table.rows[5].cells[3].innerHTML="53.5%"
+		table.rows[6].cells[1].innerHTML="48"
+		table.rows[6].cells[2].innerHTML="30"
+		table.rows[6].cells[3].innerHTML="61.5%"
+		table.rows[7].cells[1].innerHTML="46"
+		table.rows[7].cells[2].innerHTML="23"
+		table.rows[7].cells[3].innerHTML="66.7%"
+		table.rows[8].cells[1].innerHTML="39"
+		table.rows[8].cells[2].innerHTML="21"
+		table.rows[8].cells[3].innerHTML="65.0%"
+		table.rows[9].cells[1].innerHTML="51"
+		table.rows[9].cells[2].innerHTML="20"
+		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[10].cells[2].innerHTML="20"
+		table.rows[10].cells[3].innerHTML="63.0%"
+		table.rows[11].cells[1].innerHTML="58"
+		table.rows[11].cells[2].innerHTML="19"
+		table.rows[11].cells[3].innerHTML="75.3%"
+		table.rows[12].cells[1].innerHTML="37"
+		table.rows[12].cells[2].innerHTML="12"
+		table.rows[12].cells[3].innerHTML="74.0%"
+		table.rows[13].cells[1].innerHTML="35"
+		table.rows[13].cells[2].innerHTML="14"
+		table.rows[13].cells[3].innerHTML="71.4%"
+		table.rows[14].cells[1].innerHTML="35"
+		table.rows[14].cells[2].innerHTML="12"
+		table.rows[14].cells[3].innerHTML="74.5%"
+		table.rows[15].cells[1].innerHTML="34"
+		table.rows[15].cells[2].innerHTML="7"
+		table.rows[15].cells[3].innerHTML="82.9%"
+		table.rows[16].cells[1].innerHTML="27"
+		table.rows[16].cells[2].innerHTML="12"
+		table.rows[16].cells[3].innerHTML="69.2%"
+		table.rows[17].cells[1].innerHTML="29"
+		table.rows[17].cells[2].innerHTML="4"
+		table.rows[17].cells[3].innerHTML="87.9%"
+		table.rows[18].cells[1].innerHTML="11"
+		table.rows[18].cells[2].innerHTML="5"
+		table.rows[18].cells[3].innerHTML="68.8%"
+		table.rows[19].cells[1].innerHTML="12"
+		table.rows[19].cells[2].innerHTML="4"
+		table.rows[19].cells[3].innerHTML="75.0%"
+		table.rows[20].cells[1].innerHTML="17"
+		table.rows[20].cells[2].innerHTML="3"
+		table.rows[20].cells[3].innerHTML="85.0%"
+		table.rows[21].cells[1].innerHTML="26"
+		table.rows[21].cells[2].innerHTML="3"
+		table.rows[21].cells[3].innerHTML="89.7%"
+		
+		var table = document.getElementById('mobRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="9.90"
+		table.rows[2].cells[1].innerHTML="6.28"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[3].cells[1].innerHTML="5.80"
+		table.rows[3].cells[2].innerHTML="7.91"
+		table.rows[4].cells[1].innerHTML="5.79"
+		table.rows[4].cells[2].innerHTML="8.06"
+		table.rows[5].cells[1].innerHTML="6.00"
+		table.rows[5].cells[2].innerHTML="7.74"
+		table.rows[6].cells[1].innerHTML="5.05"
+		table.rows[6].cells[2].innerHTML="6.92"
+		table.rows[7].cells[1].innerHTML="3.85"
+		table.rows[7].cells[2].innerHTML="6.13"
+		table.rows[8].cells[1].innerHTML="5.62"
+		table.rows[8].cells[2].innerHTML="7.26"
+		table.rows[9].cells[1].innerHTML="5.00"
+		table.rows[9].cells[2].innerHTML="6.67"
+		table.rows[10].cells[1].innerHTML="3.82"
+		table.rows[10].cells[2].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("mobChange12").addEventListener("click", mobChange12);
 })
+
 /*
 FusionCharts.ready(function() { //Desktop
 	var deskOverall = new FusionCharts({
@@ -5134,4107 +5626,10 @@ FusionCharts.ready(function() { //Desktop
 	
     document.getElementById("themeType").addEventListener("click", switchChart);
 }) 
-
-FusionCharts.ready(function() { //Week12
-	var deskWin12 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek12",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin12.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss12 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek12",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss12.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss12.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss12.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent12 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek12",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent12.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent12.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent12.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-		
-FusionCharts.ready(function() { //Week11
-	var deskWin11 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek11",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin11.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss11 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek11",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss11.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss11.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss11.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent11 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek11",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent11.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent11.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent11.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week10
-	var deskWin10 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek10",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin10.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss10 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek10",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss10.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss10.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss10.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent10 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek10",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent10.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent10.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent10.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week9
-	var deskWin9 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek9",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin9.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss9 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek9",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss9.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss9.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss9.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent9 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek9",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent9.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent9.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent9.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week8
-	var deskWin8 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek8",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin8.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss8 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek8",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss8.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss8.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss8.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent8 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek8",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent8.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent8.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent8.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week7
-	var deskWin7 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek7",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin7.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss7 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek7",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss7.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss7.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss7.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent7 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek7",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent7.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent7.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent7.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week6
-	var deskWin6 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss6 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss6.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss6.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent6 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek6",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent6.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent6.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent6.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week5
-	var deskWin5 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek5",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin5.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin5.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin5.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss5 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek5",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss5.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss5.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss5.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent5 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek5",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent5.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent5.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent5.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week4
-	var deskWin4 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek4",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin4.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss4 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek4",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss4.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss4.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss4.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent4 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek4",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent4.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent4.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent4.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week3
-	var deskWin3 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek3",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin3.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss3 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek3",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss3.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss3.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent3 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek3",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPecent3.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent3.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent3.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() { //Week2
-	var deskWin2 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek2",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for winners",
-				"subCaption": "Distribution of victor's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskWin2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss2 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskLosesWeek2",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "# of Achievements for losers",
-				"subCaption": "Distribution of failure's scores",
-				"theme": "ocean",
-				"showValues": "0",
-				"animation": "0",
-				"plottooltext": "$value",
-				"bgColor":"#fcfcfc", 
-				"smartLineColor":"#000000"
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskLoss2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss2.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss2.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent2 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek2",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
-			// Chart Configuration
-			"chart": {
-				"caption": "Win % at diffferent scores",
-				"subCaption": "Probabilty of winning at achievement #s",
-				"xAxisName": "Achievement number",
-				"yAxisName": "Win %",
-				"theme": "ocean",
-				"showValues": "0",
-				"yAxisMaxValue": "100",
-				"plottooltext": "$value",
-				"yAxisNameFontSize": "13",
-				"xAxisNameFontSize": "13",
-				"animation": "0",
-				"showPlotBorder": "1",
-				"bgColor":"#fcfcfc",
-				"canvasBgColor":"#fcfcfc",
-			},
-			// Chart Data
-			"data": [{
-				"label": "0",
-				"value": "1",
-				"color": "#000000"
-			}, {
-				"label": "1",
-				"value": "1",
-				"color": "#003200"
-			}, {
-				"label": "2",
-				"value": "1",
-				"color": "#004600"
-			}, {
-				"label": "3",
-				"value": "1",
-				"color": "#005f00"
-			}, {
-				"label": "4",
-				"value": "1",
-				"color": "#007800"
-			}, {
-				"label": "5",
-				"value": "1",
-				"color": "#008c00"
-			}, {
-				"label": "6",
-				"value": "1",
-				"color": "#00a000"
-			}, {
-				"label": "7",
-				"value": "1",
-				"color": "#00b900"
-			}, {
-				"label": "8",
-				"value": "1",
-				"color": "#00c800"
-			}, {
-				"label": "9",
-				"value": "1",
-				"color": "#00dc00"
-			}, {
-				"label": "10",
-				"value": "1",
-				"color": "#00eb00"
-			}, {
-				"label": "11",
-				"value": "1",
-				"color": "#00ff00"
-			}, {
-				"label": "12",
-				"value": "1",
-				"color": "#25ff25"
-			}, {
-				"label": "13",
-				"value": "1",
-				"color": "#4bff4b"
-			}, {
-				"label": "14",
-				"value": "1",
-				"color": "#64ff64"
-			}, {
-				"label": "15",
-				"value": "1",
-				"color": "#7dff7d"
-			}, {
-				"label": "16",
-				"value": "1",
-				"color": "#96ff96"
-			}, {
-				"label": "17",
-				"value": "1",
-				"color": "#afffaf"
-			}, {
-				"label": "18",
-				"value": "1",
-				"color": "#c8ffc8"
-			}, {
-				"label": "19",
-				"value": "1",
-				"color": "#e1ffe1"
-			}, {
-				"label": "20",
-				"value": "1",
-				"color": "#ffffff"
-			}]
-		}
-	});
-	deskPercent2.render();
-	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent2.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
-		}
-		else {
-			deskPercent2.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
 */
-FusionCharts.ready(function() { //Week1
-	var deskWin1 = new FusionCharts({
-		"type": "pie2d",
-		"renderAt": "deskWinsWeek1",
-		"height": "100%",
-		"width": "100%",
-		"dataFormat": "json",
-		"dataSource": {
+
+FusionCharts.ready(function() { 
+	var datasWin = {"week1":{
 			// Chart Configuration
 			"chart": {
 				"caption": "# of Achievements for winners",
@@ -9332,31 +5727,1109 @@ FusionCharts.ready(function() { //Week1
 				"value": "26",
 				"color": "#ffffff"
 			}]
+		},
+		"week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for winners",
+				"subCaption": "Distribution of victor's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
 		}
-	});
-	deskWin1.render();
-	
-	function switchChart() {
+	}
 
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskWin1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskWin1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskLoss1 = new FusionCharts({
+	var deskWin = new FusionCharts({
 		"type": "pie2d",
-		"renderAt": "deskLosesWeek1",
+		"renderAt": "deskWins",
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": {
+		"dataSource": datasWin.week1
+	});
+	deskWin.render();
+	
+	var datasLoss = {"week1":{
 			// Chart Configuration
 			"chart": {
 				"caption": "# of Achievements for losers",
@@ -9454,31 +6927,1109 @@ FusionCharts.ready(function() {
 				"value": "3",
 				"color": "#ffffff"
 			}]
+		},
+		"week2":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week3":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week4":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week5":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week6":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week7":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week8":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week9":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week10":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week11":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},
+		"week12":{
+			// Chart Configuration
+			"chart": {
+				"caption": "# of Achievements for losers",
+				"subCaption": "Distribution of failure's scores",
+				"theme": "ocean",
+				"showValues": "0",
+				"animation": "0",
+				"plottooltext": "$value",
+				"bgColor":"#fcfcfc", 
+				"smartLineColor":"#000000"
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
 		}
-	});
-	deskLoss1.render();
+	}
 	
-	function switchChart() {
-
-		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskLoss1.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
-		}
-		else {
-			deskLoss1.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
-		}	
-    }
-	
-    document.getElementById("themeType").addEventListener("click", switchChart);
-})
-
-FusionCharts.ready(function() {
-	var deskPercent1 = new FusionCharts({
-		"type": "column2d",
-		"renderAt": "deskPercentWeek1",
+	var deskLoss = new FusionCharts({
+		"type": "pie2d",
+		"renderAt": "deskLoses",
 		"height": "100%",
 		"width": "100%",
 		"dataFormat": "json",
-		"dataSource": {
+		"dataSource": datasLoss.week1
+	});
+	deskLoss.render();
+	
+	var datasPercent = {"week1": {
 			// Chart Configuration
 			"chart": {
 				"caption": "Win % at diffferent scores",
@@ -9582,19 +8133,2319 @@ FusionCharts.ready(function() {
 				"value": "89.66",
 				"color": "#ffffff"
 			}]
+		},
+		"week2": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week3": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week4": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week5": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week6": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week7": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week8": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week9": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week10": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week11": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
+		},"week12": {
+			// Chart Configuration
+			"chart": {
+				"caption": "Win % at diffferent scores",
+				"subCaption": "Probabilty of winning at achievement #s",
+				"xAxisName": "Achievement number",
+				"yAxisName": "Win %",
+				"theme": "ocean",
+				"showValues": "0",
+				"yAxisMaxValue": "100",
+				"plottooltext": "$value",
+				"yAxisNameFontSize": "13",
+				"xAxisNameFontSize": "13",
+				"animation": "0",
+				"showPlotBorder": "1",
+				"bgColor":"#fcfcfc",
+				"canvasBgColor":"#fcfcfc",
+			},
+			// Chart Data
+			"data": [{
+				"label": "0",
+				"value": "1",
+				"color": "#000000"
+			}, {
+				"label": "1",
+				"value": "1",
+				"color": "#003200"
+			}, {
+				"label": "2",
+				"value": "1",
+				"color": "#004600"
+			}, {
+				"label": "3",
+				"value": "1",
+				"color": "#005f00"
+			}, {
+				"label": "4",
+				"value": "1",
+				"color": "#007800"
+			}, {
+				"label": "5",
+				"value": "1",
+				"color": "#008c00"
+			}, {
+				"label": "6",
+				"value": "1",
+				"color": "#00a000"
+			}, {
+				"label": "7",
+				"value": "1",
+				"color": "#00b900"
+			}, {
+				"label": "8",
+				"value": "1",
+				"color": "#00c800"
+			}, {
+				"label": "9",
+				"value": "1",
+				"color": "#00dc00"
+			}, {
+				"label": "10",
+				"value": "1",
+				"color": "#00eb00"
+			}, {
+				"label": "11",
+				"value": "1",
+				"color": "#00ff00"
+			}, {
+				"label": "12",
+				"value": "1",
+				"color": "#25ff25"
+			}, {
+				"label": "13",
+				"value": "1",
+				"color": "#4bff4b"
+			}, {
+				"label": "14",
+				"value": "1",
+				"color": "#64ff64"
+			}, {
+				"label": "15",
+				"value": "1",
+				"color": "#7dff7d"
+			}, {
+				"label": "16",
+				"value": "1",
+				"color": "#96ff96"
+			}, {
+				"label": "17",
+				"value": "1",
+				"color": "#afffaf"
+			}, {
+				"label": "18",
+				"value": "1",
+				"color": "#c8ffc8"
+			}, {
+				"label": "19",
+				"value": "1",
+				"color": "#e1ffe1"
+			}, {
+				"label": "20",
+				"value": "1",
+				"color": "#ffffff"
+			}]
 		}
+	}
+	
+	
+	var deskPercent = new FusionCharts({
+		"type": "column2d",
+		"renderAt": "deskPercent",
+		"height": "100%",
+		"width": "100%",
+		"dataFormat": "json",
+		"dataSource": datasPercent.week1
 	});
-	deskPercent1.render();
+	deskPercent.render();
 	
 	function switchChart() {
-
 		if (document.getElementById("pageStyle").getAttribute("href") == "jsCharts/TAblack.css") {
-			deskPercent1.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
+			deskLoss.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+			deskWin.setChartAttribute({"bgColor":"#080808", "bgAlpha":"100", "smartLineColor":"#ffffff", "baseFontColor":"#ffffff", "labelFontColor":"#ffffff"});
+			deskPercent.setChartAttribute({"bgColor":"#080808", "canvasBgColor":"#080808", "bgAlpha":"100", "baseFontColor":"#ffffff"});
 		}
 		else {
-			deskPercent1.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
+			deskLoss.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+			deskWin.setChartAttribute({"bgColor":"#fcfcfc", "bgAlpha":"100", "smartLineColor":"#000000", "baseFontColor":"#000000", "labelFontColor":"#000000"});
+			deskPercent.setChartAttribute({"bgColor":"#fcfcfc", "canvasBgColor":"#fcfcfc", "bgAlpha":"100", "baseFontColor":"#000000"});
 		}	
     }
 	
     document.getElementById("themeType").addEventListener("click", switchChart);
+	
+	function deskChange1() {
+		deskLoss.setJSONData(datasLoss.week1);
+		deskWin.setJSONData(datasWin.week1);
+		deskPercent.setJSONData(datasPercent.week1);
+		document.getElementById("deskTitle").innerHTML = "Week 1";
+		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not) with a cutoff of 16. Anyone who scores under 11 will have no chance of moving on, and anyone who scores over 16 will be guarenteed to move on. Numbers inbetween have varying chance to move on (depending on % that won numbers), aka #s inbetween need to win the matches!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		
+		switchChart()
+    }
+    document.getElementById("deskChange1").addEventListener("click", deskChange1);
+	function deskChange2() {
+		deskLoss.setJSONData(datasLoss.week2);
+		deskWin.setJSONData(datasWin.week2);
+		deskPercent.setJSONData(datasPercent.week2);
+		document.getElementById("deskTitle").innerHTML = "Week 2";
+		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange2").addEventListener("click", deskChange2);
+	function deskChange3() {
+		deskLoss.setJSONData(datasLoss.week3);
+		deskWin.setJSONData(datasWin.week3);
+		deskPercent.setJSONData(datasPercent.week3);
+		document.getElementById("deskTitle").innerHTML = "Week 3";
+		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange3").addEventListener("click", deskChange3);
+	function deskChange4() {
+		deskLoss.setJSONData(datasLoss.week4);
+		deskWin.setJSONData(datasWin.week4);
+		deskPercent.setJSONData(datasPercent.week4);
+		document.getElementById("deskTitle").innerHTML = "Week 4";
+		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers) ";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange4").addEventListener("click", deskChange4);
+	function deskChange5() {
+		deskLoss.setJSONData(datasLoss.week5);
+		deskWin.setJSONData(datasWin.week5);
+		deskPercent.setJSONData(datasPercent.week5);
+		document.getElementById("deskTitle").innerHTML = "Week 5";
+		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 256 who made it here, and the 128 moving on!";
+var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange5").addEventListener("click", deskChange5);
+	function deskChange6() {
+		deskLoss.setJSONData(datasLoss.week6);
+		deskWin.setJSONData(datasWin.week6);
+		deskPercent.setJSONData(datasPercent.week6);
+		document.getElementById("deskTitle").innerHTML = "Week 6";
+		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 128 who made it here, and the 64 moving on!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange6").addEventListener("click", deskChange6);
+	function deskChange7() {
+		deskLoss.setJSONData(datasLoss.week7);
+		deskWin.setJSONData(datasWin.week7);
+		deskPercent.setJSONData(datasPercent.week7);
+		document.getElementById("deskTitle").innerHTML = "Week 7";
+		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 64 who made it here, and the 32 moving on!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange7").addEventListener("click", deskChange7);
+	function deskChange8() {
+		deskLoss.setJSONData(datasLoss.week8);
+		deskWin.setJSONData(datasWin.week8);
+		deskPercent.setJSONData(datasPercent.week8);
+		document.getElementById("deskTitle").innerHTML = "Week 8";
+		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 32 who made it here, and the 16 moving on!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange8").addEventListener("click", deskChange8);
+	function deskChange9() {
+		deskLoss.setJSONData(datasLoss.week9);
+		deskWin.setJSONData(datasWin.week9);
+		deskPercent.setJSONData(datasPercent.week9);
+		document.getElementById("deskTitle").innerHTML = "Week 9";
+		document.getElementById("deskParagraph").innerHTML = "Congratulations to the 16 who made it here, and the 8 moving on to quarter finals!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange9").addEventListener("click", deskChange9);
+	function deskChange10() {
+		deskLoss.setJSONData(datasLoss.week10);
+		deskWin.setJSONData(datasWin.week10);
+		deskPercent.setJSONData(datasPercent.week10);
+		document.getElementById("deskTitle").innerHTML = "Week 10";
+		document.getElementById("deskParagraph").innerHTML = "Sadly _, _, _ and _ were eliminated, but the top 4 are going to semi finals!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange10").addEventListener("click", deskChange10);
+	function deskChange11() {
+		deskLoss.setJSONData(datasLoss.week11);
+		deskWin.setJSONData(datasWin.week11);
+		deskPercent.setJSONData(datasPercent.week11);
+		document.getElementById("deskTitle").innerHTML = "Week 11";
+		document.getElementById("deskParagraph").innerHTML = "Sadly _ and _ were eliminated, but the top 2 are going to finals!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange11").addEventListener("click", deskChange11);
+	function deskChange12() {
+		deskLoss.setJSONData(datasLoss.week12);
+		deskWin.setJSONData(datasWin.week12);
+		deskPercent.setJSONData(datasPercent.week12);
+		document.getElementById("deskTitle").innerHTML = "Week 12";
+		document.getElementById("deskParagraph").innerHTML = "Sadly _ was eliminated, but congratulations to the victor, _!";
+		var table = document.getElementById('deskTable')
+		table.rows[1].cells[1].innerHTML="0"
+		table.rows[1].cells[2].innerHTML="52"
+		table.rows[1].cells[3].innerHTML="46"
+		table.rows[1].cells[4].innerHTML="46"
+		table.rows[1].cells[5].innerHTML="38"
+		table.rows[1].cells[6].innerHTML="48"
+		table.rows[1].cells[7].innerHTML="46"
+		table.rows[1].cells[8].innerHTML="39"
+		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="58"
+		table.rows[1].cells[12].innerHTML="37"
+		table.rows[1].cells[13].innerHTML="35"
+		table.rows[1].cells[14].innerHTML="35"
+		table.rows[1].cells[15].innerHTML="34"
+		table.rows[1].cells[16].innerHTML="27"
+		table.rows[1].cells[17].innerHTML="29"
+		table.rows[1].cells[18].innerHTML="11"
+		table.rows[1].cells[19].innerHTML="12"
+		table.rows[1].cells[20].innerHTML="17"
+		table.rows[1].cells[21].innerHTML="26"
+		table.rows[2].cells[1].innerHTML="419"
+		table.rows[2].cells[2].innerHTML="63"
+		table.rows[2].cells[3].innerHTML="45"
+		table.rows[2].cells[4].innerHTML="53"
+		table.rows[2].cells[5].innerHTML="33"
+		table.rows[2].cells[6].innerHTML="30"
+		table.rows[2].cells[7].innerHTML="23"
+		table.rows[2].cells[8].innerHTML="21"
+		table.rows[2].cells[9].innerHTML="20"
+		table.rows[2].cells[10].innerHTML="20"
+		table.rows[2].cells[11].innerHTML="19"
+		table.rows[2].cells[12].innerHTML="13"
+		table.rows[2].cells[13].innerHTML="14"
+		table.rows[2].cells[14].innerHTML="12"
+		table.rows[2].cells[15].innerHTML="7"
+		table.rows[2].cells[16].innerHTML="12"
+		table.rows[2].cells[17].innerHTML="4"
+		table.rows[2].cells[18].innerHTML="5"
+		table.rows[2].cells[19].innerHTML="4"
+		table.rows[2].cells[20].innerHTML="3"
+		table.rows[2].cells[21].innerHTML="3"
+		table.rows[3].cells[1].innerHTML="0.00%"
+		table.rows[3].cells[2].innerHTML="45.2%"
+		table.rows[3].cells[3].innerHTML="50.6%"
+		table.rows[3].cells[4].innerHTML="46.5%"
+		table.rows[3].cells[5].innerHTML="53.5%"
+		table.rows[3].cells[6].innerHTML="61.5%"
+		table.rows[3].cells[7].innerHTML="66.7%"
+		table.rows[3].cells[8].innerHTML="65.0%"
+		table.rows[3].cells[9].innerHTML="71.8%"
+		table.rows[3].cells[10].innerHTML="63.0%"
+		table.rows[3].cells[11].innerHTML="75.3%"
+		table.rows[3].cells[12].innerHTML="74.0%"
+		table.rows[3].cells[13].innerHTML="71.4%"
+		table.rows[3].cells[14].innerHTML="74.5%"
+		table.rows[3].cells[15].innerHTML="82.9%"
+		table.rows[3].cells[16].innerHTML="69.2%"
+		table.rows[3].cells[17].innerHTML="87.9%"
+		table.rows[3].cells[18].innerHTML="68.8%"
+		table.rows[3].cells[19].innerHTML="75.0%"
+		table.rows[3].cells[20].innerHTML="85.0%"
+		table.rows[3].cells[21].innerHTML="89.7%"
+		
+		var table = document.getElementById('deskRatios')
+		table.rows[1].cells[1].innerHTML="7.97"
+		table.rows[1].cells[2].innerHTML="6.28"
+		table.rows[1].cells[3].innerHTML="5.80"
+		table.rows[1].cells[4].innerHTML="5.79"
+		table.rows[1].cells[5].innerHTML="6.00"
+		table.rows[1].cells[6].innerHTML="5.05"
+		table.rows[1].cells[7].innerHTML="3.85"
+		table.rows[1].cells[8].innerHTML="5.62"
+		table.rows[1].cells[9].innerHTML="5.00"
+		table.rows[1].cells[10].innerHTML="3.82"
+		table.rows[2].cells[1].innerHTML="9.90"
+		table.rows[2].cells[2].innerHTML="8.74"
+		table.rows[2].cells[3].innerHTML="7.91"
+		table.rows[2].cells[4].innerHTML="8.06"
+		table.rows[2].cells[5].innerHTML="7.74"
+		table.rows[2].cells[6].innerHTML="6.92"
+		table.rows[2].cells[7].innerHTML="6.13"
+		table.rows[2].cells[8].innerHTML="7.26"
+		table.rows[2].cells[9].innerHTML="6.67"
+		table.rows[2].cells[10].innerHTML="5.37"
+		switchChart()
+    }
+    document.getElementById("deskChange12").addEventListener("click", deskChange12);
 })
