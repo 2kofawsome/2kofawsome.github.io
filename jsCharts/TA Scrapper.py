@@ -1,188 +1,99 @@
-#! python3.6
+from bs4 import BeautifulSoup #used to create HTML layout in python
+import requests, re, time #requests pulls page, re searches for strings, time creates delay so it doesnt overload
 
-from decimal import Decimal
-from bs4 import BeautifulSoup
-import requests, re, time
+startTime=time.time()
 
-resultsWin = {}
-resultsLose = {}
+resultsWin = {} #a dictonary of score distribution of winners
+resultsLose = {} #a dictonary of score distribution of losers
+winPercent=[]
 
-for n in range(21):
+for n in range(21): #adds the 21 achievements to the dic
     resultsWin[str(n)] = 0
     resultsLose[str(n)] = 0
+    winPercent.append(0)
 
+#NP means No puddings (people who score 0), P or nothing means with puddings included
+achievementDistributionNP = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0] #The distribution of difficulties
+achievementDistribution = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
+achievementP = [[], [], [], [], [], [], [] ,[] ,[] ,[]] #To collect average achievements per difficulty
+achievementNP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
+
+#starts at str(x), then loops for 772 first 4 weeks, then 256, 128, 64, 32, etc
 #18907
 #19679
-#to force update
+#20451
 #
-achievementDistributionNP = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
-achievementDistribution = [0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
-achievementP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
-achievementNP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
-for n in range(772):
+startURL = 20451
+for n in range(772): #loops this code for x match ups
     if n % 100 == 0:
         print("loop")
-    blah = time.time()
-    pageLink = "https://www.trueachievements.com/event/UHH-4/matchup/" + str(19679+n)
-    try:
-        pageContent = BeautifulSoup(requests.get(pageLink, timeout=5).content, "html.parser")
+    pageLink = "https://www.trueachievements.com/event/UHH-4/matchup/" + str(startURL+n) #thankfully TrueAcheivements uses counting as url (not recommended for this reason)
+    while True:
+        try: #allows error (timeout)
+            pageContent = BeautifulSoup(requests.get(pageLink, timeout=5).content, "html.parser")#grabs page, turns it into html string, max wait of 5 seconds
 
-        findScore = re.compile(r"""\d+""", re.VERBOSE)
-        findRatio = re.compile(r"""\d+\.\d+""", re.VERBOSE)
-
-        achievementRatio = 0
-        for m in pageContent.find_all(class_=" odd") + pageContent.find_all(class_=" even"):
-            achievementRatio += int(float(findRatio.findall(str(m))[0])*100)
-
-        try:
-            winScore = findScore.findall(str(pageContent.find(class_=" winning")))[0]
-            loseScore = findScore.findall(str(pageContent.find(class_=" losing")))[0]
-            resultsWin[winScore] += 1
-            resultsLose[loseScore] += 1
-
-            if achievementRatio < 2500: #add score not ratio sum
-                achievementNP[0].append(int(winScore))
-                achievementDistributionNP[0]+=1
-            elif achievementRatio < 3000:
-                achievementNP[1].append(int(winScore))
-                achievementDistributionNP[1]+=1
-            elif achievementRatio < 3500:
-                achievementNP[2].append(int(winScore))
-                achievementDistributionNP[2]+=1
-            elif achievementRatio < 4000:
-                achievementNP[3].append(int(winScore))
-                achievementDistributionNP[3]+=1
-            elif achievementRatio < 4500:
-                achievementNP[4].append(int(winScore))
-                achievementDistributionNP[4]+=1
-            elif achievementRatio < 5000:
-                achievementNP[5].append(int(winScore))
-                achievementDistributionNP[5]+=1
-            elif achievementRatio < 5500:
-                achievementNP[6].append(int(winScore))
-                achievementDistributionNP[6]+=1
-            elif achievementRatio < 6000:
-                achievementNP[7].append(int(winScore))
-                achievementDistributionNP[7]+=1
-            elif achievementRatio < 6500:
-                achievementNP[8].append(int(winScore))
-                achievementDistributionNP[8]+=1
-            elif achievementRatio >= 6500:
-                achievementNP[9].append(int(winScore))
-                achievementDistributionNP[9]+=1
-
-            if int(loseScore) > 0:
-                if achievementRatio < 2500: #add score not ratio sum
-                    achievementNP[0].append(int(loseScore))
-                    achievementDistributionNP[0]+=1
-                elif achievementRatio < 3000:
-                    achievementNP[1].append(int(loseScore))
-                    achievementDistributionNP[1]+=1
-                elif achievementRatio < 3500:
-                    achievementNP[2].append(int(loseScore))
-                    achievementDistributionNP[2]+=1
-                elif achievementRatio < 4000:
-                    achievementNP[3].append(int(loseScore))
-                    achievementDistributionNP[3]+=1
-                elif achievementRatio < 4500:
-                    achievementNP[4].append(int(loseScore))
-                    achievementDistributionNP[4]+=1
-                elif achievementRatio < 5000:
-                    achievementNP[5].append(int(loseScore))
-                    achievementDistributionNP[5]+=1
-                elif achievementRatio < 5500:
-                    achievementNP[6].append(int(loseScore))
-                    achievementDistributionNP[6]+=1
-                elif achievementRatio < 6000:
-                    achievementNP[7].append(int(loseScore))
-                    achievementDistributionNP[7]+=1
-                elif achievementRatio < 6500:
-                    achievementNP[8].append(int(loseScore))
-                    achievementDistributionNP[8]+=1
-                elif achievementRatio >= 6500:
-                    achievementNP[9].append(int(loseScore))
-                    achievementDistributionNP[9]+=1
+            findScore = re.compile(r"""\d+""", re.VERBOSE) #regex to find the score within string
+            findRatio = re.compile(r"""\d+\.\d+""", re.VERBOSE) #regex to find the ratio of achievements
             
-        except IndexError:
-                winScore = "0"
-                loseScore = "0"
-                resultsLose["0"] += 2
+            achievementRatio = 0 #sum will be difficulty of list
+            for m in pageContent.find_all(class_=" odd") + pageContent.find_all(class_=" even"): #loops through 20 achievements
+                achievementRatio += float(findRatio.findall(str(m))[0])
 
-        
-        if achievementRatio < 2500: #add score not ratio sum
-            achievementP[0].append(int(winScore))
-            achievementDistribution[0]+=2
-        elif achievementRatio < 3000:
-            achievementP[1].append(int(winScore))
-            achievementDistribution[1]+=2
-        elif achievementRatio < 3500:
-            achievementP[2].append(int(winScore))
-            achievementDistribution[2]+=2
-        elif achievementRatio < 4000:
-            achievementP[3].append(int(winScore))
-            achievementDistribution[3]+=2
-        elif achievementRatio < 4500:
-            achievementP[4].append(int(winScore))
-            achievementDistribution[4]+=2
-        elif achievementRatio < 5000:
-            achievementP[5].append(int(winScore))
-            achievementDistribution[5]+=2
-        elif achievementRatio < 5500:
-            achievementP[6].append(int(winScore))
-            achievementDistribution[6]+=2
-        elif achievementRatio < 6000:
-            achievementP[7].append(int(winScore))
-            achievementDistribution[7]+=2
-        elif achievementRatio < 6500:
-            achievementP[8].append(int(winScore))
-            achievementDistribution[8]+=2
-        elif achievementRatio >= 6500:
-            achievementP[9].append(int(winScore))
-            achievementDistribution[9]+=2
+            if achievementRatio < 25: #if less than 25 difficulty (min)
+                achievementRatio = 0
+            elif achievementRatio >= 65: #if over 65 (max)
+                achievementRatio = 9
+            else:
+                achievementRatio = int((achievementRatio-20)//5) #subtracts 20, then floors from 5
+            try: #gets exception if a draw (only when both scored nothing)
+                winScore = findScore.findall(str(pageContent.find(class_=" winning")))[0] #finds winner's score
+                loseScore = findScore.findall(str(pageContent.find(class_=" losing")))[0] #finds loser's
+                resultsWin[winScore] += 1 #adds score to dictionary
+                resultsLose[loseScore] += 1
 
-        if achievementRatio < 2500: #add score not ratio sum
-            achievementP[0].append(int(loseScore))
-        elif achievementRatio < 3000:
-            achievementP[1].append(int(loseScore))
-        elif achievementRatio < 3500:
-            achievementP[2].append(int(loseScore))
-        elif achievementRatio < 4000:
-            achievementP[3].append(int(loseScore))
-        elif achievementRatio < 4500:
-            achievementP[4].append(int(loseScore))
-        elif achievementRatio < 5000:
-            achievementP[5].append(int(loseScore))
-        elif achievementRatio < 5500:
-            achievementP[6].append(int(loseScore))
-        elif achievementRatio < 6000:
-            achievementP[7].append(int(loseScore))
-        elif achievementRatio < 6500:
-            achievementP[8].append(int(loseScore))
-        elif achievementRatio >= 6500:
-            achievementP[9].append(int(loseScore))
+                achievementNP[achievementRatio].append(int(winScore)) #adds score to find average
+                achievementDistributionNP[achievementRatio]+=1 #adds to distribution
 
-    except:
-        print("Timeout at " + str(18907+n))
-    time.sleep(time.time()-blah)
+                if int(loseScore) > 0: #if loser did not have 0
+                    achievementNP[achievementRatio].append(int(loseScore)) #adds to no pudding
+                    achievementDistributionNP[achievementRatio]+=1 #adds distribution
 
-withPud=[0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
+            except IndexError: #if both are 0
+                    winScore = "0" #sets values, program crashes on double loss without exception
+                    loseScore = "0"
+                    resultsLose["0"] += 2
+
+
+            achievementP[achievementRatio].append(int(winScore)) #adds all above stuff to with puddings
+            achievementDistribution[achievementRatio]+=2
+            achievementP[achievementRatio].append(int(loseScore))
+            break
+        except:
+            print("Timeout at " + str(startURL+n)) #if took too long, I can manually fix it
+
+withPud=[0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0] #finds average # of cheevos
 noPud=[0, 0, 0, 0, 0, 0, 0 ,0 ,0 ,0]
-for m in range(len(achievementP)):
-    for n in achievementP[m]:
-        withPud[m] += n
+for m in range(len(achievementP)): #loops for length (21 possibilities)
+    for n in achievementP[m]: #loops for number of times people were in the category
+        withPud[m] += n #adds their score
     try:
-        withPud[m] = withPud[m] / len(achievementP[m])
+        withPud[m] = withPud[m] / len(achievementP[m]) #if not 0, divide by the amount their were for average
     except:
-        withPud[m] = 0
-for m in range(len(achievementNP)):
+        withPud[m] = 0 #if 0, we dont want an error so just set to 0
+for m in range(len(achievementNP)):#same as above but for no puddings
     for n in achievementNP[m]:
         noPud[m] += n
     try:
         noPud[m] = noPud[m] / len(achievementNP[m])
     except:
         noPud[m] = 0
+for m in range(len(resultsWin)):#same as above but for no puddings
+    try:
+        winPercent[m] = round((resultsWin[str(m)] / (resultsWin[str(m)]+resultsLose[str(m)]))*100, 2)
+    except ZeroDivisionError:
+        winPercent[m] = 0.00
 
-print("With Puddings")
+print("With Puddings") #printing all the results
 print(withPud)
 print("")
 print("No Puddings")
@@ -199,3 +110,11 @@ print(resultsWin)
 print("")
 print("Results Loss")
 print(resultsLose)
+print("")
+print("Win Percent")
+print(winPercent)
+
+print("")
+print("")
+print("")
+print(time.time()-startTime)
