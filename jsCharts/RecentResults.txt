@@ -1,93 +1,93 @@
 [
         {
           "x": "22.50",
-          "y": "3.3260869565217392",
-          "z": "46",
+          "y": "2.3333333333333335",
+          "z": "42",
         },{
           "x": "27.50",
-          "y": "4.440140845070423",
-          "z": "284",
+          "y": "3.0337837837837838",
+          "z": "296",
         },{
           "x": "32.50",
-          "y": "4.323899371069182",
-          "z": "318",
+          "y": "3.4703947368421053",
+          "z": "304",
         },{
           "x": "37.50",
-          "y": "4.356687898089172",
-          "z": "314",
+          "y": "2.8735632183908044",
+          "z": "348",
         },{
           "x": "42.50",
-          "y": "3.6721311475409837",
-          "z": "244",
+          "y": "3.0223214285714284",
+          "z": "224",
         },{
           "x": "47.50",
-          "y": "3.7865853658536586",
-          "z": "164",
+          "y": "2.7301587301587302",
+          "z": "126",
         },{
           "x": "52.50",
-          "y": "3.4705882352941178",
-          "z": "68",
+          "y": "3.158536585365854",
+          "z": "82",
         },{
           "x": "57.50",
-          "y": "2.772727272727273",
-          "z": "44",
+          "y": "3.9107142857142856",
+          "z": "56",
         },{
           "x": "62.50",
-          "y": "3.0454545454545454",
-          "z": "22",
+          "y": "2.9166666666666665",
+          "z": "24",
         },{
           "x": "67.50",
-          "y": "2.35",
-          "z": "40",
+          "y": "2.238095238095238",
+          "z": "42",
         },{ //demdijdnudsncudnucdc
           "x": "22.50",
-          "y": "7.285714285714286",
-          "z": "21",
+          "y": "5.764705882352941",
+          "z": "17",
 		  "color": "#53a0d8"
         },{
           "x": "27.50",
-          "y": "8.350993377483444",
+          "y": "7.126984126984127",
+          "z": "126",
+		  "color": "#53a0d8"
+        },{
+          "x": "32.50",
+          "y": "6.986754966887418",
           "z": "151",
 		  "color": "#53a0d8"
         },{
-          "x": "32.50",
-          "y": "7.681564245810056",
-          "z": "179",
-		  "color": "#53a0d8"
-        },{
           "x": "37.50",
-          "y": "7.2",
-          "z": "190",
+          "y": "6.25",
+          "z": "160",
 		  "color": "#53a0d8"
         },{
           "x": "42.50",
-          "y": "6.492753623188406",
-          "z": "138",
+          "y": "5.991150442477876",
+          "z": "113",
 		  "color": "#53a0d8"
         },{
           "x": "47.50",
-          "y": "7.392857142857143",
-          "z": "84",
+          "y": "5.292307692307692",
+          "z": "65",
 		  "color": "#53a0d8"
         },{
           "x": "52.50",
-          "y": "5.7560975609756095",
-          "z": "41",
+          "y": "6.023255813953488",
+          "z": "43",
 		  "color": "#53a0d8"
         },{
           "x": "57.50",
-          "y": "4.518518518518518",
-          "z": "27",
+          "y": "6.4411764705882355",
+          "z": "34",
 		  "color": "#53a0d8"
         },{
           "x": "62.50",
-          "y": "4.1875",
-          "z": "16",
+          "y": "5.833333333333333",
+          "z": "12",
 		  "color": "#53a0d8"
         },{
           "x": "67.50",
-          "y": "5.222222222222222",
-          "z": "18",
+          "y": "4.947368421052632",
+          "z": "19",
 		  "color": "#53a0d8"
         }
       ]
@@ -100,83 +100,83 @@
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "94",
+				"value": "102",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "53",
+				"value": "67",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "41",
+				"value": "30",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "32",
+				"value": "41",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "45",
+				"value": "36",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "35",
+				"value": "36",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "31",
+				"value": "28",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "25",
+				"value": "22",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "42",
+				"value": "34",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "33",
+				"value": "34",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "35",
+				"value": "24",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "31",
+				"value": "32",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "26",
+				"value": "17",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "20",
+				"value": "17",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "27",
+				"value": "15",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "12",
+				"value": "15",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "12",
+				"value": "7",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "5",
+				"value": "3",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "10",
+				"value": "3",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "18",
+				"value": "5",
 				"color": "#ffffff"
 			}]
 			
@@ -184,55 +184,55 @@
 			
 [{
 				"label": "0",
-				"value": "679",
+				"value": "804",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "57",
+				"value": "54",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "25",
+				"value": "22",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "21",
+				"value": "16",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "22",
+				"value": "4",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "13",
+				"value": "6",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "14",
+				"value": "9",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "14",
+				"value": "11",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "8",
+				"value": "7",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "10",
+				"value": "6",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "13",
+				"value": "7",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "10",
+				"value": "7",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "5",
+				"value": "6",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
@@ -240,31 +240,31 @@
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "4",
+				"value": "3",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "4",
+				"value": "2",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "5",
+				"value": "3",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "3",
+				"value": "1",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "2",
+				"value": "3",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "0",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "2",
+				"value": "0",
 				"color": "#ffffff"
 			}]
 			
@@ -276,83 +276,83 @@
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "62.25",
+				"value": "65.38",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "67.95",
+				"value": "75.28",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "66.13",
+				"value": "65.22",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "59.26",
+				"value": "91.11",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "77.59",
+				"value": "85.71",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "71.43",
+				"value": "80.0",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "68.89",
+				"value": "71.79",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "75.76",
+				"value": "75.86",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "80.77",
+				"value": "85.0",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "71.74",
+				"value": "82.93",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "77.78",
+				"value": "77.42",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "86.11",
+				"value": "84.21",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "83.87",
+				"value": "77.27",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "83.33",
+				"value": "85.0",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "87.1",
+				"value": "88.24",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "70.59",
+				"value": "83.33",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "80.0",
+				"value": "87.5",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "71.43",
+				"value": "50.0",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "90.91",
+				"value": "100.0",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "90.0",
+				"value": "100.0",
 				"color": "#ffffff"
 			}]
 			
@@ -361,44 +361,44 @@
 [
         {
           "x": "22.50",
-          "y": "3.3260869565217392",
-          "z": "46",
+          "y": "2.3333333333333335",
+          "z": "42",
         },{
           "x": "27.50",
-          "y": "4.440140845070423",
-          "z": "284",
+          "y": "3.0337837837837838",
+          "z": "296",
         },{
           "x": "32.50",
-          "y": "4.323899371069182",
-          "z": "318",
+          "y": "3.4703947368421053",
+          "z": "304",
         },{
           "x": "37.50",
-          "y": "4.356687898089172",
-          "z": "314",
+          "y": "2.8735632183908044",
+          "z": "348",
         },{
           "x": "42.50",
-          "y": "3.6721311475409837",
-          "z": "244",
+          "y": "3.0223214285714284",
+          "z": "224",
         },{
           "x": "47.50",
-          "y": "3.7865853658536586",
-          "z": "164",
+          "y": "2.7301587301587302",
+          "z": "126",
         },{
           "x": "52.50",
-          "y": "3.4705882352941178",
-          "z": "68",
+          "y": "3.158536585365854",
+          "z": "82",
         },{
           "x": "57.50",
-          "y": "2.772727272727273",
-          "z": "44",
+          "y": "3.9107142857142856",
+          "z": "56",
         },{
           "x": "62.50",
-          "y": "3.0454545454545454",
-          "z": "22",
+          "y": "2.9166666666666665",
+          "z": "24",
         },{
           "x": "67.50",
-          "y": "2.35",
-          "z": "40",
+          "y": "2.238095238095238",
+          "z": "42",
         }
       ]
 	  
@@ -407,134 +407,134 @@
 [
         {
           "x": "22.50",
-          "y": "7.285714285714286",
-          "z": "21",
+          "y": "5.764705882352941",
+          "z": "17",
         },{
           "x": "27.50",
-          "y": "8.350993377483444",
-          "z": "151",
+          "y": "7.126984126984127",
+          "z": "126",
         },{
           "x": "32.50",
-          "y": "7.681564245810056",
-          "z": "179",
+          "y": "6.986754966887418",
+          "z": "151",
         },{
           "x": "37.50",
-          "y": "7.2",
-          "z": "190",
+          "y": "6.25",
+          "z": "160",
         },{
           "x": "42.50",
-          "y": "6.492753623188406",
-          "z": "138",
+          "y": "5.991150442477876",
+          "z": "113",
         },{
           "x": "47.50",
-          "y": "7.392857142857143",
-          "z": "84",
+          "y": "5.292307692307692",
+          "z": "65",
         },{
           "x": "52.50",
-          "y": "5.7560975609756095",
-          "z": "41",
+          "y": "6.023255813953488",
+          "z": "43",
         },{
           "x": "57.50",
-          "y": "4.518518518518518",
-          "z": "27",
+          "y": "6.4411764705882355",
+          "z": "34",
         },{
           "x": "62.50",
-          "y": "4.1875",
-          "z": "16",
+          "y": "5.833333333333333",
+          "z": "12",
         },{
           "x": "67.50",
-          "y": "5.222222222222222",
-          "z": "18",
+          "y": "4.947368421052632",
+          "z": "19",
         }
       ]
 	  
 	  
 		var table = document.getElementById('mobTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[2].cells[1].innerHTML="94"
-		table.rows[3].cells[1].innerHTML="53"
-		table.rows[4].cells[1].innerHTML="41"
-		table.rows[5].cells[1].innerHTML="32"
-		table.rows[6].cells[1].innerHTML="45"
-		table.rows[7].cells[1].innerHTML="35"
-		table.rows[8].cells[1].innerHTML="31"
-		table.rows[9].cells[1].innerHTML="25"
-		table.rows[10].cells[1].innerHTML="42"
-		table.rows[11].cells[1].innerHTML="33"
-		table.rows[12].cells[1].innerHTML="35"
-		table.rows[13].cells[1].innerHTML="31"
-		table.rows[14].cells[1].innerHTML="26"
-		table.rows[15].cells[1].innerHTML="20"
-		table.rows[16].cells[1].innerHTML="27"
-		table.rows[17].cells[1].innerHTML="12"
-		table.rows[18].cells[1].innerHTML="12"
-		table.rows[19].cells[1].innerHTML="5"
-		table.rows[20].cells[1].innerHTML="10"
-		table.rows[21].cells[1].innerHTML="18"
-		table.rows[1].cells[2].innerHTML="679"
-		table.rows[2].cells[2].innerHTML="57"
-		table.rows[3].cells[2].innerHTML="25"
-		table.rows[4].cells[2].innerHTML="21"
-		table.rows[5].cells[2].innerHTML="22"
-		table.rows[6].cells[2].innerHTML="13"
-		table.rows[7].cells[2].innerHTML="14"
-		table.rows[8].cells[2].innerHTML="14"
-		table.rows[9].cells[2].innerHTML="8"
-		table.rows[10].cells[2].innerHTML="10"
-		table.rows[11].cells[2].innerHTML="13"
-		table.rows[12].cells[2].innerHTML="10"
-		table.rows[13].cells[2].innerHTML="5"
+		table.rows[2].cells[1].innerHTML="102"
+		table.rows[3].cells[1].innerHTML="67"
+		table.rows[4].cells[1].innerHTML="30"
+		table.rows[5].cells[1].innerHTML="41"
+		table.rows[6].cells[1].innerHTML="36"
+		table.rows[7].cells[1].innerHTML="36"
+		table.rows[8].cells[1].innerHTML="28"
+		table.rows[9].cells[1].innerHTML="22"
+		table.rows[10].cells[1].innerHTML="34"
+		table.rows[11].cells[1].innerHTML="34"
+		table.rows[12].cells[1].innerHTML="24"
+		table.rows[13].cells[1].innerHTML="32"
+		table.rows[14].cells[1].innerHTML="17"
+		table.rows[15].cells[1].innerHTML="17"
+		table.rows[16].cells[1].innerHTML="15"
+		table.rows[17].cells[1].innerHTML="15"
+		table.rows[18].cells[1].innerHTML="7"
+		table.rows[19].cells[1].innerHTML="3"
+		table.rows[20].cells[1].innerHTML="3"
+		table.rows[21].cells[1].innerHTML="5"
+		table.rows[1].cells[2].innerHTML="804"
+		table.rows[2].cells[2].innerHTML="54"
+		table.rows[3].cells[2].innerHTML="22"
+		table.rows[4].cells[2].innerHTML="16"
+		table.rows[5].cells[2].innerHTML="4"
+		table.rows[6].cells[2].innerHTML="6"
+		table.rows[7].cells[2].innerHTML="9"
+		table.rows[8].cells[2].innerHTML="11"
+		table.rows[9].cells[2].innerHTML="7"
+		table.rows[10].cells[2].innerHTML="6"
+		table.rows[11].cells[2].innerHTML="7"
+		table.rows[12].cells[2].innerHTML="7"
+		table.rows[13].cells[2].innerHTML="6"
 		table.rows[14].cells[2].innerHTML="5"
-		table.rows[15].cells[2].innerHTML="4"
-		table.rows[16].cells[2].innerHTML="4"
-		table.rows[17].cells[2].innerHTML="5"
-		table.rows[18].cells[2].innerHTML="3"
-		table.rows[19].cells[2].innerHTML="2"
-		table.rows[20].cells[2].innerHTML="1"
-		table.rows[21].cells[2].innerHTML="2"
+		table.rows[15].cells[2].innerHTML="3"
+		table.rows[16].cells[2].innerHTML="2"
+		table.rows[17].cells[2].innerHTML="3"
+		table.rows[18].cells[2].innerHTML="1"
+		table.rows[19].cells[2].innerHTML="3"
+		table.rows[20].cells[2].innerHTML="0"
+		table.rows[21].cells[2].innerHTML="0"
 		table.rows[1].cells[3].innerHTML="0.0%"
-		table.rows[2].cells[3].innerHTML="62.2%"
-		table.rows[3].cells[3].innerHTML="68.0%"
-		table.rows[4].cells[3].innerHTML="66.1%"
-		table.rows[5].cells[3].innerHTML="59.3%"
-		table.rows[6].cells[3].innerHTML="77.6%"
-		table.rows[7].cells[3].innerHTML="71.4%"
-		table.rows[8].cells[3].innerHTML="68.9%"
-		table.rows[9].cells[3].innerHTML="75.8%"
-		table.rows[10].cells[3].innerHTML="80.8%"
-		table.rows[11].cells[3].innerHTML="71.7%"
-		table.rows[12].cells[3].innerHTML="77.8%"
-		table.rows[13].cells[3].innerHTML="86.1%"
-		table.rows[14].cells[3].innerHTML="83.9%"
-		table.rows[15].cells[3].innerHTML="83.3%"
-		table.rows[16].cells[3].innerHTML="87.1%"
-		table.rows[17].cells[3].innerHTML="70.6%"
-		table.rows[18].cells[3].innerHTML="80.0%"
-		table.rows[19].cells[3].innerHTML="71.4%"
-		table.rows[20].cells[3].innerHTML="90.9%"
-		table.rows[21].cells[3].innerHTML="90.0%"
+		table.rows[2].cells[3].innerHTML="65.4%"
+		table.rows[3].cells[3].innerHTML="75.3%"
+		table.rows[4].cells[3].innerHTML="65.2%"
+		table.rows[5].cells[3].innerHTML="91.1%"
+		table.rows[6].cells[3].innerHTML="85.7%"
+		table.rows[7].cells[3].innerHTML="80.0%"
+		table.rows[8].cells[3].innerHTML="71.8%"
+		table.rows[9].cells[3].innerHTML="75.9%"
+		table.rows[10].cells[3].innerHTML="85.0%"
+		table.rows[11].cells[3].innerHTML="82.9%"
+		table.rows[12].cells[3].innerHTML="77.4%"
+		table.rows[13].cells[3].innerHTML="84.2%"
+		table.rows[14].cells[3].innerHTML="77.3%"
+		table.rows[15].cells[3].innerHTML="85.0%"
+		table.rows[16].cells[3].innerHTML="88.2%"
+		table.rows[17].cells[3].innerHTML="83.3%"
+		table.rows[18].cells[3].innerHTML="87.5%"
+		table.rows[19].cells[3].innerHTML="50.0%"
+		table.rows[20].cells[3].innerHTML="100.0%"
+		table.rows[21].cells[3].innerHTML="100.0%"
 		
 		var table = document.getElementById('mobRatios')
-		table.rows[1].cells[1].innerHTML="3.33"
-		table.rows[2].cells[1].innerHTML="4.44"
-		table.rows[3].cells[1].innerHTML="4.32"
-		table.rows[4].cells[1].innerHTML="4.36"
-		table.rows[5].cells[1].innerHTML="3.67"
-		table.rows[6].cells[1].innerHTML="3.79"
-		table.rows[7].cells[1].innerHTML="3.47"
-		table.rows[8].cells[1].innerHTML="2.77"
-		table.rows[9].cells[1].innerHTML="3.05"
-		table.rows[10].cells[1].innerHTML="2.35"
-		table.rows[1].cells[2].innerHTML="7.29"
-		table.rows[2].cells[2].innerHTML="8.35"
-		table.rows[3].cells[2].innerHTML="7.68"
-		table.rows[4].cells[2].innerHTML="7.2"
-		table.rows[5].cells[2].innerHTML="6.49"
-		table.rows[6].cells[2].innerHTML="7.39"
-		table.rows[7].cells[2].innerHTML="5.76"
-		table.rows[8].cells[2].innerHTML="4.52"
-		table.rows[9].cells[2].innerHTML="4.19"
-		table.rows[10].cells[2].innerHTML="5.22"
+		table.rows[1].cells[1].innerHTML="2.33"
+		table.rows[2].cells[1].innerHTML="3.03"
+		table.rows[3].cells[1].innerHTML="3.47"
+		table.rows[4].cells[1].innerHTML="2.87"
+		table.rows[5].cells[1].innerHTML="3.02"
+		table.rows[6].cells[1].innerHTML="2.73"
+		table.rows[7].cells[1].innerHTML="3.16"
+		table.rows[8].cells[1].innerHTML="3.91"
+		table.rows[9].cells[1].innerHTML="2.92"
+		table.rows[10].cells[1].innerHTML="2.24"
+		table.rows[1].cells[2].innerHTML="5.76"
+		table.rows[2].cells[2].innerHTML="7.13"
+		table.rows[3].cells[2].innerHTML="6.99"
+		table.rows[4].cells[2].innerHTML="6.25"
+		table.rows[5].cells[2].innerHTML="5.99"
+		table.rows[6].cells[2].innerHTML="5.29"
+		table.rows[7].cells[2].innerHTML="6.02"
+		table.rows[8].cells[2].innerHTML="6.44"
+		table.rows[9].cells[2].innerHTML="5.83"
+		table.rows[10].cells[2].innerHTML="4.95"
 		
 		
 		//ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
@@ -542,87 +542,88 @@
 		
 		var table = document.getElementById('deskTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="94"
-		table.rows[1].cells[3].innerHTML="53"
-		table.rows[1].cells[4].innerHTML="41"
-		table.rows[1].cells[5].innerHTML="32"
-		table.rows[1].cells[6].innerHTML="45"
-		table.rows[1].cells[7].innerHTML="35"
-		table.rows[1].cells[8].innerHTML="31"
-		table.rows[1].cells[9].innerHTML="25"
-		table.rows[1].cells[10].innerHTML="42"
-		table.rows[1].cells[11].innerHTML="33"
-		table.rows[1].cells[12].innerHTML="35"
-		table.rows[1].cells[13].innerHTML="31"
-		table.rows[1].cells[14].innerHTML="26"
-		table.rows[1].cells[15].innerHTML="20"
-		table.rows[1].cells[16].innerHTML="27"
-		table.rows[1].cells[17].innerHTML="12"
-		table.rows[1].cells[18].innerHTML="12"
-		table.rows[1].cells[19].innerHTML="5"
-		table.rows[1].cells[20].innerHTML="10"
-		table.rows[1].cells[21].innerHTML="18"
-		table.rows[2].cells[1].innerHTML="679"
-		table.rows[2].cells[2].innerHTML="57"
-		table.rows[2].cells[3].innerHTML="25"
-		table.rows[2].cells[4].innerHTML="21"
-		table.rows[2].cells[5].innerHTML="22"
-		table.rows[2].cells[6].innerHTML="13"
-		table.rows[2].cells[7].innerHTML="14"
-		table.rows[2].cells[8].innerHTML="14"
-		table.rows[2].cells[9].innerHTML="8"
-		table.rows[2].cells[10].innerHTML="10"
-		table.rows[2].cells[11].innerHTML="13"
-		table.rows[2].cells[12].innerHTML="10"
-		table.rows[2].cells[13].innerHTML="5"
+		table.rows[1].cells[2].innerHTML="102"
+		table.rows[1].cells[3].innerHTML="67"
+		table.rows[1].cells[4].innerHTML="30"
+		table.rows[1].cells[5].innerHTML="41"
+		table.rows[1].cells[6].innerHTML="36"
+		table.rows[1].cells[7].innerHTML="36"
+		table.rows[1].cells[8].innerHTML="28"
+		table.rows[1].cells[9].innerHTML="22"
+		table.rows[1].cells[10].innerHTML="34"
+		table.rows[1].cells[11].innerHTML="34"
+		table.rows[1].cells[12].innerHTML="24"
+		table.rows[1].cells[13].innerHTML="32"
+		table.rows[1].cells[14].innerHTML="17"
+		table.rows[1].cells[15].innerHTML="17"
+		table.rows[1].cells[16].innerHTML="15"
+		table.rows[1].cells[17].innerHTML="15"
+		table.rows[1].cells[18].innerHTML="7"
+		table.rows[1].cells[19].innerHTML="3"
+		table.rows[1].cells[20].innerHTML="3"
+		table.rows[1].cells[21].innerHTML="5"
+		table.rows[2].cells[1].innerHTML="804"
+		table.rows[2].cells[2].innerHTML="54"
+		table.rows[2].cells[3].innerHTML="22"
+		table.rows[2].cells[4].innerHTML="16"
+		table.rows[2].cells[5].innerHTML="4"
+		table.rows[2].cells[6].innerHTML="6"
+		table.rows[2].cells[7].innerHTML="9"
+		table.rows[2].cells[8].innerHTML="11"
+		table.rows[2].cells[9].innerHTML="7"
+		table.rows[2].cells[10].innerHTML="6"
+		table.rows[2].cells[11].innerHTML="7"
+		table.rows[2].cells[12].innerHTML="7"
+		table.rows[2].cells[13].innerHTML="6"
 		table.rows[2].cells[14].innerHTML="5"
-		table.rows[2].cells[15].innerHTML="4"
-		table.rows[2].cells[16].innerHTML="4"
-		table.rows[2].cells[17].innerHTML="5"
-		table.rows[2].cells[18].innerHTML="3"
-		table.rows[2].cells[19].innerHTML="2"
-		table.rows[2].cells[20].innerHTML="1"
-		table.rows[2].cells[21].innerHTML="2"
+		table.rows[2].cells[15].innerHTML="3"
+		table.rows[2].cells[16].innerHTML="2"
+		table.rows[2].cells[17].innerHTML="3"
+		table.rows[2].cells[18].innerHTML="1"
+		table.rows[2].cells[19].innerHTML="3"
+		table.rows[2].cells[20].innerHTML="0"
+		table.rows[2].cells[21].innerHTML="0"
 		table.rows[3].cells[1].innerHTML="0.0%"
-		table.rows[3].cells[2].innerHTML="62.2%"
-		table.rows[3].cells[3].innerHTML="68.0%"
-		table.rows[3].cells[4].innerHTML="66.1%"
-		table.rows[3].cells[5].innerHTML="59.3%"
-		table.rows[3].cells[6].innerHTML="77.6%"
-		table.rows[3].cells[7].innerHTML="71.4%"
-		table.rows[3].cells[8].innerHTML="68.9%"
-		table.rows[3].cells[9].innerHTML="75.8%"
-		table.rows[3].cells[10].innerHTML="80.8%"
-		table.rows[3].cells[11].innerHTML="71.7%"
-		table.rows[3].cells[12].innerHTML="77.8%"
-		table.rows[3].cells[13].innerHTML="86.1%"
-		table.rows[3].cells[14].innerHTML="83.9%"
-		table.rows[3].cells[15].innerHTML="83.3%"
-		table.rows[3].cells[16].innerHTML="87.1%"
-		table.rows[3].cells[17].innerHTML="70.6%"
-		table.rows[3].cells[18].innerHTML="80.0%"
-		table.rows[3].cells[19].innerHTML="71.4%"
-		table.rows[3].cells[20].innerHTML="90.9%"
-		table.rows[3].cells[21].innerHTML="90.0%"
+		table.rows[3].cells[2].innerHTML="65.4%"
+		table.rows[3].cells[3].innerHTML="75.3%"
+		table.rows[3].cells[4].innerHTML="65.2%"
+		table.rows[3].cells[5].innerHTML="91.1%"
+		table.rows[3].cells[6].innerHTML="85.7%"
+		table.rows[3].cells[7].innerHTML="80.0%"
+		table.rows[3].cells[8].innerHTML="71.8%"
+		table.rows[3].cells[9].innerHTML="75.9%"
+		table.rows[3].cells[10].innerHTML="85.0%"
+		table.rows[3].cells[11].innerHTML="82.9%"
+		table.rows[3].cells[12].innerHTML="77.4%"
+		table.rows[3].cells[13].innerHTML="84.2%"
+		table.rows[3].cells[14].innerHTML="77.3%"
+		table.rows[3].cells[15].innerHTML="85.0%"
+		table.rows[3].cells[16].innerHTML="88.2%"
+		table.rows[3].cells[17].innerHTML="83.3%"
+		table.rows[3].cells[18].innerHTML="87.5%"
+		table.rows[3].cells[19].innerHTML="50.0%"
+		table.rows[3].cells[20].innerHTML="100.0%"
+		table.rows[3].cells[21].innerHTML="100.0%"
 		
 		var table = document.getElementById('deskRatios')
-		table.rows[1].cells[1].innerHTML="3.33"
-		table.rows[1].cells[2].innerHTML="4.44"
-		table.rows[1].cells[3].innerHTML="4.32"
-		table.rows[1].cells[4].innerHTML="4.36"
-		table.rows[1].cells[5].innerHTML="3.67"
-		table.rows[1].cells[6].innerHTML="3.79"
-		table.rows[1].cells[7].innerHTML="3.47"
-		table.rows[1].cells[8].innerHTML="2.77"
-		table.rows[1].cells[9].innerHTML="3.05"
-		table.rows[1].cells[10].innerHTML="2.35"
-		table.rows[2].cells[1].innerHTML="7.29"
-		table.rows[2].cells[2].innerHTML="8.35"
-		table.rows[2].cells[3].innerHTML="7.68"
-		table.rows[2].cells[4].innerHTML="7.2"
-		table.rows[2].cells[5].innerHTML="6.49"
-		table.rows[2].cells[6].innerHTML="7.39"
-		table.rows[2].cells[7].innerHTML="5.76"
-		table.rows[2].cells[8].innerHTML="4.52"
-		table.rows[2].cells[9].innerHTML="4.19"
-		table.rows[2].cells[10].innerHTML=5.22"
+		table.rows[1].cells[1].innerHTML="2.33"
+		table.rows[1].cells[2].innerHTML="3.03"
+		table.rows[1].cells[3].innerHTML="3.47"
+		table.rows[1].cells[4].innerHTML="2.87"
+		table.rows[1].cells[5].innerHTML="3.02"
+		table.rows[1].cells[6].innerHTML="2.73"
+		table.rows[1].cells[7].innerHTML="3.16"
+		table.rows[1].cells[8].innerHTML="3.91"
+		table.rows[1].cells[9].innerHTML="2.92"
+		table.rows[1].cells[10].innerHTML="2.24"
+		table.rows[2].cells[1].innerHTML="5.76"
+		table.rows[2].cells[2].innerHTML="7.13"
+		table.rows[2].cells[3].innerHTML="6.99"
+		table.rows[2].cells[4].innerHTML="6.25"
+		table.rows[2].cells[5].innerHTML="5.99"
+		table.rows[2].cells[6].innerHTML="5.29"
+		table.rows[2].cells[7].innerHTML="6.02"
+		table.rows[2].cells[8].innerHTML="6.44"
+		table.rows[2].cells[9].innerHTML="5.83"
+		table.rows[2].cells[10].innerHTML="4.95"
+		

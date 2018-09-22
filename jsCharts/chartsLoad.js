@@ -19,8 +19,8 @@ function mobSwitchThemes() {
 }
 document.getElementById("mobThemeType").addEventListener("click", mobSwitchThemes);
 
-/*
-FusionCharts.ready(function() { //Mobile
+
+/*FusionCharts.ready(function() { //Mobile
 	var mobOverall = new FusionCharts({
 		"type": "msline",
 		"renderAt": "mobSummaryChart",
@@ -55,7 +55,7 @@ FusionCharts.ready(function() { //Mobile
 							"label": "3rd"
 						},{
 							"label": "4th"
-						},{
+						}/*,{
 							"label": "5th"
 						},{
 							"label": "6th"
@@ -95,13 +95,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#000000",
 					"data": [
 						{
-							"value": "12"
+							"value": "45.22"
 						},{
-							"value": "14"
+							"value": "54.33"
 						},{
-							"value": "12"
+							"value": "62.25"
 						},{
-							"value": "14"
+							"value": "65.38"
 						},
 					]
 				},{
@@ -109,13 +109,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#003200",
 					"data": [
 						{
-							"value": "15"
+							"value": "50.55"
 						},{
-							"value": "16"
+							"value": "56.67"
 						},{
-							"value": "13"
+							"value": "67.95"
 						},{
-							"value": "17"
+							"value": "75.28"
 						},
 					]
 				},{
@@ -123,13 +123,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#005f00",
 					"data": [
 						{
-							"value": "20"
+							"value": "46.46"
 						},{
-							"value": "19"
+							"value": "59.70"
 						},{
-							"value": "21"
+							"value": "66.13"
 						},{
-							"value": "23"
+							"value": "65.22"
 						},
 					]
 				},{
@@ -137,13 +137,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#007800",
 					"data": [
 						{
-							"value": "23"
+							"value": "53.52"
 						},{
-							"value": "22"
+							"value": "65.71"
 						},{
-							"value": "26"
+							"value": "59.26"
 						},{
-							"value": "25"
+							"value": "91.11"
 						},
 					]
 				},{
@@ -151,13 +151,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#008c00",
 					"data": [
 						{
-							"value": "27"
+							"value": "61.54"
 						},{
-							"value": "30"
+							"value": "69.81"
 						},{
-							"value": "29"
+							"value": "77.59"
 						},{
-							"value": "28"
+							"value": "85.71"
 						},
 					]
 				},{
@@ -165,13 +165,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#00a000",
 					"data": [
 						{
-							"value": "31"
+							"value": "66.67"
 						},{
-							"value": "31"
+							"value": "70.59"
 						},{
-							"value": "32"
+							"value": "71.43"
 						},{
-							"value": "33"
+							"value": "80.00"
 						},
 					]
 				},{
@@ -179,13 +179,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#00b900",
 					"data": [
 						{
-							"value": "34"
+							"value": "65.00"
 						},{
-							"value": "33"
+							"value": "73.33"
 						},{
-							"value": "35"
+							"value": "68.89"
 						},{
-							"value": "34"
+							"value": "71.79"
 						},
 					]
 				},{
@@ -193,13 +193,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#00c800",
 					"data": [
 						{
-							"value": "37"
+							"value": "71.83"
 						},{
-							"value": "38"
+							"value": "60.38"
 						},{
-							"value": "37"
+							"value": "75.76"
 						},{
-							"value": "36"
+							"value": "75.86"
 						},
 					]
 				},{
@@ -207,13 +207,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#00dc00",
 					"data": [
 						{
-							"value": "40"
+							"value": "62.96"
 						},{
-							"value": "41"
+							"value": "71.43"
 						},{
-							"value": "42"
+							"value": "80.77"
 						},{
-							"value": "44"
+							"value": "85.00"
 						},
 					]
 				},{
@@ -221,13 +221,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#00eb00",
 					"data": [
 						{
-							"value": "46"
+							"value": "75.32"
 						},{
-							"value": "48"
+							"value": "72.31"
 						},{
-							"value": "51"
+							"value": "71.74"
 						},{
-							"value": "49"
+							"value": "82.93"
 						},
 					]
 				},{
@@ -235,13 +235,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#00ff00",
 					"data": [
 						{
-							"value": "52"
+							"value": "74.00"
 						},{
-							"value": "55"
+							"value": "79.25"
 						},{
-							"value": "53"
+							"value": "77.78"
 						},{
-							"value": "53"
+							"value": "77.41"
 						},
 					]
 				},{
@@ -249,13 +249,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#25ff25",
 					"data": [
 						{
-							"value": "56"
+							"value": "71.43"
 						},{
-							"value": "55"
+							"value": "79.55"
 						},{
-							"value": "58"
+							"value": "86.11"
 						},{
-							"value": "59"
+							"value": "84.21"
 						},
 					]
 				},{
@@ -263,13 +263,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#4bff4b",
 					"data": [
 						{
-							"value": "60"
+							"value": "74.47"
 						},{
-							"value": "61"
+							"value": "76.67"
 						},{
-							"value": "59"
+							"value": "83.87"
 						},{
-							"value": "62"
+							"value": "77.27"
 						},
 					]
 				},{
@@ -277,13 +277,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#64ff64",
 					"data": [
 						{
-							"value": "65"
+							"value": "82.93"
 						},{
-							"value": "65"
+							"value": "73.68"
 						},{
-							"value": "64"
+							"value": "83.33"
 						},{
-							"value": "65"
+							"value": "85.00"
 						},
 					]
 				},{
@@ -291,13 +291,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#7dff7d",
 					"data": [
 						{
-							"value": "67"
+							"value": "69.23"
 						},{
-							"value": "66"
+							"value": "81.08"
 						},{
-							"value": "65"
+							"value": "87.10"
 						},{
-							"value": "68"
+							"value": "88.24"
 						},
 					]
 				},{
@@ -305,13 +305,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#96ff96",
 					"data": [
 						{
-							"value": "81"
+							"value": "87.88"
 						},{
-							"value": "78"
+							"value": "85.71"
 						},{
-							"value": "80"
+							"value": "70.59"
 						},{
-							"value": "80"
+							"value": "83.33"
 						},
 					]
 				},{
@@ -319,13 +319,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#afffaf",
 					"data": [
 						{
-							"value": "84"
+							"value": "68.75"
 						},{
-							"value": "85"
+							"value": "80.95"
 						},{
-							"value": "83"
+							"value": "80.0"
 						},{
-							"value": "82"
+							"value": "87.5"
 						},
 					]
 				},{
@@ -333,13 +333,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#c8ffc8",
 					"data": [
 						{
-							"value": "87"
+							"value": "75.00"
 						},{
-							"value": "86"
+							"value": "72.22"
 						},{
-							"value": "87"
+							"value": "71.43"
 						},{
-							"value": "88"
+							"value": "50.00"
 						},
 					]
 				},{
@@ -347,13 +347,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#e1ffe1",
 					"data": [
 						{
-							"value": "92"
+							"value": "85.00"
 						},{
-							"value": "94"
+							"value": "86.67"
 						},{
-							"value": "94"
+							"value": "90.91"
 						},{
-							"value": "95"
+							"value": "100.00"
 						},
 					]
 				},{
@@ -361,13 +361,13 @@ FusionCharts.ready(function() { //Mobile
 					"color": "#ffffff",
 					"data": [
 						{
-							"value": "99"
+							"value": "89.66"
 						},{
-							"value": "100"
+							"value": "96.55"
 						},{
-							"value": "97"
+							"value": "90.00"
 						},{
-							"value": "98"
+							"value": "100.00"
 						},
 					]
 				},
@@ -387,8 +387,8 @@ FusionCharts.ready(function() { //Mobile
     }
 	
     document.getElementById("mobThemeType").addEventListener("click", switchChart);
-}) 
-*/
+}) */
+
 
 FusionCharts.ready(function() { 
 	var datasPud = {"week1":{
@@ -403,7 +403,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -585,7 +585,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -767,7 +767,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -949,7 +949,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -1008,112 +1008,93 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36"
-        },
-        {
+          "y": "2.33",
+          "z": "42",
+        },{
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
-        },
-        {
+          "y": "3.03",
+          "z": "296",
+        },{
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
-        },
-        {
+          "y": "3.47",
+          "z": "304",
+        },{
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
-        },
-        {
+          "y": "2.87",
+          "z": "348",
+        },{
           "x": "42.50",
-          "y": "6.00",
-          "z": "204"
-        },
-        {
+          "y": "3.02",
+          "z": "224",
+        },{
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
-        },
-        {
+          "y": "2.73",
+          "z": "126",
+        },{
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
-        },
-        {
+          "y": "3.16",
+          "z": "82",
+        },{
           "x": "57.50",
-          "y": "5.62",
-          "z": "40"
-        },
-        {
+          "y": "3.91",
+          "z": "56",
+        },{
           "x": "62.50",
-          "y": "5.00",
-          "z": "12"
-        },
-        {
+          "y": "2.92",
+          "z": "24",
+        },{
           "x": "67.50",
-          "y": "3.82",
-          "z": "38"
-        }, //djudnisnfuhbdhusfdnjcndijsnuhcndijncjdbsuhcbhu
-        {
+          "y": "2.24",
+          "z": "42",
+        },{ //demdijdnudsncudnucdc
           "x": "22.50",
-          "y": "7.97",
-          "z": "36",
+          "y": "5.76",
+          "z": "17",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "27.50",
-          "y": "6.28",
-          "z": "312",
+          "y": "7.13",
+          "z": "126",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "32.50",
-          "y": "5.80",
-          "z": "352",
+          "y": "6.99",
+          "z": "151",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "37.50",
-          "y": "5.79",
-          "z": "340",
+          "y": "6.25",
+          "z": "160",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "42.50",
-          "y": "6.00",
-          "z": "204",
+          "y": "5.99",
+          "z": "113",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "47.50",
-          "y": "5.05",
-          "z": "144",
+          "y": "5.29",
+          "z": "65",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "52.50",
-          "y": "3.85",
-          "z": "62",
+          "y": "6.02",
+          "z": "43",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "57.50",
-          "y": "5.62",
-          "z": "40",
+          "y": "6.44",
+          "z": "34",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "62.50",
-          "y": "5.00",
+          "y": "5.83",
           "z": "12",
 		  "color": "#53a0d8"
-        },
-        {
+        },{
           "x": "67.50",
-          "y": "3.82",
-          "z": "38",
+          "y": "4.95",
+          "z": "19",
 		  "color": "#53a0d8"
         }
       ]
@@ -1131,7 +1112,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -1313,7 +1294,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -1495,7 +1476,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -1677,7 +1658,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -1859,7 +1840,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -2041,7 +2022,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -2223,7 +2204,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -2405,7 +2386,7 @@ FusionCharts.ready(function() {
 				"yAxisMaxValue": "20",
 				"bubbleScale": ".6",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -2586,7 +2567,6 @@ FusionCharts.ready(function() {
 		"dataSource": datasPud.week3
 	});
 	mobPud.render();
-	
 	
 	var datasWin = {"week1":{
 			// Chart Configuration
@@ -2908,87 +2888,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "102",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "67",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "30",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "41",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "36",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "36",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "28",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "22",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "34",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "34",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "24",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "32",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "17",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "17",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "15",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "15",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "7",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "3",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "3",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "5",
 				"color": "#ffffff"
 			}]
 		},
@@ -4132,71 +4112,71 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "804",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "54",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "22",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "16",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "4",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "6",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "9",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "11",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "7",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "6",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "7",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "7",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "6",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "5",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "3",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "2",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "3",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
@@ -4204,15 +4184,15 @@ FusionCharts.ready(function() {
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "3",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "0",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "0",
 				"color": "#ffffff"
 			}]
 		},
@@ -5368,89 +5348,90 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0.0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "65.38",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "75.28",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "65.22",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "91.11",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "85.71",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "80.0",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "71.79",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "75.86",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "85.0",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "82.93",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "77.42",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "84.21",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "77.27",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "85.0",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "88.24",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "83.33",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "87.5",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "50.0",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "100.0",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "100.0",
 				"color": "#ffffff"
 			}]
+			
 		},
 		"week5":{
 			// Chart Configuration
@@ -6314,7 +6295,7 @@ FusionCharts.ready(function() {
 	
     document.getElementById("mobThemeType").addEventListener("click", switchChart);
 	
-	mobChange3()
+	mobChange4()
 	
 	function mobChange1() {
 		mobLoss.setJSONData(datasLoss.week1);
@@ -6610,93 +6591,93 @@ FusionCharts.ready(function() {
 		mobPercent.setJSONData(datasPercent.week4);
 		mobPud.setJSONData(datasPud.week4);
 		document.getElementById("mobTitle").innerHTML = "Week 4";
-		document.getElementById("mobParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers)";
-		var table = document.getElementById('mobTable')
+		document.getElementById("mobParagraph").innerHTML = "Funny that the first week that had an achievement with 100% winning (19 and 20), was the same week that only 50% who got 18 won. Congratulations to the 256 who are moving on to knockout!";
+				var table = document.getElementById('mobTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="419"
-		table.rows[1].cells[3].innerHTML="0.00%"
-		table.rows[2].cells[1].innerHTML="52"
-		table.rows[2].cells[2].innerHTML="63"
-		table.rows[2].cells[3].innerHTML="45.2%"
-		table.rows[3].cells[1].innerHTML="46"
-		table.rows[3].cells[2].innerHTML="45"
-		table.rows[3].cells[3].innerHTML="50.6%"
-		table.rows[4].cells[1].innerHTML="46"
-		table.rows[4].cells[2].innerHTML="53"
-		table.rows[4].cells[3].innerHTML="46.5%"
-		table.rows[5].cells[1].innerHTML="38"
-		table.rows[5].cells[2].innerHTML="33"
-		table.rows[5].cells[3].innerHTML="53.5%"
-		table.rows[6].cells[1].innerHTML="48"
-		table.rows[6].cells[2].innerHTML="30"
-		table.rows[6].cells[3].innerHTML="61.5%"
-		table.rows[7].cells[1].innerHTML="46"
-		table.rows[7].cells[2].innerHTML="23"
-		table.rows[7].cells[3].innerHTML="66.7%"
-		table.rows[8].cells[1].innerHTML="39"
-		table.rows[8].cells[2].innerHTML="21"
-		table.rows[8].cells[3].innerHTML="65.0%"
-		table.rows[9].cells[1].innerHTML="51"
-		table.rows[9].cells[2].innerHTML="20"
-		table.rows[9].cells[3].innerHTML="71.8%"
+		table.rows[2].cells[1].innerHTML="102"
+		table.rows[3].cells[1].innerHTML="67"
+		table.rows[4].cells[1].innerHTML="30"
+		table.rows[5].cells[1].innerHTML="41"
+		table.rows[6].cells[1].innerHTML="36"
+		table.rows[7].cells[1].innerHTML="36"
+		table.rows[8].cells[1].innerHTML="28"
+		table.rows[9].cells[1].innerHTML="22"
 		table.rows[10].cells[1].innerHTML="34"
-		table.rows[10].cells[2].innerHTML="20"
-		table.rows[10].cells[3].innerHTML="63.0%"
-		table.rows[11].cells[1].innerHTML="58"
-		table.rows[11].cells[2].innerHTML="19"
-		table.rows[11].cells[3].innerHTML="75.3%"
-		table.rows[12].cells[1].innerHTML="37"
-		table.rows[12].cells[2].innerHTML="12"
-		table.rows[12].cells[3].innerHTML="74.0%"
-		table.rows[13].cells[1].innerHTML="35"
-		table.rows[13].cells[2].innerHTML="14"
-		table.rows[13].cells[3].innerHTML="71.4%"
-		table.rows[14].cells[1].innerHTML="35"
-		table.rows[14].cells[2].innerHTML="12"
-		table.rows[14].cells[3].innerHTML="74.5%"
-		table.rows[15].cells[1].innerHTML="34"
-		table.rows[15].cells[2].innerHTML="7"
-		table.rows[15].cells[3].innerHTML="82.9%"
-		table.rows[16].cells[1].innerHTML="27"
-		table.rows[16].cells[2].innerHTML="12"
-		table.rows[16].cells[3].innerHTML="69.2%"
-		table.rows[17].cells[1].innerHTML="29"
-		table.rows[17].cells[2].innerHTML="4"
-		table.rows[17].cells[3].innerHTML="87.9%"
-		table.rows[18].cells[1].innerHTML="11"
-		table.rows[18].cells[2].innerHTML="5"
-		table.rows[18].cells[3].innerHTML="68.8%"
-		table.rows[19].cells[1].innerHTML="12"
-		table.rows[19].cells[2].innerHTML="4"
-		table.rows[19].cells[3].innerHTML="75.0%"
-		table.rows[20].cells[1].innerHTML="17"
-		table.rows[20].cells[2].innerHTML="3"
-		table.rows[20].cells[3].innerHTML="85.0%"
-		table.rows[21].cells[1].innerHTML="26"
-		table.rows[21].cells[2].innerHTML="3"
-		table.rows[21].cells[3].innerHTML="89.7%"
+		table.rows[11].cells[1].innerHTML="34"
+		table.rows[12].cells[1].innerHTML="24"
+		table.rows[13].cells[1].innerHTML="32"
+		table.rows[14].cells[1].innerHTML="17"
+		table.rows[15].cells[1].innerHTML="17"
+		table.rows[16].cells[1].innerHTML="15"
+		table.rows[17].cells[1].innerHTML="15"
+		table.rows[18].cells[1].innerHTML="7"
+		table.rows[19].cells[1].innerHTML="3"
+		table.rows[20].cells[1].innerHTML="3"
+		table.rows[21].cells[1].innerHTML="5"
+		table.rows[1].cells[2].innerHTML="804"
+		table.rows[2].cells[2].innerHTML="54"
+		table.rows[3].cells[2].innerHTML="22"
+		table.rows[4].cells[2].innerHTML="16"
+		table.rows[5].cells[2].innerHTML="4"
+		table.rows[6].cells[2].innerHTML="6"
+		table.rows[7].cells[2].innerHTML="9"
+		table.rows[8].cells[2].innerHTML="11"
+		table.rows[9].cells[2].innerHTML="7"
+		table.rows[10].cells[2].innerHTML="6"
+		table.rows[11].cells[2].innerHTML="7"
+		table.rows[12].cells[2].innerHTML="7"
+		table.rows[13].cells[2].innerHTML="6"
+		table.rows[14].cells[2].innerHTML="5"
+		table.rows[15].cells[2].innerHTML="3"
+		table.rows[16].cells[2].innerHTML="2"
+		table.rows[17].cells[2].innerHTML="3"
+		table.rows[18].cells[2].innerHTML="1"
+		table.rows[19].cells[2].innerHTML="3"
+		table.rows[20].cells[2].innerHTML="0"
+		table.rows[21].cells[2].innerHTML="0"
+		table.rows[1].cells[3].innerHTML="0.0%"
+		table.rows[2].cells[3].innerHTML="65.4%"
+		table.rows[3].cells[3].innerHTML="75.3%"
+		table.rows[4].cells[3].innerHTML="65.2%"
+		table.rows[5].cells[3].innerHTML="91.1%"
+		table.rows[6].cells[3].innerHTML="85.7%"
+		table.rows[7].cells[3].innerHTML="80.0%"
+		table.rows[8].cells[3].innerHTML="71.8%"
+		table.rows[9].cells[3].innerHTML="75.9%"
+		table.rows[10].cells[3].innerHTML="85.0%"
+		table.rows[11].cells[3].innerHTML="82.9%"
+		table.rows[12].cells[3].innerHTML="77.4%"
+		table.rows[13].cells[3].innerHTML="84.2%"
+		table.rows[14].cells[3].innerHTML="77.3%"
+		table.rows[15].cells[3].innerHTML="85.0%"
+		table.rows[16].cells[3].innerHTML="88.2%"
+		table.rows[17].cells[3].innerHTML="83.3%"
+		table.rows[18].cells[3].innerHTML="87.5%"
+		table.rows[19].cells[3].innerHTML="50.0%"
+		table.rows[20].cells[3].innerHTML="100.0%"
+		table.rows[21].cells[3].innerHTML="100.0%"
 		
 		var table = document.getElementById('mobRatios')
-		table.rows[1].cells[1].innerHTML="7.97"
-		table.rows[1].cells[2].innerHTML="9.90"
-		table.rows[2].cells[1].innerHTML="6.28"
-		table.rows[2].cells[2].innerHTML="8.74"
-		table.rows[3].cells[1].innerHTML="5.80"
-		table.rows[3].cells[2].innerHTML="7.91"
-		table.rows[4].cells[1].innerHTML="5.79"
-		table.rows[4].cells[2].innerHTML="8.06"
-		table.rows[5].cells[1].innerHTML="6.00"
-		table.rows[5].cells[2].innerHTML="7.74"
-		table.rows[6].cells[1].innerHTML="5.05"
-		table.rows[6].cells[2].innerHTML="6.92"
-		table.rows[7].cells[1].innerHTML="3.85"
-		table.rows[7].cells[2].innerHTML="6.13"
-		table.rows[8].cells[1].innerHTML="5.62"
-		table.rows[8].cells[2].innerHTML="7.26"
-		table.rows[9].cells[1].innerHTML="5.00"
-		table.rows[9].cells[2].innerHTML="6.67"
-		table.rows[10].cells[1].innerHTML="3.82"
-		table.rows[10].cells[2].innerHTML="5.37"
+		table.rows[1].cells[1].innerHTML="2.33"
+		table.rows[2].cells[1].innerHTML="3.03"
+		table.rows[3].cells[1].innerHTML="3.47"
+		table.rows[4].cells[1].innerHTML="2.87"
+		table.rows[5].cells[1].innerHTML="3.02"
+		table.rows[6].cells[1].innerHTML="2.73"
+		table.rows[7].cells[1].innerHTML="3.16"
+		table.rows[8].cells[1].innerHTML="3.91"
+		table.rows[9].cells[1].innerHTML="2.92"
+		table.rows[10].cells[1].innerHTML="2.24"
+		table.rows[1].cells[2].innerHTML="5.76"
+		table.rows[2].cells[2].innerHTML="7.13"
+		table.rows[3].cells[2].innerHTML="6.99"
+		table.rows[4].cells[2].innerHTML="6.25"
+		table.rows[5].cells[2].innerHTML="5.99"
+		table.rows[6].cells[2].innerHTML="5.29"
+		table.rows[7].cells[2].innerHTML="6.02"
+		table.rows[8].cells[2].innerHTML="6.44"
+		table.rows[9].cells[2].innerHTML="5.83"
+		table.rows[10].cells[2].innerHTML="4.95"
 		switchChart()
     }
     document.getElementById("mobChange4").addEventListener("click", mobChange4);
@@ -6706,7 +6687,7 @@ FusionCharts.ready(function() {
 		mobPercent.setJSONData(datasPercent.week5);
 		mobPud.setJSONData(datasPud.week5);
 		document.getElementById("mobTitle").innerHTML = "Week 5";
-		document.getElementById("mobParagraph").innerHTML = "Congratulations to the 256 who made it here, and the 128 moving on!";
+		document.getElementById("mobParagraph").innerHTML = "Funny that the first week that had an achievement with 100% winning (19 and 20), was the same week that only 50% who got 18 won. Congratulations to the 256 who made it here, and the 128 moving on!";
 		var table = document.getElementById('mobTable')
 		table.rows[1].cells[1].innerHTML="0"
 		table.rows[1].cells[2].innerHTML="419"
@@ -7470,8 +7451,8 @@ FusionCharts.ready(function() {
     document.getElementById("mobChange12").addEventListener("click", mobChange12);
 })
 
-/*
-FusionCharts.ready(function() { //Desktop
+
+/*FusionCharts.ready(function() { //Desktop
 	var deskOverall = new FusionCharts({
 		"type": "msline",
 		"renderAt": "deskSummaryChart",
@@ -7506,7 +7487,7 @@ FusionCharts.ready(function() { //Desktop
 							"label": "Week 3"
 						},{
 							"label": "Week 4"
-						},{
+						}/*,{
 							"label": "Week 5 (256)"
 						},{
 							"label": "Week 6 (128)"
@@ -7546,13 +7527,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#000000",
 					"data": [
 						{
-							"value": "12"
+							"value": "45.22"
 						},{
-							"value": "14"
+							"value": "54.33"
 						},{
-							"value": "12"
+							"value": "62.25"
 						},{
-							"value": "14"
+							"value": "65.38"
 						},
 					]
 				},{
@@ -7560,13 +7541,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#003200",
 					"data": [
 						{
-							"value": "15"
+							"value": "50.55"
 						},{
-							"value": "16"
+							"value": "56.67"
 						},{
-							"value": "13"
+							"value": "67.95"
 						},{
-							"value": "17"
+							"value": "75.28"
 						},
 					]
 				},{
@@ -7574,13 +7555,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#005f00",
 					"data": [
 						{
-							"value": "20"
+							"value": "46.46"
 						},{
-							"value": "19"
+							"value": "59.70"
 						},{
-							"value": "21"
+							"value": "66.13"
 						},{
-							"value": "23"
+							"value": "65.22"
 						},
 					]
 				},{
@@ -7588,13 +7569,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#007800",
 					"data": [
 						{
-							"value": "23"
+							"value": "53.52"
 						},{
-							"value": "22"
+							"value": "65.71"
 						},{
-							"value": "26"
+							"value": "59.26"
 						},{
-							"value": "25"
+							"value": "91.11"
 						},
 					]
 				},{
@@ -7602,13 +7583,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#008c00",
 					"data": [
 						{
-							"value": "27"
+							"value": "61.54"
 						},{
-							"value": "30"
+							"value": "69.81"
 						},{
-							"value": "29"
+							"value": "77.59"
 						},{
-							"value": "28"
+							"value": "85.71"
 						},
 					]
 				},{
@@ -7616,13 +7597,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#00a000",
 					"data": [
 						{
-							"value": "31"
+							"value": "66.67"
 						},{
-							"value": "31"
+							"value": "70.59"
 						},{
-							"value": "32"
+							"value": "71.43"
 						},{
-							"value": "33"
+							"value": "80.00"
 						},
 					]
 				},{
@@ -7630,13 +7611,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#00b900",
 					"data": [
 						{
-							"value": "34"
+							"value": "65.00"
 						},{
-							"value": "33"
+							"value": "73.33"
 						},{
-							"value": "35"
+							"value": "68.89"
 						},{
-							"value": "34"
+							"value": "71.79"
 						},
 					]
 				},{
@@ -7644,13 +7625,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#00c800",
 					"data": [
 						{
-							"value": "37"
+							"value": "71.83"
 						},{
-							"value": "38"
+							"value": "60.38"
 						},{
-							"value": "37"
+							"value": "75.76"
 						},{
-							"value": "36"
+							"value": "75.86"
 						},
 					]
 				},{
@@ -7658,13 +7639,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#00dc00",
 					"data": [
 						{
-							"value": "40"
+							"value": "62.96"
 						},{
-							"value": "41"
+							"value": "71.43"
 						},{
-							"value": "42"
+							"value": "80.77"
 						},{
-							"value": "44"
+							"value": "85.00"
 						},
 					]
 				},{
@@ -7672,13 +7653,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#00eb00",
 					"data": [
 						{
-							"value": "46"
+							"value": "75.32"
 						},{
-							"value": "48"
+							"value": "72.31"
 						},{
-							"value": "51"
+							"value": "71.74"
 						},{
-							"value": "49"
+							"value": "82.93"
 						},
 					]
 				},{
@@ -7686,13 +7667,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#00ff00",
 					"data": [
 						{
-							"value": "52"
+							"value": "74.00"
 						},{
-							"value": "55"
+							"value": "79.25"
 						},{
-							"value": "53"
+							"value": "77.78"
 						},{
-							"value": "53"
+							"value": "77.41"
 						},
 					]
 				},{
@@ -7700,13 +7681,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#25ff25",
 					"data": [
 						{
-							"value": "56"
+							"value": "71.43"
 						},{
-							"value": "55"
+							"value": "79.55"
 						},{
-							"value": "58"
+							"value": "86.11"
 						},{
-							"value": "59"
+							"value": "84.21"
 						},
 					]
 				},{
@@ -7714,13 +7695,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#4bff4b",
 					"data": [
 						{
-							"value": "60"
+							"value": "74.47"
 						},{
-							"value": "61"
+							"value": "76.67"
 						},{
-							"value": "59"
+							"value": "83.87"
 						},{
-							"value": "62"
+							"value": "77.27"
 						},
 					]
 				},{
@@ -7728,13 +7709,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#64ff64",
 					"data": [
 						{
-							"value": "65"
+							"value": "82.93"
 						},{
-							"value": "65"
+							"value": "73.68"
 						},{
-							"value": "64"
+							"value": "83.33"
 						},{
-							"value": "65"
+							"value": "85.00"
 						},
 					]
 				},{
@@ -7742,13 +7723,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#7dff7d",
 					"data": [
 						{
-							"value": "67"
+							"value": "69.23"
 						},{
-							"value": "66"
+							"value": "81.08"
 						},{
-							"value": "65"
+							"value": "87.10"
 						},{
-							"value": "68"
+							"value": "88.24"
 						},
 					]
 				},{
@@ -7756,13 +7737,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#96ff96",
 					"data": [
 						{
-							"value": "81"
+							"value": "87.88"
 						},{
-							"value": "78"
+							"value": "85.71"
 						},{
-							"value": "80"
+							"value": "70.59"
 						},{
-							"value": "80"
+							"value": "83.33"
 						},
 					]
 				},{
@@ -7770,13 +7751,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#afffaf",
 					"data": [
 						{
-							"value": "84"
+							"value": "68.75"
 						},{
-							"value": "85"
+							"value": "80.95"
 						},{
-							"value": "83"
+							"value": "80.0"
 						},{
-							"value": "82"
+							"value": "87.5"
 						},
 					]
 				},{
@@ -7784,13 +7765,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#c8ffc8",
 					"data": [
 						{
-							"value": "87"
+							"value": "75.00"
 						},{
-							"value": "86"
+							"value": "72.22"
 						},{
-							"value": "87"
+							"value": "71.43"
 						},{
-							"value": "88"
+							"value": "50.00"
 						},
 					]
 				},{
@@ -7798,13 +7779,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#e1ffe1",
 					"data": [
 						{
-							"value": "92"
+							"value": "85.00"
 						},{
-							"value": "94"
+							"value": "86.67"
 						},{
-							"value": "94"
+							"value": "90.91"
 						},{
-							"value": "95"
+							"value": "100.00"
 						},
 					]
 				},{
@@ -7812,13 +7793,13 @@ FusionCharts.ready(function() { //Desktop
 					"color": "#ffffff",
 					"data": [
 						{
-							"value": "99"
+							"value": "89.66"
 						},{
-							"value": "100"
+							"value": "96.55"
 						},{
-							"value": "97"
+							"value": "90.00"
 						},{
-							"value": "98"
+							"value": "100.00"
 						},
 					]
 				},
@@ -7838,8 +7819,8 @@ FusionCharts.ready(function() { //Desktop
     }
 	
     document.getElementById("themeType").addEventListener("click", switchChart);
-}) 
-*/
+}) */
+
 
 FusionCharts.ready(function() { 
 	var datasWithPud = {"week1":{
@@ -7853,7 +7834,7 @@ FusionCharts.ready(function() {
 				"yAxisMinValue": "0",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -7974,7 +7955,7 @@ FusionCharts.ready(function() {
 				"animation": "0",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8095,7 +8076,7 @@ FusionCharts.ready(function() {
 				"animation": "0",
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8207,7 +8188,7 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "12",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8266,53 +8247,44 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36"
-        },
-        {
+          "y": "2.33",
+          "z": "42",
+        },{
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
-        },
-        {
+          "y": "3.03",
+          "z": "296",
+        },{
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
-        },
-        {
+          "y": "3.47",
+          "z": "304",
+        },{
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
-        },
-        {
+          "y": "2.87",
+          "z": "348",
+        },{
           "x": "42.50",
-          "y": "6.00",
-          "z": "204"
-        },
-        {
+          "y": "3.02",
+          "z": "224",
+        },{
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
-        },
-        {
+          "y": "2.73",
+          "z": "126",
+        },{
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
-        },
-        {
+          "y": "3.16",
+          "z": "82",
+        },{
           "x": "57.50",
-          "y": "5.62",
-          "z": "40"
-        },
-        {
+          "y": "3.91",
+          "z": "56",
+        },{
           "x": "62.50",
-          "y": "5.00",
-          "z": "12"
-        },
-        {
+          "y": "2.92",
+          "z": "24",
+        },{
           "x": "67.50",
-          "y": "3.82",
-          "z": "38"
+          "y": "2.24",
+          "z": "42",
         }
       ]
     }
@@ -8328,7 +8300,7 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "12",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8449,7 +8421,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8570,7 +8542,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8691,7 +8663,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8812,7 +8784,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -8933,7 +8905,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9054,7 +9026,7 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "12",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9175,7 +9147,7 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "12",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9308,7 +9280,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9429,7 +9401,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9550,7 +9522,7 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "12",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9662,7 +9634,7 @@ FusionCharts.ready(function() {
 				"xAxisNameFontSize": "12",
 				"yAxisMaxValue": "20",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9721,53 +9693,44 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.97",
-          "z": "36"
-        },
-        {
+          "y": "5.76",
+          "z": "17",
+        },{
           "x": "27.50",
-          "y": "6.28",
-          "z": "312"
-        },
-        {
+          "y": "7.13",
+          "z": "126",
+        },{
           "x": "32.50",
-          "y": "5.80",
-          "z": "352"
-        },
-        {
+          "y": "6.99",
+          "z": "151",
+        },{
           "x": "37.50",
-          "y": "5.79",
-          "z": "340"
-        },
-        {
+          "y": "6.25",
+          "z": "160",
+        },{
           "x": "42.50",
-          "y": "6.00",
-          "z": "204"
-        },
-        {
+          "y": "5.99",
+          "z": "113",
+        },{
           "x": "47.50",
-          "y": "5.05",
-          "z": "144"
-        },
-        {
+          "y": "5.29",
+          "z": "65",
+        },{
           "x": "52.50",
-          "y": "3.85",
-          "z": "62"
-        },
-        {
+          "y": "6.02",
+          "z": "43",
+        },{
           "x": "57.50",
-          "y": "5.62",
-          "z": "40"
-        },
-        {
+          "y": "6.44",
+          "z": "34",
+        },{
           "x": "62.50",
-          "y": "5.00",
-          "z": "12"
-        },
-        {
+          "y": "5.83",
+          "z": "12",
+        },{
           "x": "67.50",
-          "y": "3.82",
-          "z": "38"
+          "y": "4.95",
+          "z": "19",
         }
       ]
     }
@@ -9783,7 +9746,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -9904,7 +9867,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -10025,7 +9988,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -10146,7 +10109,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -10267,7 +10230,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -10388,7 +10351,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -10509,7 +10472,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -10630,7 +10593,7 @@ FusionCharts.ready(function() {
 				"xAxisName": "Sum of Ratios",
 				"xAxisNameFontSize": "12",
 				"animation": "0",
-				"plotTooltext": "$zvalue people in this category, $yvalue achievment average",
+				"plotTooltext": "$zvalue people in this category, $yvalue achievement average",
 				"bgColor":"#fcfcfc", 
 			},
   "categories": [
@@ -11064,87 +11027,87 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "102",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "67",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "30",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "41",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "36",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "36",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "28",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "22",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "34",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "34",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "24",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "32",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "17",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "17",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "15",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "15",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "7",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "3",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "3",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "5",
 				"color": "#ffffff"
 			}]
 		},
@@ -12264,71 +12227,71 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "804",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "54",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "22",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "16",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "4",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "6",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "9",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "11",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "7",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "6",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "7",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "7",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "6",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "5",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "3",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "2",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "3",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
@@ -12336,15 +12299,15 @@ FusionCharts.ready(function() {
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "3",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "0",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "0",
 				"color": "#ffffff"
 			}]
 		},
@@ -13485,89 +13448,90 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "1",
+				"value": "0.0",
 				"color": "#000000"
 			}, {
 				"label": "1",
-				"value": "1",
+				"value": "65.38",
 				"color": "#003200"
 			}, {
 				"label": "2",
-				"value": "1",
+				"value": "75.28",
 				"color": "#004600"
 			}, {
 				"label": "3",
-				"value": "1",
+				"value": "65.22",
 				"color": "#005f00"
 			}, {
 				"label": "4",
-				"value": "1",
+				"value": "91.11",
 				"color": "#007800"
 			}, {
 				"label": "5",
-				"value": "1",
+				"value": "85.71",
 				"color": "#008c00"
 			}, {
 				"label": "6",
-				"value": "1",
+				"value": "80.0",
 				"color": "#00a000"
 			}, {
 				"label": "7",
-				"value": "1",
+				"value": "71.79",
 				"color": "#00b900"
 			}, {
 				"label": "8",
-				"value": "1",
+				"value": "75.86",
 				"color": "#00c800"
 			}, {
 				"label": "9",
-				"value": "1",
+				"value": "85.0",
 				"color": "#00dc00"
 			}, {
 				"label": "10",
-				"value": "1",
+				"value": "82.93",
 				"color": "#00eb00"
 			}, {
 				"label": "11",
-				"value": "1",
+				"value": "77.42",
 				"color": "#00ff00"
 			}, {
 				"label": "12",
-				"value": "1",
+				"value": "84.21",
 				"color": "#25ff25"
 			}, {
 				"label": "13",
-				"value": "1",
+				"value": "77.27",
 				"color": "#4bff4b"
 			}, {
 				"label": "14",
-				"value": "1",
+				"value": "85.0",
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "1",
+				"value": "88.24",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
-				"value": "1",
+				"value": "83.33",
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "1",
+				"value": "87.5",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
-				"value": "1",
+				"value": "50.0",
 				"color": "#c8ffc8"
 			}, {
 				"label": "19",
-				"value": "1",
+				"value": "100.0",
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "1",
+				"value": "100.0",
 				"color": "#ffffff"
 			}]
+			
 		},"week5": {
 			// Chart Configuration
 			"chart": {
@@ -14432,7 +14396,7 @@ FusionCharts.ready(function() {
 	
     document.getElementById("themeType").addEventListener("click", switchChart);
 	
-	deskChange3()
+	deskChange4()
 	
 	function deskChange1() {
 		deskLoss.setJSONData(datasLoss.week1);
@@ -14733,93 +14697,93 @@ FusionCharts.ready(function() {
 		deskWithPud.setJSONData(datasWithPud.week4);
 		deskNoPud.setJSONData(datasNoPud.week4);
 		document.getElementById("deskTitle").innerHTML = "Week 4";
-		document.getElementById("deskParagraph").innerHTML = "Assuming all 4 rounds of group stage will have the same score as this one (which they will not), Anyone who scores under _ will have no chance of moving on, and anyone who scores over _ will be guarenteed to move on. Numbers inbetween have varying chance (depending on % that won numbers) ";
+		document.getElementById("deskParagraph").innerHTML = "Funny that the first week that had an achievement with 100% winning (19 and 20), was the same week that only 50% who got 18 won. Congratulations to the 256 who are moving on to knockout!";
 		var table = document.getElementById('deskTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="52"
-		table.rows[1].cells[3].innerHTML="46"
-		table.rows[1].cells[4].innerHTML="46"
-		table.rows[1].cells[5].innerHTML="38"
-		table.rows[1].cells[6].innerHTML="48"
-		table.rows[1].cells[7].innerHTML="46"
-		table.rows[1].cells[8].innerHTML="39"
-		table.rows[1].cells[9].innerHTML="51"
+		table.rows[1].cells[2].innerHTML="102"
+		table.rows[1].cells[3].innerHTML="67"
+		table.rows[1].cells[4].innerHTML="30"
+		table.rows[1].cells[5].innerHTML="41"
+		table.rows[1].cells[6].innerHTML="36"
+		table.rows[1].cells[7].innerHTML="36"
+		table.rows[1].cells[8].innerHTML="28"
+		table.rows[1].cells[9].innerHTML="22"
 		table.rows[1].cells[10].innerHTML="34"
-		table.rows[1].cells[11].innerHTML="58"
-		table.rows[1].cells[12].innerHTML="37"
-		table.rows[1].cells[13].innerHTML="35"
-		table.rows[1].cells[14].innerHTML="35"
-		table.rows[1].cells[15].innerHTML="34"
-		table.rows[1].cells[16].innerHTML="27"
-		table.rows[1].cells[17].innerHTML="29"
-		table.rows[1].cells[18].innerHTML="11"
-		table.rows[1].cells[19].innerHTML="12"
-		table.rows[1].cells[20].innerHTML="17"
-		table.rows[1].cells[21].innerHTML="26"
-		table.rows[2].cells[1].innerHTML="419"
-		table.rows[2].cells[2].innerHTML="63"
-		table.rows[2].cells[3].innerHTML="45"
-		table.rows[2].cells[4].innerHTML="53"
-		table.rows[2].cells[5].innerHTML="33"
-		table.rows[2].cells[6].innerHTML="30"
-		table.rows[2].cells[7].innerHTML="23"
-		table.rows[2].cells[8].innerHTML="21"
-		table.rows[2].cells[9].innerHTML="20"
-		table.rows[2].cells[10].innerHTML="20"
-		table.rows[2].cells[11].innerHTML="19"
-		table.rows[2].cells[12].innerHTML="13"
-		table.rows[2].cells[13].innerHTML="14"
-		table.rows[2].cells[14].innerHTML="12"
-		table.rows[2].cells[15].innerHTML="7"
-		table.rows[2].cells[16].innerHTML="12"
-		table.rows[2].cells[17].innerHTML="4"
-		table.rows[2].cells[18].innerHTML="5"
-		table.rows[2].cells[19].innerHTML="4"
-		table.rows[2].cells[20].innerHTML="3"
-		table.rows[2].cells[21].innerHTML="3"
-		table.rows[3].cells[1].innerHTML="0.00%"
-		table.rows[3].cells[2].innerHTML="45.2%"
-		table.rows[3].cells[3].innerHTML="50.6%"
-		table.rows[3].cells[4].innerHTML="46.5%"
-		table.rows[3].cells[5].innerHTML="53.5%"
-		table.rows[3].cells[6].innerHTML="61.5%"
-		table.rows[3].cells[7].innerHTML="66.7%"
-		table.rows[3].cells[8].innerHTML="65.0%"
-		table.rows[3].cells[9].innerHTML="71.8%"
-		table.rows[3].cells[10].innerHTML="63.0%"
-		table.rows[3].cells[11].innerHTML="75.3%"
-		table.rows[3].cells[12].innerHTML="74.0%"
-		table.rows[3].cells[13].innerHTML="71.4%"
-		table.rows[3].cells[14].innerHTML="74.5%"
-		table.rows[3].cells[15].innerHTML="82.9%"
-		table.rows[3].cells[16].innerHTML="69.2%"
-		table.rows[3].cells[17].innerHTML="87.9%"
-		table.rows[3].cells[18].innerHTML="68.8%"
-		table.rows[3].cells[19].innerHTML="75.0%"
-		table.rows[3].cells[20].innerHTML="85.0%"
-		table.rows[3].cells[21].innerHTML="89.7%"
+		table.rows[1].cells[11].innerHTML="34"
+		table.rows[1].cells[12].innerHTML="24"
+		table.rows[1].cells[13].innerHTML="32"
+		table.rows[1].cells[14].innerHTML="17"
+		table.rows[1].cells[15].innerHTML="17"
+		table.rows[1].cells[16].innerHTML="15"
+		table.rows[1].cells[17].innerHTML="15"
+		table.rows[1].cells[18].innerHTML="7"
+		table.rows[1].cells[19].innerHTML="3"
+		table.rows[1].cells[20].innerHTML="3"
+		table.rows[1].cells[21].innerHTML="5"
+		table.rows[2].cells[1].innerHTML="804"
+		table.rows[2].cells[2].innerHTML="54"
+		table.rows[2].cells[3].innerHTML="22"
+		table.rows[2].cells[4].innerHTML="16"
+		table.rows[2].cells[5].innerHTML="4"
+		table.rows[2].cells[6].innerHTML="6"
+		table.rows[2].cells[7].innerHTML="9"
+		table.rows[2].cells[8].innerHTML="11"
+		table.rows[2].cells[9].innerHTML="7"
+		table.rows[2].cells[10].innerHTML="6"
+		table.rows[2].cells[11].innerHTML="7"
+		table.rows[2].cells[12].innerHTML="7"
+		table.rows[2].cells[13].innerHTML="6"
+		table.rows[2].cells[14].innerHTML="5"
+		table.rows[2].cells[15].innerHTML="3"
+		table.rows[2].cells[16].innerHTML="2"
+		table.rows[2].cells[17].innerHTML="3"
+		table.rows[2].cells[18].innerHTML="1"
+		table.rows[2].cells[19].innerHTML="3"
+		table.rows[2].cells[20].innerHTML="0"
+		table.rows[2].cells[21].innerHTML="0"
+		table.rows[3].cells[1].innerHTML="0.0%"
+		table.rows[3].cells[2].innerHTML="65.4%"
+		table.rows[3].cells[3].innerHTML="75.3%"
+		table.rows[3].cells[4].innerHTML="65.2%"
+		table.rows[3].cells[5].innerHTML="91.1%"
+		table.rows[3].cells[6].innerHTML="85.7%"
+		table.rows[3].cells[7].innerHTML="80.0%"
+		table.rows[3].cells[8].innerHTML="71.8%"
+		table.rows[3].cells[9].innerHTML="75.9%"
+		table.rows[3].cells[10].innerHTML="85.0%"
+		table.rows[3].cells[11].innerHTML="82.9%"
+		table.rows[3].cells[12].innerHTML="77.4%"
+		table.rows[3].cells[13].innerHTML="84.2%"
+		table.rows[3].cells[14].innerHTML="77.3%"
+		table.rows[3].cells[15].innerHTML="85.0%"
+		table.rows[3].cells[16].innerHTML="88.2%"
+		table.rows[3].cells[17].innerHTML="83.3%"
+		table.rows[3].cells[18].innerHTML="87.5%"
+		table.rows[3].cells[19].innerHTML="50.0%"
+		table.rows[3].cells[20].innerHTML="100.0%"
+		table.rows[3].cells[21].innerHTML="100.0%"
 		
 		var table = document.getElementById('deskRatios')
-		table.rows[1].cells[1].innerHTML="7.97"
-		table.rows[1].cells[2].innerHTML="6.28"
-		table.rows[1].cells[3].innerHTML="5.80"
-		table.rows[1].cells[4].innerHTML="5.79"
-		table.rows[1].cells[5].innerHTML="6.00"
-		table.rows[1].cells[6].innerHTML="5.05"
-		table.rows[1].cells[7].innerHTML="3.85"
-		table.rows[1].cells[8].innerHTML="5.62"
-		table.rows[1].cells[9].innerHTML="5.00"
-		table.rows[1].cells[10].innerHTML="3.82"
-		table.rows[2].cells[1].innerHTML="9.90"
-		table.rows[2].cells[2].innerHTML="8.74"
-		table.rows[2].cells[3].innerHTML="7.91"
-		table.rows[2].cells[4].innerHTML="8.06"
-		table.rows[2].cells[5].innerHTML="7.74"
-		table.rows[2].cells[6].innerHTML="6.92"
-		table.rows[2].cells[7].innerHTML="6.13"
-		table.rows[2].cells[8].innerHTML="7.26"
-		table.rows[2].cells[9].innerHTML="6.67"
-		table.rows[2].cells[10].innerHTML="5.37"
+		table.rows[1].cells[1].innerHTML="2.33"
+		table.rows[1].cells[2].innerHTML="3.03"
+		table.rows[1].cells[3].innerHTML="3.47"
+		table.rows[1].cells[4].innerHTML="2.87"
+		table.rows[1].cells[5].innerHTML="3.02"
+		table.rows[1].cells[6].innerHTML="2.73"
+		table.rows[1].cells[7].innerHTML="3.16"
+		table.rows[1].cells[8].innerHTML="3.91"
+		table.rows[1].cells[9].innerHTML="2.92"
+		table.rows[1].cells[10].innerHTML="2.24"
+		table.rows[2].cells[1].innerHTML="5.76"
+		table.rows[2].cells[2].innerHTML="7.13"
+		table.rows[2].cells[3].innerHTML="6.99"
+		table.rows[2].cells[4].innerHTML="6.25"
+		table.rows[2].cells[5].innerHTML="5.99"
+		table.rows[2].cells[6].innerHTML="5.29"
+		table.rows[2].cells[7].innerHTML="6.02"
+		table.rows[2].cells[8].innerHTML="6.44"
+		table.rows[2].cells[9].innerHTML="5.83"
+		table.rows[2].cells[10].innerHTML="4.95"
 		switchChart()
     }
     document.getElementById("deskChange4").addEventListener("click", deskChange4);
