@@ -20,7 +20,7 @@ function mobSwitchThemes() {
 document.getElementById("mobThemeType").addEventListener("click", mobSwitchThemes);
 
 
-/*FusionCharts.ready(function() { //Mobile
+/*FusionCharts.ready(function() { //Mobile force update
 	var mobOverall = new FusionCharts({
 		"type": "msline",
 		"renderAt": "mobSummaryChart",
