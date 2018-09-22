@@ -22,7 +22,7 @@ achievementNP = [[], [], [], [], [], [], [] ,[] ,[] ,[]]
 #18907
 #19679
 #20451
-#
+#21223
 startURL = 20451
 for n in range(772): #loops this code for x match ups
     if n % 100 == 0:
@@ -118,3 +118,45 @@ print("")
 print("")
 print("")
 print(time.time()-startTime)
+
+fileLines = open("./template.txt").readlines() #opens in list form
+#file = open(".\RecentResults.txt", 'a') #opens board in append mode
+#file.write(saveSu) #adds the board
+#file.write("\n") #clicks enter for next board
+#file.close()
+
+#print(fileLines)
+
+file = open("./RecentResults.txt","w+")
+
+for n in range(10): #pud vs no
+    fileLines[3+n*4] = fileLines[3+n*4][:-1] + str(withPud[n]) + '",\n'
+    fileLines[43+n*5] = fileLines[43+n*5][:-1] + str(noPud[n]) + '",\n'
+    fileLines[363+n*4] = fileLines[363+n*4][:-1] + str(withPud[n]) + '",\n'
+    fileLines[409+n*4] = fileLines[409+n*4][:-1] + str(noPud[n]) + '",\n'
+    fileLines[4+n*4] = fileLines[4+n*4][:-1] + str(achievementDistribution[n]) + '",\n'
+    fileLines[44+n*5] = fileLines[44+n*5][:-1] + str(achievementDistributionNP[n]) + '",\n'
+    fileLines[364+n*4] = fileLines[364+n*4][:-1] + str(achievementDistribution[n]) + '",\n'
+    fileLines[410+n*4] = fileLines[410+n*4][:-1] + str(achievementDistributionNP[n]) + '",\n'
+
+    fileLines[517+n] = fileLines[517+n][:-1] + str(round(withPud[n], 2)) + '"\n'
+    fileLines[527+n] = fileLines[527+n][:-1] + str(round(noPud[n], 2)) + '"\n'
+    fileLines[608+n] = fileLines[608+n][:-1] + str(round(withPud[n], 2)) + '"\n'
+    fileLines[618+n] = fileLines[618+n][:-1] + str(round(noPud[n], 2)) + '"\n'
+
+for n in range(21): #pud vs no
+    fileLines[98+n*4] = fileLines[98+n*4][:-1] + str(resultsWin[str(n)]) + '",\n'
+    fileLines[186+n*4] = fileLines[186+n*4][:-1] + str(resultsLose[str(n)]) + '",\n'
+    fileLines[274+n*4] = fileLines[274+n*4][:-1] + str(winPercent[n]) + '",\n'
+
+    fileLines[452+n] = fileLines[452+n][:-1] + str(resultsWin[str(n)]) + '"\n'
+    fileLines[473+n] = fileLines[473+n][:-1] + str(resultsLose[str(n)]) + '"\n'
+    fileLines[494+n] = fileLines[494+n][:-1] + str(round(winPercent[n], 1)) + '%"\n'
+    fileLines[543+n] = fileLines[543+n][:-1] + str(resultsWin[str(n)]) + '"\n'
+    fileLines[564+n] = fileLines[564+n][:-1] + str(resultsLose[str(n)]) + '"\n'
+    fileLines[585+n] = fileLines[585+n][:-1] + str(round(winPercent[n], 1)) + '%"\n'
+    
+for n in range(len(fileLines)):
+     file.write(fileLines[n])
+
+file.close()

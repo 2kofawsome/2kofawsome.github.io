@@ -6517,89 +6517,89 @@ FusionCharts.ready(function() {
 		document.getElementById("mobParagraph").innerHTML = 'This week has had the most puddings yet, almost 75%. With it getting later in the competition it is no surprise people are quitting, but it is surprising how many are quitting. Click on week 1, week 2, then week 3 and watch the change in "# of Acheivements for losers" chart.';
 		var table = document.getElementById('mobTable')
 		table.rows[1].cells[1].innerHTML="0"
-		table.rows[1].cells[2].innerHTML="679"
-		table.rows[1].cells[3].innerHTML="0.00%"
 		table.rows[2].cells[1].innerHTML="94"
-		table.rows[2].cells[2].innerHTML="57"
-		table.rows[2].cells[3].innerHTML="62.3%"
 		table.rows[3].cells[1].innerHTML="53"
-		table.rows[3].cells[2].innerHTML="25"
-		table.rows[3].cells[3].innerHTML="68.0%"
 		table.rows[4].cells[1].innerHTML="41"
-		table.rows[4].cells[2].innerHTML="21"
-		table.rows[4].cells[3].innerHTML="66.1%"
 		table.rows[5].cells[1].innerHTML="32"
-		table.rows[5].cells[2].innerHTML="22"
-		table.rows[5].cells[3].innerHTML="59.3%"
 		table.rows[6].cells[1].innerHTML="45"
-		table.rows[6].cells[2].innerHTML="13"
-		table.rows[6].cells[3].innerHTML="77.6%"
 		table.rows[7].cells[1].innerHTML="35"
-		table.rows[7].cells[2].innerHTML="14"
-		table.rows[7].cells[3].innerHTML="71.4%"
 		table.rows[8].cells[1].innerHTML="31"
-		table.rows[8].cells[2].innerHTML="14"
-		table.rows[8].cells[3].innerHTML="68.9%"
 		table.rows[9].cells[1].innerHTML="25"
-		table.rows[9].cells[2].innerHTML="8"
-		table.rows[9].cells[3].innerHTML="75.8%"
 		table.rows[10].cells[1].innerHTML="42"
-		table.rows[10].cells[2].innerHTML="10"
-		table.rows[10].cells[3].innerHTML="80.8%"
 		table.rows[11].cells[1].innerHTML="33"
-		table.rows[11].cells[2].innerHTML="13"
-		table.rows[11].cells[3].innerHTML="71.7%"
 		table.rows[12].cells[1].innerHTML="35"
-		table.rows[12].cells[2].innerHTML="10"
-		table.rows[12].cells[3].innerHTML="77.8%"
 		table.rows[13].cells[1].innerHTML="31"
-		table.rows[13].cells[2].innerHTML="5"
-		table.rows[13].cells[3].innerHTML="86.1%"
 		table.rows[14].cells[1].innerHTML="26"
-		table.rows[14].cells[2].innerHTML="5"
-		table.rows[14].cells[3].innerHTML="83.9%"
 		table.rows[15].cells[1].innerHTML="20"
-		table.rows[15].cells[2].innerHTML="4"
-		table.rows[15].cells[3].innerHTML="83.3%"
 		table.rows[16].cells[1].innerHTML="27"
-		table.rows[16].cells[2].innerHTML="4"
-		table.rows[16].cells[3].innerHTML="87.1%"
 		table.rows[17].cells[1].innerHTML="12"
-		table.rows[17].cells[2].innerHTML="5"
-		table.rows[17].cells[3].innerHTML="70.6%"
 		table.rows[18].cells[1].innerHTML="12"
-		table.rows[18].cells[2].innerHTML="3"
-		table.rows[18].cells[3].innerHTML="80.0%"
 		table.rows[19].cells[1].innerHTML="5"
-		table.rows[19].cells[2].innerHTML="2"
-		table.rows[19].cells[3].innerHTML="71.43%"
 		table.rows[20].cells[1].innerHTML="10"
+		table.rows[21].cells[1].innerHTML="18"
+		table.rows[1].cells[2].innerHTML="679"
+		table.rows[2].cells[2].innerHTML="57"
+		table.rows[3].cells[2].innerHTML="25"
+		table.rows[4].cells[2].innerHTML="21"
+		table.rows[5].cells[2].innerHTML="22"
+		table.rows[6].cells[2].innerHTML="13"
+		table.rows[7].cells[2].innerHTML="14"
+		table.rows[8].cells[2].innerHTML="14"
+		table.rows[9].cells[2].innerHTML="8"
+		table.rows[10].cells[2].innerHTML="10"
+		table.rows[11].cells[2].innerHTML="13"
+		table.rows[12].cells[2].innerHTML="10"
+		table.rows[13].cells[2].innerHTML="5"
+		table.rows[14].cells[2].innerHTML="5"
+		table.rows[15].cells[2].innerHTML="4"
+		table.rows[16].cells[2].innerHTML="4"
+		table.rows[17].cells[2].innerHTML="5"
+		table.rows[18].cells[2].innerHTML="3"
+		table.rows[19].cells[2].innerHTML="2"
 		table.rows[20].cells[2].innerHTML="1"
-		table.rows[20].cells[3].innerHTML="90.91%"
-		table.rows[21].cells[1].innerHTML="8"
 		table.rows[21].cells[2].innerHTML="2"
+		table.rows[1].cells[3].innerHTML="0.0%"
+		table.rows[2].cells[3].innerHTML="62.2%"
+		table.rows[3].cells[3].innerHTML="68.0%"
+		table.rows[4].cells[3].innerHTML="66.1%"
+		table.rows[5].cells[3].innerHTML="59.3%"
+		table.rows[6].cells[3].innerHTML="77.6%"
+		table.rows[7].cells[3].innerHTML="71.4%"
+		table.rows[8].cells[3].innerHTML="68.9%"
+		table.rows[9].cells[3].innerHTML="75.8%"
+		table.rows[10].cells[3].innerHTML="80.8%"
+		table.rows[11].cells[3].innerHTML="71.7%"
+		table.rows[12].cells[3].innerHTML="77.8%"
+		table.rows[13].cells[3].innerHTML="86.1%"
+		table.rows[14].cells[3].innerHTML="83.9%"
+		table.rows[15].cells[3].innerHTML="83.3%"
+		table.rows[16].cells[3].innerHTML="87.1%"
+		table.rows[17].cells[3].innerHTML="70.6%"
+		table.rows[18].cells[3].innerHTML="80.0%"
+		table.rows[19].cells[3].innerHTML="71.4%"
+		table.rows[20].cells[3].innerHTML="90.9%"
 		table.rows[21].cells[3].innerHTML="90.0%"
 		
 		var table = document.getElementById('mobRatios')
 		table.rows[1].cells[1].innerHTML="3.33"
-		table.rows[1].cells[2].innerHTML="7.29"
 		table.rows[2].cells[1].innerHTML="4.44"
-		table.rows[2].cells[2].innerHTML="8.35"
 		table.rows[3].cells[1].innerHTML="4.32"
-		table.rows[3].cells[2].innerHTML="7.68"
 		table.rows[4].cells[1].innerHTML="4.36"
-		table.rows[4].cells[2].innerHTML="7.20"
 		table.rows[5].cells[1].innerHTML="3.67"
-		table.rows[5].cells[2].innerHTML="7.39"
 		table.rows[6].cells[1].innerHTML="3.79"
-		table.rows[6].cells[2].innerHTML="5.76"
 		table.rows[7].cells[1].innerHTML="3.47"
-		table.rows[7].cells[2].innerHTML="4.52"
 		table.rows[8].cells[1].innerHTML="2.77"
-		table.rows[8].cells[2].innerHTML="7.26"
 		table.rows[9].cells[1].innerHTML="3.05"
-		table.rows[9].cells[2].innerHTML="4.19"
 		table.rows[10].cells[1].innerHTML="2.35"
+		table.rows[1].cells[2].innerHTML="7.29"
+		table.rows[2].cells[2].innerHTML="8.35"
+		table.rows[3].cells[2].innerHTML="7.68"
+		table.rows[4].cells[2].innerHTML="7.2"
+		table.rows[5].cells[2].innerHTML="6.49"
+		table.rows[6].cells[2].innerHTML="7.39"
+		table.rows[7].cells[2].innerHTML="5.76"
+		table.rows[8].cells[2].innerHTML="4.52"
+		table.rows[9].cells[2].innerHTML="4.19"
 		table.rows[10].cells[2].innerHTML="5.22"
 		switchChart()
     }
@@ -8154,53 +8154,44 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "3.32",
-          "z": "46"
-        },
-        {
+          "y": "3.3260869565217392",
+          "z": "46",
+        },{
           "x": "27.50",
-          "y": "4.44",
-          "z": "284"
-        },
-        {
+          "y": "4.440140845070423",
+          "z": "284",
+        },{
           "x": "32.50",
-          "y": "4.32",
-          "z": "318"
-        },
-        {
+          "y": "4.323899371069182",
+          "z": "318",
+        },{
           "x": "37.50",
-          "y": "4.36",
-          "z": "314"
-        },
-        {
+          "y": "4.356687898089172",
+          "z": "314",
+        },{
           "x": "42.50",
-          "y": "3.67",
-          "z": "244"
-        },
-        {
+          "y": "3.6721311475409837",
+          "z": "244",
+        },{
           "x": "47.50",
-          "y": "3.79",
-          "z": "164"
-        },
-        {
+          "y": "3.7865853658536586",
+          "z": "164",
+        },{
           "x": "52.50",
-          "y": "3.47",
-          "z": "68"
-        },
-        {
+          "y": "3.4705882352941178",
+          "z": "68",
+        },{
           "x": "57.50",
-          "y": "2.77",
-          "z": "44"
-        },
-        {
+          "y": "2.772727272727273",
+          "z": "44",
+        },{
           "x": "62.50",
-          "y": "3.05",
-          "z": "22"
-        },
-        {
+          "y": "3.0454545454545454",
+          "z": "22",
+        },{
           "x": "67.50",
           "y": "2.35",
-          "z": "40"
+          "z": "40",
         }
       ]
     }
@@ -9377,7 +9368,7 @@ FusionCharts.ready(function() {
         {
           "x": "22.50",
           "y": "9.90",
-          "z": "29"
+          "z": "29",
         },
         {
           "x": "27.50",
@@ -9618,53 +9609,44 @@ FusionCharts.ready(function() {
       "data": [
         {
           "x": "22.50",
-          "y": "7.29",
-          "z": "21"
-        },
-        {
+          "y": "7.285714285714286",
+          "z": "21",
+        },{
           "x": "27.50",
-          "y": "8.35",
-          "z": "151"
-        },
-        {
+          "y": "8.350993377483444",
+          "z": "151",
+        },{
           "x": "32.50",
-          "y": "7.68",
-          "z": "179"
-        },
-        {
+          "y": "7.681564245810056",
+          "z": "179",
+        },{
           "x": "37.50",
-          "y": "7.20",
-          "z": "190"
-        },
-        {
+          "y": "7.2",
+          "z": "190",
+        },{
           "x": "42.50",
-          "y": "6.49",
-          "z": "138"
-        },
-        {
+          "y": "6.492753623188406",
+          "z": "138",
+        },{
           "x": "47.50",
-          "y": "7.39",
-          "z": "84"
-        },
-        {
+          "y": "7.392857142857143",
+          "z": "84",
+        },{
           "x": "52.50",
-          "y": "5.76",
-          "z": "41"
-        },
-        {
+          "y": "5.7560975609756095",
+          "z": "41",
+        },{
           "x": "57.50",
-          "y": "4.52",
-          "z": "27"
-        },
-        {
+          "y": "4.518518518518518",
+          "z": "27",
+        },{
           "x": "62.50",
-          "y": "4.19",
-          "z": "16"
-        },
-        {
+          "y": "4.1875",
+          "z": "16",
+        },{
           "x": "67.50",
-          "y": "5.22",
-          "z": "18"
+          "y": "5.222222222222222",
+          "z": "18",
         }
       ]
     }
@@ -13399,7 +13381,7 @@ FusionCharts.ready(function() {
 			// Chart Data
 			"data": [{
 				"label": "0",
-				"value": "0.00",
+				"value": "0.0",
 				"color": "#000000"
 			}, {
 				"label": "1",
@@ -13459,7 +13441,7 @@ FusionCharts.ready(function() {
 				"color": "#64ff64"
 			}, {
 				"label": "15",
-				"value": "87.10",
+				"value": "87.1",
 				"color": "#7dff7d"
 			}, {
 				"label": "16",
@@ -13467,7 +13449,7 @@ FusionCharts.ready(function() {
 				"color": "#96ff96"
 			}, {
 				"label": "17",
-				"value": "80.00",
+				"value": "80.0",
 				"color": "#afffaf"
 			}, {
 				"label": "18",
@@ -13479,7 +13461,7 @@ FusionCharts.ready(function() {
 				"color": "#e1ffe1"
 			}, {
 				"label": "20",
-				"value": "90.00",
+				"value": "90.0",
 				"color": "#ffffff"
 			}]
 		},"week4": {
@@ -14421,7 +14403,6 @@ FusionCharts.ready(function() {
 		}
 	}
 	
-	
 	var deskPercent = new FusionCharts({
 		"type": "column2d",
 		"renderAt": "deskPercent",
@@ -14699,8 +14680,8 @@ FusionCharts.ready(function() {
 		table.rows[2].cells[19].innerHTML="2"
 		table.rows[2].cells[20].innerHTML="1"
 		table.rows[2].cells[21].innerHTML="2"
-		table.rows[3].cells[1].innerHTML="0.00%"
-		table.rows[3].cells[2].innerHTML="62.3%"
+		table.rows[3].cells[1].innerHTML="0.0%"
+		table.rows[3].cells[2].innerHTML="62.2%"
 		table.rows[3].cells[3].innerHTML="68.0%"
 		table.rows[3].cells[4].innerHTML="66.1%"
 		table.rows[3].cells[5].innerHTML="59.3%"
@@ -14709,7 +14690,7 @@ FusionCharts.ready(function() {
 		table.rows[3].cells[8].innerHTML="68.9%"
 		table.rows[3].cells[9].innerHTML="75.8%"
 		table.rows[3].cells[10].innerHTML="80.8%"
-		table.rows[3].cells[11].innerHTML="71.74%"
+		table.rows[3].cells[11].innerHTML="71.7%"
 		table.rows[3].cells[12].innerHTML="77.8%"
 		table.rows[3].cells[13].innerHTML="86.1%"
 		table.rows[3].cells[14].innerHTML="83.9%"
@@ -14738,7 +14719,7 @@ FusionCharts.ready(function() {
 		table.rows[2].cells[4].innerHTML="7.2"
 		table.rows[2].cells[5].innerHTML="6.49"
 		table.rows[2].cells[6].innerHTML="7.39"
-		table.rows[2].cells[7].innerHTML="5.75"
+		table.rows[2].cells[7].innerHTML="5.76"
 		table.rows[2].cells[8].innerHTML="4.52"
 		table.rows[2].cells[9].innerHTML="4.19"
 		table.rows[2].cells[10].innerHTML="5.22"
