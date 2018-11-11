@@ -130,10 +130,10 @@ fileLines = open("./template.txt").readlines() #opens in list form
 file = open("./RecentResults.txt","w+")
 
 for n in range(10): #pud vs no
-    fileLines[3+n*4] = fileLines[3+n*4][:-1] + str(withPud[n]) + '",\n'
-    fileLines[43+n*5] = fileLines[43+n*5][:-1] + str(noPud[n]) + '",\n'
-    fileLines[363+n*4] = fileLines[363+n*4][:-1] + str(withPud[n]) + '",\n'
-    fileLines[409+n*4] = fileLines[409+n*4][:-1] + str(noPud[n]) + '",\n'
+    fileLines[3+n*4] = fileLines[3+n*4][:-1] + str(round(withPud[n], 2)) + '",\n'
+    fileLines[43+n*5] = fileLines[43+n*5][:-1] + str(round(noPud[n], 2)) + '",\n'
+    fileLines[363+n*4] = fileLines[363+n*4][:-1] + str(round(withPud[n], 2)) + '",\n'
+    fileLines[409+n*4] = fileLines[409+n*4][:-1] + str(round(noPud[n], 2)) + '",\n'
     fileLines[4+n*4] = fileLines[4+n*4][:-1] + str(achievementDistribution[n]) + '",\n'
     fileLines[44+n*5] = fileLines[44+n*5][:-1] + str(achievementDistributionNP[n]) + '",\n'
     fileLines[364+n*4] = fileLines[364+n*4][:-1] + str(achievementDistribution[n]) + '",\n'
