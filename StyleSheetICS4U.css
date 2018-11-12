@@ -28,8 +28,8 @@ hr {
 h1 {
 	font-family: Impact, Charcoal, sans-serif;
 	text-align: center;
+	float: left;
 	width: 100%;
-	height: auto;
 	font-size: 4vw;
 }
 
@@ -89,14 +89,4 @@ br {
 img {
 	width: 100%;
 	height: auto;
-}
-
-#desktopShow {display: block;}
-#mobileShow {display: none;}
-
-@media screen and (max-width: 768px) {
-
-#desktopShow {display: none;}
-#mobileShow {display: block;}
-
 }
