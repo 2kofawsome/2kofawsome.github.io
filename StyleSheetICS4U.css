@@ -7,6 +7,7 @@ ul {
 }
 
 li a {
+		font-size: 1.2vw;
 		font-family: "Arial Black", Gadget, sans-serif;
 		float: left;
     	color: white;
@@ -53,7 +54,7 @@ p {
 	text-align: left;
 	width: 100%;
 	height: auto;
-	font-size: 1vw;
+	font-size: 1.3vw;
 }
 
 div.container {
