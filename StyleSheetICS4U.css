@@ -6,8 +6,15 @@ ul {
     	background-color: #333333;
 }
 
+li a.desk {
+	font-size: 1.2vw;
+}
+
+li a.mobile {
+	font-size: 1.8vw;
+}
+
 li a {
-		font-size: 1.2vw;
 		font-family: "Arial Black", Gadget, sans-serif;
 		float: left;
     	color: white;
@@ -70,16 +77,8 @@ address {
 	clear: both;
 }
 
-a:link.boom, a:visited.blah {
-    	background-color: red;
-	color: black;
-	border: black;
-}
-
-a:hover.bong, a:active.blan {
-    	background-color: black;
-	color: red;
-	border: red;
+a {
+	font-size: 1.35vw;
 }
 
 br {
@@ -89,4 +88,14 @@ br {
 img {
 	width: 100%;
 	height: auto;
+}
+
+#deskShow {display: block;}
+#mobileShow {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#deskShow {display: none;}
+#mobileShow {display: block;}
+
 }
