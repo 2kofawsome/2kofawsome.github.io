@@ -1,0 +1,91 @@
+ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: auto;
+    	background-color: #333333;
+}
+
+li a {
+		font-family: "Arial Black", Gadget, sans-serif;
+		float: left;
+    	color: white;
+    	text-align: center;
+    	padding: 1vw;
+    	text-decoration: none;
+}
+
+
+li a:hover {
+    	background-color: #111111;
+} 
+
+hr {
+	border-width: 1px;
+}
+
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 4vw;
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	font-size: 2vw;
+}
+
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	font-size: 1.5vw;
+}
+
+p {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: left;
+	width: 100%;
+	height: auto;
+	font-size: 1vw;
+}
+
+div.container {
+	position: relative
+}
+
+.floatLeft {
+	float: left;
+}
+
+address {
+	float: left;
+	clear: both;
+}
+
+a:link.boom, a:visited.blah {
+    	background-color: red;
+	color: black;
+	border: black;
+}
+
+a:hover.bong, a:active.blan {
+    	background-color: black;
+	color: red;
+	border: red;
+}
+
+br {
+	float: left;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
